@@ -13,6 +13,7 @@ import urllib.parse
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
+from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -68,13 +69,49 @@ class InstantCheckmateParser:
         
         # Включаем логи производительности для перехвата сетевых запросов
         firefox_options.set_preference("devtools.performance.log", True)
-        firefox_options.set_capability("moz:loggingPrefs", {"performance": "ALL"})
+        # Для Firefox логи настраиваются через set_preference, а не через capability
         
         # Не headless режим (как запрошено)
         # firefox_options.add_argument("--headless")  # НЕ используем
         
         try:
-            self.driver = webdriver.Firefox(options=firefox_options)
+            # Используем webdriver-manager для автоматической установки geckodriver
+            service = Service(GeckoDriverManager().install())
+            self.driver = webdriver.Firefox(service=service, options=firefox_options)
+        except Exception as firefox_error:
+            # Если Firefox не установлен, пробуем Chrome как запасной вариант
+            logger.warning(f"Firefox недоступен: {firefox_error}")
+            logger.info("Пробуем использовать Chrome как запасной вариант...")
+            try:
+                from selenium.webdriver.chrome.options import Options as ChromeOptions
+                from selenium.webdriver.chrome.service import Service as ChromeService
+                from webdriver_manager.chrome import ChromeDriverManager
+                
+                chrome_options = ChromeOptions()
+                # Антидетект настройки для Chrome
+                chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+                chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+                chrome_options.add_experimental_option('useAutomationExtension', False)
+                chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+                
+                # Настройки для работы в серверной среде
+                chrome_options.add_argument("--no-sandbox")
+                chrome_options.add_argument("--disable-dev-shm-usage")
+                chrome_options.add_argument("--disable-gpu")
+                chrome_options.add_argument("--remote-debugging-port=9222")
+                
+                # Не headless режим (но с настройками для сервера)
+                # chrome_options.add_argument("--headless")  # НЕ используем
+                
+                service = ChromeService(ChromeDriverManager().install())
+                self.driver = webdriver.Chrome(service=service, options=chrome_options)
+                
+                # Удаляем признаки автоматизации
+                self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+                logger.info("Chrome драйвер успешно инициализирован (запасной вариант)")
+            except Exception as chrome_error:
+                logger.error(f"Chrome также недоступен: {chrome_error}")
+                raise Exception("Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.")
             self.driver.maximize_window()
             
             # Удаляем признаки автоматизации
@@ -103,9 +140,8 @@ class InstantCheckmateParser:
         # Преобразуем state: Delaware -> DE
         state_code = "DE" if state.lower() == "delaware" else state.upper()[:2]
         
-        # Преобразуем city: Rehoboth&Beach -> Rehoboth Beach
-        city_encoded = city.replace("&", " ")
-        city_encoded = urllib.parse.quote(city_encoded)
+        # Преобразуем city: Rehoboth&Beach -> Rehoboth+Beach (пробел заменяем на +)
+        city_encoded = city.replace("&", " ").replace(" ", "+")
         
         url = self.url_template.format(
             firstName=urllib.parse.quote(first_name),
