@@ -10,6 +10,7 @@ import json
 import time
 import random
 import urllib.parse
+import subprocess
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
@@ -99,41 +100,36 @@ class InstantCheckmateParser:
                 chrome_options.add_argument("--disable-dev-shm-usage")
                 chrome_options.add_argument("--disable-gpu")
                 chrome_options.add_argument("--remote-debugging-port=9222")
+                chrome_options.add_argument("--window-size=1920,1080")
+                chrome_options.add_argument("--start-maximized")
                 
-                # Не headless режим (но с настройками для сервера)
+                # Для работы без реального дисплея используем виртуальный
+                # Но браузер будет работать в обычном режиме (не headless)
                 # chrome_options.add_argument("--headless")  # НЕ используем
+                
+                # Пробуем установить ChromeDriver с указанием версии Chrome
+                try:
+                    chrome_version = subprocess.check_output(['google-chrome', '--version'], stderr=subprocess.STDOUT).decode().strip()
+                    logger.info(f"Обнаружен Chrome: {chrome_version}")
+                except:
+                    pass
                 
                 service = ChromeService(ChromeDriverManager().install())
                 self.driver = webdriver.Chrome(service=service, options=chrome_options)
-                
-                # Удаляем признаки автоматизации
-                self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
                 logger.info("Chrome драйвер успешно инициализирован (запасной вариант)")
             except Exception as chrome_error:
                 logger.error(f"Chrome также недоступен: {chrome_error}")
                 raise Exception("Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.")
-            self.driver.maximize_window()
-            
-            # Удаляем признаки автоматизации
-            self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-            
-            # Дополнительные скрипты для обхода детекции
-            self.driver.execute_script("""
-                Object.defineProperty(navigator, 'plugins', {
-                    get: () => [1, 2, 3, 4, 5]
-                });
-                Object.defineProperty(navigator, 'languages', {
-                    get: () => ['en-US', 'en']
-                });
-                window.chrome = {
-                    runtime: {}
-                };
-            """)
-            
-            logger.info("Firefox драйвер успешно инициализирован")
-        except Exception as e:
-            logger.error(f"Ошибка инициализации драйвера: {e}")
-            raise
+        
+        # Общие настройки для обоих браузеров
+        try:
+            self.driver.set_window_size(1920, 1080)
+        except:
+            try:
+                self.driver.maximize_window()
+            except:
+                pass
+        logger.info("Драйвер браузера успешно инициализирован")
             
     def build_url(self, first_name, age, city, state):
         """Строит URL из шаблона с подстановкой параметров"""
@@ -475,6 +471,12 @@ class InstantCheckmateParser:
             
             # Открываем страницу
             self.driver.get(url)
+            
+            # Применяем скрипты для обхода детекции после загрузки страницы
+            try:
+                self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+            except:
+                pass
             
             # Парсим страницу
             json_data = self.parse_page_json()

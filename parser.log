@@ -468,3 +468,315 @@ Stacktrace:
 #17 0x7f759b496c6c <unknown>
 
 2025-12-18 03:28:35,829 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:34:39,936 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:34:39,937 - INFO - ====== WebDriver manager ======
+2025-12-18 03:34:39,945 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:34:39,983 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:34:40,070 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:34:40,149 - INFO - Driver downloading response is 200
+2025-12-18 03:34:40,222 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:34:40,387 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:34:40,482 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:34:40,515 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:34:40,515 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:34:40,518 - INFO - ====== WebDriver manager ======
+2025-12-18 03:34:40,572 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:34:40,614 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:34:40,652 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:34:42,012 - INFO - Chrome драйвер успешно инициализирован (запасной вариант)
+2025-12-18 03:34:42,334 - ERROR - Критическая ошибка: Message: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+#0 0x55bcae2f39aa <unknown>
+#1 0x55bcadd282db <unknown>
+#2 0x55bcadd0f79b <unknown>
+#3 0x55bcadd0e0e3 <unknown>
+#4 0x55bcadd0e82f <unknown>
+#5 0x55bcadd3c381 <unknown>
+#6 0x55bcadd31221 <unknown>
+#7 0x55bcadd3112b <unknown>
+#8 0x55bcadd006a6 <unknown>
+#9 0x55bcadcfebb5 <unknown>
+#10 0x55bcaddd9972 <unknown>
+#11 0x55bcaddc5139 <unknown>
+#12 0x55bcadd6c112 <unknown>
+#13 0x55bcadd6cdc1 <unknown>
+#14 0x55bcae2bc609 <unknown>
+#15 0x55bcae2bf54d <unknown>
+#16 0x55bcae2a5331 <unknown>
+#17 0x55bcae2c011b <unknown>
+#18 0x55bcae28bff0 <unknown>
+#19 0x55bcae2e0d98 <unknown>
+#20 0x55bcae2e0f69 <unknown>
+#21 0x55bcae2f2d03 <unknown>
+#22 0x7f3db665faa4 <unknown>
+#23 0x7f3db66ecc6c <unknown>
+
+2025-12-18 03:34:42,391 - INFO - Драйвер закрыт
+2025-12-18 03:34:50,159 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:34:50,159 - INFO - ====== WebDriver manager ======
+2025-12-18 03:34:50,167 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:34:50,265 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:34:50,395 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:34:50,537 - INFO - Driver downloading response is 200
+2025-12-18 03:34:50,607 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:34:50,790 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:34:50,906 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:34:50,939 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:34:50,939 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:34:50,941 - INFO - ====== WebDriver manager ======
+2025-12-18 03:34:50,994 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:34:51,035 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:34:51,072 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:34:51,741 - ERROR - Chrome также недоступен: Message: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+#0 0x559f582459aa <unknown>
+#1 0x559f57c7a2db <unknown>
+#2 0x559f57c6179b <unknown>
+#3 0x559f57c600e3 <unknown>
+#4 0x559f57c6082f <unknown>
+#5 0x559f57c8e381 <unknown>
+#6 0x559f57c83221 <unknown>
+#7 0x559f57c8312b <unknown>
+#8 0x559f57c526a6 <unknown>
+#9 0x559f57c50bb5 <unknown>
+#10 0x559f57d2b972 <unknown>
+#11 0x559f57d17139 <unknown>
+#12 0x559f57cbe112 <unknown>
+#13 0x559f57cbedc1 <unknown>
+#14 0x559f5820e609 <unknown>
+#15 0x559f5821154d <unknown>
+#16 0x559f581f7331 <unknown>
+#17 0x559f5821211b <unknown>
+#18 0x559f581ddff0 <unknown>
+#19 0x559f58232d98 <unknown>
+#20 0x559f58232f69 <unknown>
+#21 0x559f58244d03 <unknown>
+#22 0x7fdf6e5eeaa4 <unknown>
+#23 0x7fdf6e67bc6c <unknown>
+
+2025-12-18 03:34:51,742 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:34:51,801 - INFO - Драйвер закрыт
+2025-12-18 03:34:54,960 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:34:54,960 - INFO - ====== WebDriver manager ======
+2025-12-18 03:34:54,967 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:34:55,070 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:34:55,107 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:34:55,188 - INFO - Driver downloading response is 200
+2025-12-18 03:34:55,263 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:34:55,446 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:34:55,487 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:34:55,519 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:34:55,519 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:34:55,521 - INFO - ====== WebDriver manager ======
+2025-12-18 03:34:55,570 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:34:55,608 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:34:55,647 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:34:56,265 - ERROR - Chrome также недоступен: Message: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+#0 0x558588f229aa <unknown>
+#1 0x5585889572db <unknown>
+#2 0x55858893e79b <unknown>
+#3 0x55858893d0e3 <unknown>
+#4 0x55858893d82f <unknown>
+#5 0x55858896b381 <unknown>
+#6 0x558588960221 <unknown>
+#7 0x55858896012b <unknown>
+#8 0x55858892f6a6 <unknown>
+#9 0x55858892dbb5 <unknown>
+#10 0x558588a08972 <unknown>
+#11 0x5585889f4139 <unknown>
+#12 0x55858899b112 <unknown>
+#13 0x55858899bdc1 <unknown>
+#14 0x558588eeb609 <unknown>
+#15 0x558588eee54d <unknown>
+#16 0x558588ed4331 <unknown>
+#17 0x558588eef11b <unknown>
+#18 0x558588ebaff0 <unknown>
+#19 0x558588f0fd98 <unknown>
+#20 0x558588f0ff69 <unknown>
+#21 0x558588f21d03 <unknown>
+#22 0x7f5c17ba8aa4 <unknown>
+#23 0x7f5c17c35c6c <unknown>
+
+2025-12-18 03:34:56,265 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:34:56,322 - INFO - Драйвер закрыт
+2025-12-18 03:34:59,576 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:34:59,576 - INFO - ====== WebDriver manager ======
+2025-12-18 03:34:59,583 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:34:59,690 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:34:59,795 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:34:59,866 - INFO - Driver downloading response is 200
+2025-12-18 03:34:59,950 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:35:00,136 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:35:00,177 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:35:00,208 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:35:00,208 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:35:00,210 - INFO - ====== WebDriver manager ======
+2025-12-18 03:35:00,255 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:35:00,302 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:35:00,352 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:35:00,974 - ERROR - Chrome также недоступен: Message: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+#0 0x564508a389aa <unknown>
+#1 0x56450846d2db <unknown>
+#2 0x56450845479b <unknown>
+#3 0x5645084530e3 <unknown>
+#4 0x56450845382f <unknown>
+#5 0x564508481381 <unknown>
+#6 0x564508476221 <unknown>
+#7 0x56450847612b <unknown>
+#8 0x5645084456a6 <unknown>
+#9 0x564508443bb5 <unknown>
+#10 0x56450851e972 <unknown>
+#11 0x56450850a139 <unknown>
+#12 0x5645084b1112 <unknown>
+#13 0x5645084b1dc1 <unknown>
+#14 0x564508a01609 <unknown>
+#15 0x564508a0454d <unknown>
+#16 0x5645089ea331 <unknown>
+#17 0x564508a0511b <unknown>
+#18 0x5645089d0ff0 <unknown>
+#19 0x564508a25d98 <unknown>
+#20 0x564508a25f69 <unknown>
+#21 0x564508a37d03 <unknown>
+#22 0x7fde10ae6aa4 <unknown>
+#23 0x7fde10b73c6c <unknown>
+
+2025-12-18 03:35:00,974 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:35:01,030 - INFO - Драйвер закрыт
+2025-12-18 03:35:04,532 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:35:04,532 - INFO - ====== WebDriver manager ======
+2025-12-18 03:35:04,540 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:35:04,578 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:35:04,613 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:35:04,682 - INFO - Driver downloading response is 200
+2025-12-18 03:35:04,751 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:35:04,861 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:35:04,899 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:35:04,931 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:35:04,931 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:35:04,932 - INFO - ====== WebDriver manager ======
+2025-12-18 03:35:04,980 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:35:05,017 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:35:05,057 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:35:05,663 - ERROR - Chrome также недоступен: Message: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+#0 0x5655161bb9aa <unknown>
+#1 0x565515bf02db <unknown>
+#2 0x565515bd779b <unknown>
+#3 0x565515bd60e3 <unknown>
+#4 0x565515bd682f <unknown>
+#5 0x565515c04381 <unknown>
+#6 0x565515bf9221 <unknown>
+#7 0x565515bf912b <unknown>
+#8 0x565515bc86a6 <unknown>
+#9 0x565515bc6bb5 <unknown>
+#10 0x565515ca1972 <unknown>
+#11 0x565515c8d139 <unknown>
+#12 0x565515c34112 <unknown>
+#13 0x565515c34dc1 <unknown>
+#14 0x565516184609 <unknown>
+#15 0x56551618754d <unknown>
+#16 0x56551616d331 <unknown>
+#17 0x56551618811b <unknown>
+#18 0x565516153ff0 <unknown>
+#19 0x5655161a8d98 <unknown>
+#20 0x5655161a8f69 <unknown>
+#21 0x5655161bad03 <unknown>
+#22 0x7fdaa5099aa4 <unknown>
+#23 0x7fdaa5126c6c <unknown>
+
+2025-12-18 03:35:05,663 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:35:05,719 - INFO - Драйвер закрыт
+2025-12-18 03:35:18,161 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:35:18,161 - INFO - ====== WebDriver manager ======
+2025-12-18 03:35:18,169 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:35:18,267 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:35:18,356 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:35:18,428 - INFO - Driver downloading response is 200
+2025-12-18 03:35:18,503 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:35:18,676 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:35:18,714 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:35:18,746 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:35:18,746 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:35:18,772 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:35:18,773 - INFO - ====== WebDriver manager ======
+2025-12-18 03:35:18,816 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:35:18,857 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:35:18,894 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:35:19,202 - INFO - Chrome драйвер успешно инициализирован (запасной вариант)
+2025-12-18 03:35:19,520 - INFO - Драйвер браузера успешно инициализирован
+2025-12-18 03:35:19,520 - INFO - ТЕСТОВЫЙ РЕЖИМ: обрабатываем строки [0, 1, 2]
+2025-12-18 03:35:19,520 - INFO - Обработка строки 2/3
+2025-12-18 03:35:19,520 - INFO - Обработка: Egor, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:35:19,520 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Egor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:35:20,919 - INFO - Ожидание загрузки страницы: 3.20 сек
+2025-12-18 03:35:24,334 - INFO - Найдено 1 карточек с селектором: [class*='result']
+2025-12-18 03:35:24,350 - WARNING - Не удалось получить JSON данные для Egor
+2025-12-18 03:35:27,761 - INFO - Обработка строки 3/3
+2025-12-18 03:35:27,761 - INFO - Обработка: Ivan, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:35:27,761 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ivan&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:35:31,702 - INFO - Ожидание загрузки страницы: 4.50 сек
+2025-12-18 03:35:36,385 - INFO - Найдено 287 карточек с селектором: [class*='result']
+2025-12-18 03:35:36,492 - WARNING - Не удалось получить JSON данные для Ivan
+2025-12-18 03:35:39,919 - INFO - Обработка строки 4/3
+2025-12-18 03:35:39,919 - INFO - Обработка: Dmitry, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:35:39,919 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Dmitry&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:35:42,272 - INFO - Ожидание загрузки страницы: 3.49 сек
+2025-12-18 03:35:45,937 - INFO - Найдено 119 карточек с селектором: [class*='result']
+2025-12-18 03:35:46,966 - INFO - Найдено 17 результатов через парсинг HTML
+2025-12-18 03:35:46,966 - INFO - Сохранено 17 результатов в output.txt
+2025-12-18 03:35:46,966 - INFO - Найдено 17 результатов для Dmitry
+2025-12-18 03:35:51,751 - INFO - Драйвер закрыт
+2025-12-18 03:35:54,150 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:35:54,150 - INFO - ====== WebDriver manager ======
+2025-12-18 03:35:54,158 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:35:54,251 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:35:54,359 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:35:54,430 - INFO - Driver downloading response is 200
+2025-12-18 03:35:54,498 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:35:54,685 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:35:54,785 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:35:54,817 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:35:54,817 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:35:54,841 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:35:54,841 - INFO - ====== WebDriver manager ======
+2025-12-18 03:35:54,887 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:35:54,924 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:35:54,962 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:35:55,257 - INFO - Chrome драйвер успешно инициализирован (запасной вариант)
+2025-12-18 03:35:55,574 - INFO - Драйвер браузера успешно инициализирован
+2025-12-18 03:35:55,574 - INFO - ТЕСТОВЫЙ РЕЖИМ: обрабатываем строки [0, 1, 2]
+2025-12-18 03:35:55,574 - INFO - Обработка строки 2/3
+2025-12-18 03:35:55,574 - INFO - Обработка: Egor, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:35:55,574 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Egor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:35:56,696 - INFO - Ожидание загрузки страницы: 4.35 сек
+2025-12-18 03:36:01,248 - INFO - Найдено 1 карточек с селектором: [class*='result']
+2025-12-18 03:36:01,264 - WARNING - Не удалось получить JSON данные для Egor
+2025-12-18 03:36:06,052 - INFO - Обработка строки 3/3
+2025-12-18 03:36:06,052 - INFO - Обработка: Ivan, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:36:06,052 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ivan&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:36:08,788 - INFO - Ожидание загрузки страницы: 3.47 сек
+2025-12-18 03:36:12,427 - INFO - Найдено 287 карточек с селектором: [class*='result']
+2025-12-18 03:36:12,529 - WARNING - Не удалось получить JSON данные для Ivan
+2025-12-18 03:36:15,984 - INFO - Обработка строки 4/3
+2025-12-18 03:36:15,984 - INFO - Обработка: Dmitry, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:36:15,984 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Dmitry&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:36:17,383 - INFO - Ожидание загрузки страницы: 3.48 сек
