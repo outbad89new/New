@@ -5400,3 +5400,167 @@ Stacktrace:
 2025-12-18 03:38:57,014 - INFO - Ожидание загрузки страницы: 4.93 сек
 2025-12-18 03:39:02,202 - INFO - Найдено 1 карточек с селектором: [class*='result']
 2025-12-18 03:39:02,222 - WARNING - Не удалось получить JSON данные для Egor
+2025-12-18 03:39:07,427 - INFO - Обработка строки 3/100
+2025-12-18 03:39:07,427 - INFO - Обработка: Ivan, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:39:07,427 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ivan&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:39:10,504 - INFO - Ожидание загрузки страницы: 4.26 сек
+2025-12-18 03:39:14,967 - INFO - Найдено 287 карточек с селектором: [class*='result']
+2025-12-18 03:39:15,084 - WARNING - Не удалось получить JSON данные для Ivan
+2025-12-18 03:39:20,588 - INFO - Обработка строки 4/100
+2025-12-18 03:39:20,588 - INFO - Обработка: Dmitry, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:39:20,588 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Dmitry&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:39:22,029 - INFO - Ожидание загрузки страницы: 4.20 сек
+2025-12-18 03:39:26,430 - INFO - Найдено 119 карточек с селектором: [class*='result']
+2025-12-18 03:39:27,593 - INFO - Найдено 17 результатов через парсинг HTML
+2025-12-18 03:39:27,594 - INFO - Сохранено 17 результатов в output.txt
+2025-12-18 03:39:27,594 - INFO - Найдено 17 результатов для Dmitry
+2025-12-18 03:39:32,078 - INFO - Обработка строки 5/100
+2025-12-18 03:39:32,078 - INFO - Обработка: Alexander, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:39:32,078 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Alexander&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:39:42,927 - INFO - Ожидание загрузки страницы: 3.80 сек
+2025-12-18 03:39:46,942 - INFO - Найдено 651 карточек с селектором: [class*='result']
+2025-12-18 03:39:47,097 - WARNING - Не удалось получить JSON данные для Alexander
+2025-12-18 03:39:52,710 - INFO - Обработка строки 6/100
+2025-12-18 03:39:52,710 - INFO - Обработка: Sergey, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:39:52,710 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Sergey&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:39:54,364 - INFO - Ожидание загрузки страницы: 4.40 сек
+2025-12-18 03:39:58,950 - INFO - Найдено 91 карточек с селектором: [class*='result']
+2025-12-18 03:39:59,938 - INFO - Найдено 15 результатов через парсинг HTML
+2025-12-18 03:39:59,938 - INFO - Сохранено 15 результатов в output.txt
+2025-12-18 03:39:59,938 - INFO - Найдено 15 результатов для Sergey
+2025-12-18 03:40:03,665 - INFO - Обработка строки 7/100
+2025-12-18 03:40:03,665 - INFO - Обработка: Vladimir, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:40:03,665 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vladimir&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:40:06,083 - INFO - Ожидание загрузки страницы: 4.00 сек
+2025-12-18 03:40:10,298 - INFO - Найдено 154 карточек с селектором: [class*='result']
+2025-12-18 03:40:10,402 - WARNING - Не удалось получить JSON данные для Vladimir
+2025-12-18 03:40:16,165 - INFO - Обработка строки 8/100
+2025-12-18 03:40:16,165 - INFO - Обработка: Nikolay, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:40:16,165 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Nikolay&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:40:17,648 - INFO - Ожидание загрузки страницы: 4.77 сек
+2025-12-18 03:40:22,619 - INFO - Найдено 49 карточек с селектором: [class*='result']
+2025-12-18 03:40:23,650 - INFO - Найдено 16 результатов через парсинг HTML
+2025-12-18 03:40:23,651 - INFO - Сохранено 16 результатов в output.txt
+2025-12-18 03:40:23,651 - INFO - Найдено 16 результатов для Nikolay
+2025-12-18 03:40:27,392 - INFO - Обработка строки 9/100
+2025-12-18 03:40:27,392 - INFO - Обработка: Andrey, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:40:27,392 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Andrey&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:40:29,260 - INFO - Ожидание загрузки страницы: 3.89 сек
+2025-12-18 03:40:33,353 - INFO - Найдено 42 карточек с селектором: [class*='result']
+2025-12-18 03:40:34,246 - INFO - Найдено 14 результатов через парсинг HTML
+2025-12-18 03:40:34,246 - INFO - Сохранено 14 результатов в output.txt
+2025-12-18 03:40:34,246 - INFO - Найдено 14 результатов для Andrey
+2025-12-18 03:40:38,305 - INFO - Обработка строки 10/100
+2025-12-18 03:40:38,305 - INFO - Обработка: Mikhail, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:40:38,305 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Mikhail&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:40:47,871 - INFO - Ожидание загрузки страницы: 4.75 сек
+2025-12-18 03:40:52,826 - INFO - Найдено 665 карточек с селектором: [class*='result']
+2025-12-18 03:40:52,963 - WARNING - Не удалось получить JSON данные для Mikhail
+2025-12-18 03:40:58,036 - INFO - Обработка строки 11/100
+2025-12-18 03:40:58,036 - INFO - Обработка: Pavel, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:40:58,036 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Pavel&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:40:59,864 - INFO - Ожидание загрузки страницы: 3.05 сек
+2025-12-18 03:41:03,118 - INFO - Найдено 56 карточек с селектором: [class*='result']
+2025-12-18 03:41:04,162 - INFO - Найдено 16 результатов через парсинг HTML
+2025-12-18 03:41:04,162 - INFO - Сохранено 16 результатов в output.txt
+2025-12-18 03:41:04,162 - INFO - Найдено 16 результатов для Pavel
+2025-12-18 03:41:09,922 - INFO - Обработка строки 12/100
+2025-12-18 03:41:09,922 - INFO - Обработка: Alexey, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:41:09,922 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Alexey&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:41:11,421 - INFO - Ожидание загрузки страницы: 4.94 сек
+2025-12-18 03:41:16,560 - INFO - Найдено 63 карточек с селектором: [class*='result']
+2025-12-18 03:41:17,601 - INFO - Найдено 16 результатов через парсинг HTML
+2025-12-18 03:41:17,601 - INFO - Сохранено 16 результатов в output.txt
+2025-12-18 03:41:17,601 - INFO - Найдено 16 результатов для Alexey
+2025-12-18 03:41:22,086 - INFO - Обработка строки 13/100
+2025-12-18 03:41:22,086 - INFO - Обработка: Roman, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:41:22,086 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Roman&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:41:27,320 - INFO - Ожидание загрузки страницы: 4.41 сек
+2025-12-18 03:41:31,942 - INFO - Найдено 357 карточек с селектором: [class*='result']
+2025-12-18 03:41:32,061 - WARNING - Не удалось получить JSON данные для Roman
+2025-12-18 03:41:36,276 - INFO - Обработка строки 14/100
+2025-12-18 03:41:36,276 - INFO - Обработка: Maxim, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:41:36,276 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Maxim&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:41:38,031 - INFO - Ожидание загрузки страницы: 4.47 сек
+2025-12-18 03:41:42,718 - INFO - Найдено 42 карточек с селектором: [class*='result']
+2025-12-18 03:41:43,861 - INFO - Найдено 16 результатов через парсинг HTML
+2025-12-18 03:41:43,862 - INFO - Сохранено 16 результатов в output.txt
+2025-12-18 03:41:43,862 - INFO - Найдено 16 результатов для Maxim
+2025-12-18 03:41:49,658 - INFO - Обработка строки 15/100
+2025-12-18 03:41:49,658 - INFO - Обработка: Artem, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:41:49,658 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Artem&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:41:50,986 - INFO - Ожидание загрузки страницы: 3.17 сек
+2025-12-18 03:41:54,357 - INFO - Найдено 42 карточек с селектором: [class*='result']
+2025-12-18 03:41:55,286 - INFO - Найдено 14 результатов через парсинг HTML
+2025-12-18 03:41:55,286 - INFO - Сохранено 14 результатов в output.txt
+2025-12-18 03:41:55,286 - INFO - Найдено 14 результатов для Artem
+2025-12-18 03:41:59,152 - INFO - Обработка строки 16/100
+2025-12-18 03:41:59,152 - INFO - Обработка: Denis, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:41:59,152 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Denis&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:42:09,790 - INFO - Ожидание загрузки страницы: 3.01 сек
+2025-12-18 03:42:13,024 - INFO - Найдено 679 карточек с селектором: [class*='result']
+2025-12-18 03:42:14,107 - INFO - Найдено 17 результатов через парсинг HTML
+2025-12-18 03:42:14,107 - INFO - Сохранено 17 результатов в output.txt
+2025-12-18 03:42:14,107 - INFO - Найдено 17 результатов для Denis
+2025-12-18 03:42:19,166 - INFO - Обработка строки 17/100
+2025-12-18 03:42:19,167 - INFO - Обработка: Anton, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:42:19,167 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Anton&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:42:24,118 - INFO - Ожидание загрузки страницы: 3.03 сек
+2025-12-18 03:42:27,365 - INFO - Найдено 665 карточек с селектором: [class*='result']
+2025-12-18 03:42:27,510 - WARNING - Не удалось получить JSON данные для Anton
+2025-12-18 03:42:31,708 - INFO - Обработка строки 18/100
+2025-12-18 03:42:31,709 - INFO - Обработка: Viktor, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:42:31,709 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Viktor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:42:33,048 - INFO - Ожидание загрузки страницы: 4.14 сек
+2025-12-18 03:42:37,392 - INFO - Найдено 7 карточек с селектором: [class*='result']
+2025-12-18 03:42:37,737 - INFO - Найдено 5 результатов через парсинг HTML
+2025-12-18 03:42:37,737 - INFO - Сохранено 5 результатов в output.txt
+2025-12-18 03:42:37,737 - INFO - Найдено 5 результатов для Viktor
+2025-12-18 03:42:42,174 - INFO - Обработка строки 19/100
+2025-12-18 03:42:42,174 - INFO - Обработка: Yuri, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:42:42,174 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Yuri&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:42:43,752 - INFO - Ожидание загрузки страницы: 4.68 сек
+2025-12-18 03:42:48,630 - INFO - Найдено 49 карточек с селектором: [class*='result']
+2025-12-18 03:42:49,773 - INFO - Найдено 17 результатов через парсинг HTML
+2025-12-18 03:42:49,773 - INFO - Сохранено 17 результатов в output.txt
+2025-12-18 03:42:49,773 - INFO - Найдено 17 результатов для Yuri
+2025-12-18 03:42:55,654 - INFO - Обработка строки 20/100
+2025-12-18 03:42:55,654 - INFO - Обработка: Oleg, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:42:55,654 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Oleg&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:42:57,004 - INFO - Ожидание загрузки страницы: 3.79 сек
+2025-12-18 03:43:00,982 - INFO - Найдено 42 карточек с селектором: [class*='result']
+2025-12-18 03:43:01,864 - INFO - Найдено 13 результатов через парсинг HTML
+2025-12-18 03:43:01,864 - INFO - Сохранено 13 результатов в output.txt
+2025-12-18 03:43:01,864 - INFO - Найдено 13 результатов для Oleg
+2025-12-18 03:43:06,070 - INFO - Обработка строки 21/100
+2025-12-18 03:43:06,070 - INFO - Обработка: Igor, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:43:06,070 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Igor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:43:07,983 - INFO - Ожидание загрузки страницы: 4.28 сек
+2025-12-18 03:43:12,463 - INFO - Найдено 56 карточек с селектором: [class*='result']
+2025-12-18 03:43:13,448 - INFO - Найдено 16 результатов через парсинг HTML
+2025-12-18 03:43:13,448 - INFO - Сохранено 16 результатов в output.txt
+2025-12-18 03:43:13,448 - INFO - Найдено 16 результатов для Igor
+2025-12-18 03:43:16,614 - INFO - Обработка строки 22/100
+2025-12-18 03:43:16,614 - INFO - Обработка: Stanislav, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:43:16,614 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Stanislav&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:43:18,251 - INFO - Ожидание загрузки страницы: 4.88 сек
+2025-12-18 03:43:23,335 - INFO - Найдено 21 карточек с селектором: [class*='result']
+2025-12-18 03:43:24,330 - INFO - Найдено 15 результатов через парсинг HTML
+2025-12-18 03:43:24,330 - INFO - Сохранено 15 результатов в output.txt
+2025-12-18 03:43:24,330 - INFO - Найдено 15 результатов для Stanislav
+2025-12-18 03:43:28,939 - INFO - Обработка строки 23/100
+2025-12-18 03:43:28,939 - INFO - Обработка: Vadim, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:43:28,939 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vadim&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:43:30,486 - INFO - Ожидание загрузки страницы: 3.53 сек
+2025-12-18 03:43:34,222 - INFO - Найдено 35 карточек с селектором: [class*='result']
+2025-12-18 03:43:35,228 - INFO - Найдено 15 результатов через парсинг HTML
+2025-12-18 03:43:35,228 - INFO - Сохранено 15 результатов в output.txt
+2025-12-18 03:43:35,228 - INFO - Найдено 15 результатов для Vadim
+2025-12-18 03:43:40,377 - INFO - Обработка строки 24/100
+2025-12-18 03:43:40,377 - INFO - Обработка: Konstantin, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:43:40,377 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Konstantin&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:43:41,849 - INFO - Ожидание загрузки страницы: 3.07 сек
+2025-12-18 03:43:45,142 - INFO - Найдено 42 карточек с селектором: [class*='result']
+2025-12-18 03:43:46,097 - INFO - Найдено 14 результатов через парсинг HTML
+2025-12-18 03:43:46,097 - INFO - Сохранено 14 результатов в output.txt
+2025-12-18 03:43:46,097 - INFO - Найдено 14 результатов для Konstantin
