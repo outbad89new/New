@@ -780,3 +780,163 @@ Stacktrace:
 2025-12-18 03:36:15,984 - INFO - Обработка: Dmitry, mill, Rehoboth&Beach, Delaware
 2025-12-18 03:36:15,984 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Dmitry&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
 2025-12-18 03:36:17,383 - INFO - Ожидание загрузки страницы: 3.48 сек
+2025-12-18 03:36:21,035 - INFO - Найдено 119 карточек с селектором: [class*='result']
+2025-12-18 03:36:22,002 - INFO - Найдено 17 результатов через парсинг HTML
+2025-12-18 03:36:22,002 - INFO - Сохранено 17 результатов в output.txt
+2025-12-18 03:36:22,002 - INFO - Найдено 17 результатов для Dmitry
+2025-12-18 03:36:25,615 - INFO - Драйвер закрыт
+2025-12-18 03:36:27,774 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:36:27,774 - INFO - ====== WebDriver manager ======
+2025-12-18 03:36:27,781 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:36:27,913 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:36:28,007 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:36:28,075 - INFO - Driver downloading response is 200
+2025-12-18 03:36:28,150 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:36:28,325 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:36:28,365 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:36:28,395 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:36:28,395 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:36:28,420 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:36:28,420 - INFO - ====== WebDriver manager ======
+2025-12-18 03:36:28,462 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:36:28,500 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:36:28,548 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:36:28,832 - INFO - Chrome драйвер успешно инициализирован (запасной вариант)
+2025-12-18 03:36:29,150 - INFO - Драйвер браузера успешно инициализирован
+2025-12-18 03:36:29,150 - INFO - ТЕСТОВЫЙ РЕЖИМ: обрабатываем строки [0, 1, 2]
+2025-12-18 03:36:29,150 - INFO - Обработка строки 2/3
+2025-12-18 03:36:29,150 - INFO - Обработка: Egor, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:36:29,150 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Egor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:36:30,410 - INFO - Ожидание загрузки страницы: 3.33 сек
+2025-12-18 03:36:33,949 - INFO - Найдено 1 карточек с селектором: [class*='result']
+2025-12-18 03:36:33,963 - WARNING - Не удалось получить JSON данные для Egor
+2025-12-18 03:36:38,805 - INFO - Обработка строки 3/3
+2025-12-18 03:36:38,805 - INFO - Обработка: Ivan, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:36:38,805 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ivan&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:36:41,633 - INFO - Ожидание загрузки страницы: 3.04 сек
+2025-12-18 03:36:44,850 - INFO - Найдено 287 карточек с селектором: [class*='result']
+2025-12-18 03:36:44,958 - WARNING - Не удалось получить JSON данные для Ivan
+2025-12-18 03:36:48,709 - INFO - Обработка строки 4/3
+2025-12-18 03:36:48,709 - INFO - Обработка: Dmitry, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:36:48,709 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Dmitry&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:36:50,101 - INFO - Ожидание загрузки страницы: 3.62 сек
+2025-12-18 03:36:53,902 - INFO - Найдено 119 карточек с селектором: [class*='result']
+2025-12-18 03:36:54,911 - INFO - Найдено 17 результатов через парсинг HTML
+2025-12-18 03:36:54,911 - INFO - Сохранено 17 результатов в output.txt
+2025-12-18 03:36:54,911 - INFO - Найдено 17 результатов для Dmitry
+2025-12-18 03:37:00,339 - INFO - Драйвер закрыт
+2025-12-18 03:37:02,504 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:37:02,504 - INFO - ====== WebDriver manager ======
+2025-12-18 03:37:02,512 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:37:02,550 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:37:02,642 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:37:02,795 - INFO - Driver downloading response is 200
+2025-12-18 03:37:02,865 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:37:03,046 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:37:03,146 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:37:03,178 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:37:03,178 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:37:03,206 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:37:03,206 - INFO - ====== WebDriver manager ======
+2025-12-18 03:37:03,248 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:37:03,292 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:37:03,333 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:37:03,628 - INFO - Chrome драйвер успешно инициализирован (запасной вариант)
+2025-12-18 03:37:03,950 - INFO - Драйвер браузера успешно инициализирован
+2025-12-18 03:37:03,950 - INFO - ТЕСТОВЫЙ РЕЖИМ: обрабатываем строки [0, 1, 2]
+2025-12-18 03:37:03,950 - INFO - Обработка строки 2/3
+2025-12-18 03:37:03,950 - INFO - Обработка: Egor, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:37:03,950 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Egor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:37:05,244 - INFO - Ожидание загрузки страницы: 4.88 сек
+2025-12-18 03:37:10,365 - INFO - Найдено 1 карточек с селектором: [class*='result']
+2025-12-18 03:37:10,384 - WARNING - Не удалось получить JSON данные для Egor
+2025-12-18 03:37:14,039 - INFO - Обработка строки 3/3
+2025-12-18 03:37:14,039 - INFO - Обработка: Ivan, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:37:14,039 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ivan&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:37:16,699 - INFO - Ожидание загрузки страницы: 4.19 сек
+2025-12-18 03:37:21,076 - INFO - Найдено 287 карточек с селектором: [class*='result']
+2025-12-18 03:37:21,183 - WARNING - Не удалось получить JSON данные для Ivan
+2025-12-18 03:37:26,498 - INFO - Обработка строки 4/3
+2025-12-18 03:37:26,498 - INFO - Обработка: Dmitry, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:37:26,498 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Dmitry&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:37:27,780 - INFO - Ожидание загрузки страницы: 4.59 сек
+2025-12-18 03:37:32,542 - INFO - Найдено 119 карточек с селектором: [class*='result']
+2025-12-18 03:37:33,728 - INFO - Найдено 17 результатов через парсинг HTML
+2025-12-18 03:37:33,729 - INFO - Сохранено 17 результатов в output.txt
+2025-12-18 03:37:33,729 - INFO - Найдено 17 результатов для Dmitry
+2025-12-18 03:37:38,429 - INFO - Драйвер закрыт
+2025-12-18 03:37:40,636 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:37:40,636 - INFO - ====== WebDriver manager ======
+2025-12-18 03:37:40,645 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:37:40,683 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:37:40,783 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:37:40,854 - INFO - Driver downloading response is 200
+2025-12-18 03:37:40,910 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:37:41,033 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:37:41,133 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:37:41,166 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:37:41,166 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:37:41,204 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:37:41,204 - INFO - ====== WebDriver manager ======
+2025-12-18 03:37:41,259 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:37:41,298 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:37:41,340 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:37:41,693 - INFO - Chrome драйвер успешно инициализирован (запасной вариант)
+2025-12-18 03:37:42,013 - INFO - Драйвер браузера успешно инициализирован
+2025-12-18 03:37:42,013 - INFO - ТЕСТОВЫЙ РЕЖИМ: обрабатываем строки [0, 1, 2]
+2025-12-18 03:37:42,013 - INFO - Обработка строки 2/3
+2025-12-18 03:37:42,013 - INFO - Обработка: Egor, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:37:42,013 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Egor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:37:43,200 - INFO - Ожидание загрузки страницы: 4.44 сек
+2025-12-18 03:37:47,886 - INFO - Найдено 1 карточек с селектором: [class*='result']
+2025-12-18 03:37:47,902 - WARNING - Не удалось получить JSON данные для Egor
+2025-12-18 03:37:52,174 - INFO - Обработка строки 3/3
+2025-12-18 03:37:52,174 - INFO - Обработка: Ivan, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:37:52,174 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ivan&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:37:55,131 - INFO - Ожидание загрузки страницы: 3.75 сек
+2025-12-18 03:37:59,075 - INFO - Найдено 287 карточек с селектором: [class*='result']
+2025-12-18 03:37:59,189 - WARNING - Не удалось получить JSON данные для Ivan
+2025-12-18 03:38:02,578 - INFO - Обработка строки 4/3
+2025-12-18 03:38:02,578 - INFO - Обработка: Dmitry, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:02,578 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Dmitry&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:03,937 - INFO - Ожидание загрузки страницы: 3.98 сек
+2025-12-18 03:38:08,102 - INFO - Найдено 119 карточек с селектором: [class*='result']
+2025-12-18 03:38:09,169 - INFO - Найдено 17 результатов через парсинг HTML
+2025-12-18 03:38:09,169 - INFO - Сохранено 17 результатов в output.txt
+2025-12-18 03:38:09,169 - INFO - Найдено 17 результатов для Dmitry
+2025-12-18 03:38:12,340 - INFO - Драйвер закрыт
+2025-12-18 03:38:14,526 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:38:14,527 - INFO - ====== WebDriver manager ======
+2025-12-18 03:38:14,534 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:38:14,658 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:38:14,760 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:38:14,838 - INFO - Driver downloading response is 200
+2025-12-18 03:38:14,896 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:38:15,022 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:38:15,070 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:38:15,103 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:38:15,103 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:38:15,133 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:38:15,133 - INFO - ====== WebDriver manager ======
+2025-12-18 03:38:15,180 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:38:15,219 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:38:15,257 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:38:15,591 - INFO - Chrome драйвер успешно инициализирован (запасной вариант)
+2025-12-18 03:38:15,910 - INFO - Драйвер браузера успешно инициализирован
+2025-12-18 03:38:15,910 - INFO - ТЕСТОВЫЙ РЕЖИМ: обрабатываем строки [0, 1, 2]
+2025-12-18 03:38:15,910 - INFO - Обработка строки 2/3
+2025-12-18 03:38:15,910 - INFO - Обработка: Egor, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:15,910 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Egor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:16,989 - INFO - Ожидание загрузки страницы: 4.42 сек
+2025-12-18 03:38:21,643 - INFO - Найдено 1 карточек с селектором: [class*='result']
+2025-12-18 03:38:21,661 - WARNING - Не удалось получить JSON данные для Egor
+2025-12-18 03:38:25,795 - INFO - Обработка строки 3/3
+2025-12-18 03:38:25,795 - INFO - Обработка: Ivan, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:25,795 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ivan&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:28,753 - INFO - Ожидание загрузки страницы: 4.98 сек
+2025-12-18 03:38:33,938 - INFO - Найдено 287 карточек с селектором: [class*='result']
+2025-12-18 03:38:34,056 - WARNING - Не удалось получить JSON данные для Ivan
