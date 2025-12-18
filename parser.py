@@ -536,9 +536,9 @@ class InstantCheckmateParser:
 def main():
     parser = InstantCheckmateParser()
     
-    # Тестовый режим на строках 2-4 (индексы 0-2 в списке после заголовка)
-    print("Запуск в тестовом режиме на строках 2-4...")
-    parser.run(test_mode=True, test_rows=[0, 1, 2])
+    # Полный запуск на все строки
+    print("Запуск парсера на все строки из input.txt...")
+    parser.run(test_mode=False)
 
 
 if __name__ == "__main__":

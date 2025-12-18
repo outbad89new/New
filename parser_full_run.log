@@ -1,0 +1,2209 @@
+2025-12-18 03:38:40,988 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:38:40,988 - INFO - ====== WebDriver manager ======
+2025-12-18 03:38:41,003 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:38:41,102 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:38:41,233 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:38:41,303 - INFO - Driver downloading response is 200
+2025-12-18 03:38:41,373 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:38:41,541 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:38:41,646 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:38:41,680 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:38:41,680 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:38:41,711 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:38:41,711 - INFO - ====== WebDriver manager ======
+2025-12-18 03:38:41,770 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:38:41,811 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:38:41,849 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:38:41,932 - INFO - Chrome драйвер успешно инициализирован (запасной вариант)
+2025-12-18 03:38:42,248 - INFO - Драйвер браузера успешно инициализирован
+2025-12-18 03:38:42,249 - INFO - Обработка строки 2/100
+2025-12-18 03:38:42,249 - INFO - Обработка: Egor, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:42,249 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Egor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:42,862 - INFO - Ожидание загрузки страницы: 3.75 сек
+2025-12-18 03:38:46,821 - INFO - Найдено 1 карточек с селектором: [class*='result']
+2025-12-18 03:38:46,836 - WARNING - Не удалось получить JSON данные для Egor
+2025-12-18 03:38:51,459 - INFO - Обработка строки 3/100
+2025-12-18 03:38:51,459 - INFO - Обработка: Ivan, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,460 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ivan&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,513 - ERROR - Ошибка обработки строки Ivan: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=143.0.7499.109); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b552db <unknown>
+#2 0x564c89b3bdee <unknown>
+#3 0x564c89b63bc7 <unknown>
+#4 0x564c89bd470b <unknown>
+#5 0x564c89bf1b71 <unknown>
+#6 0x564c89b99112 <unknown>
+#7 0x564c89b99dc1 <unknown>
+#8 0x564c8a0e9609 <unknown>
+#9 0x564c8a0ec54d <unknown>
+#10 0x564c8a0d2331 <unknown>
+#11 0x564c8a0ed11b <unknown>
+#12 0x564c8a0b8ff0 <unknown>
+#13 0x564c8a10dd98 <unknown>
+#14 0x564c8a10df69 <unknown>
+#15 0x564c8a11fd03 <unknown>
+#16 0x7fb2e216daa4 <unknown>
+#17 0x7fb2e21fac6c <unknown>
+
+2025-12-18 03:38:51,513 - INFO - Обработка строки 4/100
+2025-12-18 03:38:51,513 - INFO - Обработка: Dmitry, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,513 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Dmitry&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,520 - ERROR - Ошибка обработки строки Dmitry: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,520 - INFO - Обработка строки 5/100
+2025-12-18 03:38:51,520 - INFO - Обработка: Alexander, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,520 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Alexander&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,522 - ERROR - Ошибка обработки строки Alexander: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,522 - INFO - Обработка строки 6/100
+2025-12-18 03:38:51,522 - INFO - Обработка: Sergey, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,522 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Sergey&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,524 - ERROR - Ошибка обработки строки Sergey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,524 - INFO - Обработка строки 7/100
+2025-12-18 03:38:51,524 - INFO - Обработка: Vladimir, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,524 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vladimir&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,526 - ERROR - Ошибка обработки строки Vladimir: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,526 - INFO - Обработка строки 8/100
+2025-12-18 03:38:51,526 - INFO - Обработка: Nikolay, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,526 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Nikolay&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,528 - ERROR - Ошибка обработки строки Nikolay: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,528 - INFO - Обработка строки 9/100
+2025-12-18 03:38:51,528 - INFO - Обработка: Andrey, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,528 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Andrey&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,529 - ERROR - Ошибка обработки строки Andrey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,529 - INFO - Обработка строки 10/100
+2025-12-18 03:38:51,529 - INFO - Обработка: Mikhail, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,530 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Mikhail&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,532 - ERROR - Ошибка обработки строки Mikhail: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,532 - INFO - Обработка строки 11/100
+2025-12-18 03:38:51,532 - INFO - Обработка: Pavel, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,532 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Pavel&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,534 - ERROR - Ошибка обработки строки Pavel: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,534 - INFO - Обработка строки 12/100
+2025-12-18 03:38:51,534 - INFO - Обработка: Alexey, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,534 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Alexey&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,536 - ERROR - Ошибка обработки строки Alexey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,536 - INFO - Обработка строки 13/100
+2025-12-18 03:38:51,536 - INFO - Обработка: Roman, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,536 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Roman&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,537 - ERROR - Ошибка обработки строки Roman: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,538 - INFO - Обработка строки 14/100
+2025-12-18 03:38:51,538 - INFO - Обработка: Maxim, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,538 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Maxim&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,540 - ERROR - Ошибка обработки строки Maxim: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,540 - INFO - Обработка строки 15/100
+2025-12-18 03:38:51,540 - INFO - Обработка: Artem, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,540 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Artem&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,541 - ERROR - Ошибка обработки строки Artem: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,541 - INFO - Обработка строки 16/100
+2025-12-18 03:38:51,541 - INFO - Обработка: Denis, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,542 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Denis&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,544 - ERROR - Ошибка обработки строки Denis: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,544 - INFO - Обработка строки 17/100
+2025-12-18 03:38:51,544 - INFO - Обработка: Anton, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,544 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Anton&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,546 - ERROR - Ошибка обработки строки Anton: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,546 - INFO - Обработка строки 18/100
+2025-12-18 03:38:51,546 - INFO - Обработка: Viktor, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,546 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Viktor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,548 - ERROR - Ошибка обработки строки Viktor: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,548 - INFO - Обработка строки 19/100
+2025-12-18 03:38:51,548 - INFO - Обработка: Yuri, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,548 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Yuri&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,550 - ERROR - Ошибка обработки строки Yuri: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,550 - INFO - Обработка строки 20/100
+2025-12-18 03:38:51,550 - INFO - Обработка: Oleg, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,550 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Oleg&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,552 - ERROR - Ошибка обработки строки Oleg: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,552 - INFO - Обработка строки 21/100
+2025-12-18 03:38:51,552 - INFO - Обработка: Igor, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,552 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Igor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,554 - ERROR - Ошибка обработки строки Igor: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,554 - INFO - Обработка строки 22/100
+2025-12-18 03:38:51,554 - INFO - Обработка: Stanislav, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,554 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Stanislav&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,556 - ERROR - Ошибка обработки строки Stanislav: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,556 - INFO - Обработка строки 23/100
+2025-12-18 03:38:51,556 - INFO - Обработка: Vadim, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,556 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vadim&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,558 - ERROR - Ошибка обработки строки Vadim: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,558 - INFO - Обработка строки 24/100
+2025-12-18 03:38:51,558 - INFO - Обработка: Konstantin, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,558 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Konstantin&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,560 - ERROR - Ошибка обработки строки Konstantin: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,560 - INFO - Обработка строки 25/100
+2025-12-18 03:38:51,560 - INFO - Обработка: Evgeny, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,560 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Evgeny&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,562 - ERROR - Ошибка обработки строки Evgeny: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,562 - INFO - Обработка строки 26/100
+2025-12-18 03:38:51,562 - INFO - Обработка: Ruslan, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,562 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ruslan&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,564 - ERROR - Ошибка обработки строки Ruslan: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,564 - INFO - Обработка строки 27/100
+2025-12-18 03:38:51,564 - INFO - Обработка: Boris, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,564 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Boris&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,566 - ERROR - Ошибка обработки строки Boris: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,566 - INFO - Обработка строки 28/100
+2025-12-18 03:38:51,566 - INFO - Обработка: Gennady, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,566 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Gennady&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,568 - ERROR - Ошибка обработки строки Gennady: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,568 - INFO - Обработка строки 29/100
+2025-12-18 03:38:51,568 - INFO - Обработка: Leonid, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,568 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Leonid&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,570 - ERROR - Ошибка обработки строки Leonid: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,570 - INFO - Обработка строки 30/100
+2025-12-18 03:38:51,570 - INFO - Обработка: Vyacheslav, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,570 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vyacheslav&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,572 - ERROR - Ошибка обработки строки Vyacheslav: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,572 - INFO - Обработка строки 31/100
+2025-12-18 03:38:51,572 - INFO - Обработка: Anatoly, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,572 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Anatoly&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,574 - ERROR - Ошибка обработки строки Anatoly: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,574 - INFO - Обработка строки 32/100
+2025-12-18 03:38:51,574 - INFO - Обработка: Valery, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,574 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Valery&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,576 - ERROR - Ошибка обработки строки Valery: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,576 - INFO - Обработка строки 33/100
+2025-12-18 03:38:51,576 - INFO - Обработка: Yaroslav, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,576 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Yaroslav&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,578 - ERROR - Ошибка обработки строки Yaroslav: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,578 - INFO - Обработка строки 34/100
+2025-12-18 03:38:51,578 - INFO - Обработка: Timur, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,578 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Timur&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,580 - ERROR - Ошибка обработки строки Timur: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,580 - INFO - Обработка строки 35/100
+2025-12-18 03:38:51,580 - INFO - Обработка: Kirill, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,580 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Kirill&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,582 - ERROR - Ошибка обработки строки Kirill: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,582 - INFO - Обработка строки 36/100
+2025-12-18 03:38:51,582 - INFO - Обработка: Artyom, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,582 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Artyom&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,584 - ERROR - Ошибка обработки строки Artyom: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,584 - INFO - Обработка строки 37/100
+2025-12-18 03:38:51,584 - INFO - Обработка: Daniil, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,584 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Daniil&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,586 - ERROR - Ошибка обработки строки Daniil: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,586 - INFO - Обработка строки 38/100
+2025-12-18 03:38:51,586 - INFO - Обработка: Grigory, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,586 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Grigory&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,588 - ERROR - Ошибка обработки строки Grigory: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,588 - INFO - Обработка строки 39/100
+2025-12-18 03:38:51,588 - INFO - Обработка: Fedor, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,588 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Fedor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,590 - ERROR - Ошибка обработки строки Fedor: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,590 - INFO - Обработка строки 40/100
+2025-12-18 03:38:51,590 - INFO - Обработка: Semyon, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,590 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Semyon&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,592 - ERROR - Ошибка обработки строки Semyon: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,592 - INFO - Обработка строки 41/100
+2025-12-18 03:38:51,592 - INFO - Обработка: Vasily, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,592 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vasily&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,594 - ERROR - Ошибка обработки строки Vasily: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,594 - INFO - Обработка строки 42/100
+2025-12-18 03:38:51,594 - INFO - Обработка: Matvey, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,594 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Matvey&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,596 - ERROR - Ошибка обработки строки Matvey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,596 - INFO - Обработка строки 43/100
+2025-12-18 03:38:51,596 - INFO - Обработка: Mark, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,596 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Mark&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,598 - ERROR - Ошибка обработки строки Mark: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,598 - INFO - Обработка строки 44/100
+2025-12-18 03:38:51,598 - INFO - Обработка: Lev, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,598 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Lev&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,600 - ERROR - Ошибка обработки строки Lev: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,600 - INFO - Обработка строки 45/100
+2025-12-18 03:38:51,600 - INFO - Обработка: Platon, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,600 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Platon&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,602 - ERROR - Ошибка обработки строки Platon: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,602 - INFO - Обработка строки 46/100
+2025-12-18 03:38:51,602 - INFO - Обработка: David, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,602 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=David&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,604 - ERROR - Ошибка обработки строки David: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,604 - INFO - Обработка строки 47/100
+2025-12-18 03:38:51,604 - INFO - Обработка: Makar, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,604 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Makar&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,606 - ERROR - Ошибка обработки строки Makar: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,606 - INFO - Обработка строки 48/100
+2025-12-18 03:38:51,606 - INFO - Обработка: Stepan, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,606 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Stepan&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,608 - ERROR - Ошибка обработки строки Stepan: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,608 - INFO - Обработка строки 49/100
+2025-12-18 03:38:51,608 - INFO - Обработка: Tikhon, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,608 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Tikhon&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,610 - ERROR - Ошибка обработки строки Tikhon: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,610 - INFO - Обработка строки 50/100
+2025-12-18 03:38:51,610 - INFO - Обработка: Ilya, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,610 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ilya&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,613 - ERROR - Ошибка обработки строки Ilya: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,613 - INFO - Обработка строки 51/100
+2025-12-18 03:38:51,613 - INFO - Обработка: Arseny, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,613 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Arseny&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:38:51,615 - ERROR - Ошибка обработки строки Arseny: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,615 - INFO - Обработка строки 52/100
+2025-12-18 03:38:51,615 - INFO - Обработка: Egor, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,615 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Egor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,617 - ERROR - Ошибка обработки строки Egor: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,617 - INFO - Обработка строки 53/100
+2025-12-18 03:38:51,617 - INFO - Обработка: Ivan, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,617 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ivan&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,619 - ERROR - Ошибка обработки строки Ivan: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,619 - INFO - Обработка строки 54/100
+2025-12-18 03:38:51,619 - INFO - Обработка: Dmitry, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,620 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Dmitry&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,621 - ERROR - Ошибка обработки строки Dmitry: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,621 - INFO - Обработка строки 55/100
+2025-12-18 03:38:51,621 - INFO - Обработка: Alexander, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,622 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Alexander&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,624 - ERROR - Ошибка обработки строки Alexander: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,624 - INFO - Обработка строки 56/100
+2025-12-18 03:38:51,624 - INFO - Обработка: Sergey, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,624 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Sergey&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,626 - ERROR - Ошибка обработки строки Sergey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,626 - INFO - Обработка строки 57/100
+2025-12-18 03:38:51,626 - INFO - Обработка: Vladimir, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,626 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vladimir&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,628 - ERROR - Ошибка обработки строки Vladimir: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,628 - INFO - Обработка строки 58/100
+2025-12-18 03:38:51,628 - INFO - Обработка: Nikolay, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,628 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Nikolay&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,630 - ERROR - Ошибка обработки строки Nikolay: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,630 - INFO - Обработка строки 59/100
+2025-12-18 03:38:51,631 - INFO - Обработка: Andrey, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,631 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Andrey&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,632 - ERROR - Ошибка обработки строки Andrey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,632 - INFO - Обработка строки 60/100
+2025-12-18 03:38:51,632 - INFO - Обработка: Mikhail, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,633 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Mikhail&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,634 - ERROR - Ошибка обработки строки Mikhail: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,634 - INFO - Обработка строки 61/100
+2025-12-18 03:38:51,634 - INFO - Обработка: Pavel, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,634 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Pavel&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,636 - ERROR - Ошибка обработки строки Pavel: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,636 - INFO - Обработка строки 62/100
+2025-12-18 03:38:51,636 - INFO - Обработка: Alexey, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,636 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Alexey&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,638 - ERROR - Ошибка обработки строки Alexey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,638 - INFO - Обработка строки 63/100
+2025-12-18 03:38:51,638 - INFO - Обработка: Roman, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,638 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Roman&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,640 - ERROR - Ошибка обработки строки Roman: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,640 - INFO - Обработка строки 64/100
+2025-12-18 03:38:51,640 - INFO - Обработка: Maxim, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,640 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Maxim&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,642 - ERROR - Ошибка обработки строки Maxim: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,642 - INFO - Обработка строки 65/100
+2025-12-18 03:38:51,642 - INFO - Обработка: Artem, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,642 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Artem&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,644 - ERROR - Ошибка обработки строки Artem: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,644 - INFO - Обработка строки 66/100
+2025-12-18 03:38:51,644 - INFO - Обработка: Denis, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,644 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Denis&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,646 - ERROR - Ошибка обработки строки Denis: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,646 - INFO - Обработка строки 67/100
+2025-12-18 03:38:51,646 - INFO - Обработка: Anton, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,646 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Anton&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,649 - ERROR - Ошибка обработки строки Anton: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,649 - INFO - Обработка строки 68/100
+2025-12-18 03:38:51,649 - INFO - Обработка: Viktor, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,649 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Viktor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,651 - ERROR - Ошибка обработки строки Viktor: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,651 - INFO - Обработка строки 69/100
+2025-12-18 03:38:51,651 - INFO - Обработка: Yuri, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,651 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Yuri&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,654 - ERROR - Ошибка обработки строки Yuri: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,654 - INFO - Обработка строки 70/100
+2025-12-18 03:38:51,654 - INFO - Обработка: Oleg, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,654 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Oleg&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,656 - ERROR - Ошибка обработки строки Oleg: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,656 - INFO - Обработка строки 71/100
+2025-12-18 03:38:51,656 - INFO - Обработка: Igor, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,656 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Igor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,658 - ERROR - Ошибка обработки строки Igor: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,658 - INFO - Обработка строки 72/100
+2025-12-18 03:38:51,658 - INFO - Обработка: Stanislav, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,659 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Stanislav&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,661 - ERROR - Ошибка обработки строки Stanislav: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,661 - INFO - Обработка строки 73/100
+2025-12-18 03:38:51,661 - INFO - Обработка: Vadim, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,661 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vadim&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,664 - ERROR - Ошибка обработки строки Vadim: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,664 - INFO - Обработка строки 74/100
+2025-12-18 03:38:51,664 - INFO - Обработка: Konstantin, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,664 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Konstantin&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,666 - ERROR - Ошибка обработки строки Konstantin: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,666 - INFO - Обработка строки 75/100
+2025-12-18 03:38:51,666 - INFO - Обработка: Evgeny, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,666 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Evgeny&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,668 - ERROR - Ошибка обработки строки Evgeny: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,668 - INFO - Обработка строки 76/100
+2025-12-18 03:38:51,668 - INFO - Обработка: Ruslan, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,668 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ruslan&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,670 - ERROR - Ошибка обработки строки Ruslan: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,670 - INFO - Обработка строки 77/100
+2025-12-18 03:38:51,670 - INFO - Обработка: Boris, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,670 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Boris&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,672 - ERROR - Ошибка обработки строки Boris: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,672 - INFO - Обработка строки 78/100
+2025-12-18 03:38:51,672 - INFO - Обработка: Gennady, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,672 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Gennady&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,674 - ERROR - Ошибка обработки строки Gennady: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,674 - INFO - Обработка строки 79/100
+2025-12-18 03:38:51,674 - INFO - Обработка: Leonid, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,674 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Leonid&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,676 - ERROR - Ошибка обработки строки Leonid: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,676 - INFO - Обработка строки 80/100
+2025-12-18 03:38:51,677 - INFO - Обработка: Vyacheslav, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,677 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vyacheslav&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,678 - ERROR - Ошибка обработки строки Vyacheslav: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,678 - INFO - Обработка строки 81/100
+2025-12-18 03:38:51,678 - INFO - Обработка: Anatoly, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,678 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Anatoly&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,681 - ERROR - Ошибка обработки строки Anatoly: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,681 - INFO - Обработка строки 82/100
+2025-12-18 03:38:51,681 - INFO - Обработка: Valery, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,681 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Valery&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,683 - ERROR - Ошибка обработки строки Valery: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,683 - INFO - Обработка строки 83/100
+2025-12-18 03:38:51,683 - INFO - Обработка: Yaroslav, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,683 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Yaroslav&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,685 - ERROR - Ошибка обработки строки Yaroslav: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,685 - INFO - Обработка строки 84/100
+2025-12-18 03:38:51,685 - INFO - Обработка: Timur, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,685 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Timur&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,687 - ERROR - Ошибка обработки строки Timur: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,687 - INFO - Обработка строки 85/100
+2025-12-18 03:38:51,687 - INFO - Обработка: Kirill, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,687 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Kirill&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,689 - ERROR - Ошибка обработки строки Kirill: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,689 - INFO - Обработка строки 86/100
+2025-12-18 03:38:51,689 - INFO - Обработка: Artyom, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,689 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Artyom&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,692 - ERROR - Ошибка обработки строки Artyom: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,692 - INFO - Обработка строки 87/100
+2025-12-18 03:38:51,692 - INFO - Обработка: Daniil, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,692 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Daniil&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,694 - ERROR - Ошибка обработки строки Daniil: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,694 - INFO - Обработка строки 88/100
+2025-12-18 03:38:51,694 - INFO - Обработка: Grigory, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,694 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Grigory&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,696 - ERROR - Ошибка обработки строки Grigory: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,696 - INFO - Обработка строки 89/100
+2025-12-18 03:38:51,696 - INFO - Обработка: Fedor, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,696 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Fedor&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,698 - ERROR - Ошибка обработки строки Fedor: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,698 - INFO - Обработка строки 90/100
+2025-12-18 03:38:51,698 - INFO - Обработка: Semyon, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,698 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Semyon&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,700 - ERROR - Ошибка обработки строки Semyon: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,700 - INFO - Обработка строки 91/100
+2025-12-18 03:38:51,700 - INFO - Обработка: Vasily, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,700 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vasily&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,702 - ERROR - Ошибка обработки строки Vasily: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,702 - INFO - Обработка строки 92/100
+2025-12-18 03:38:51,702 - INFO - Обработка: Matvey, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,702 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Matvey&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,705 - ERROR - Ошибка обработки строки Matvey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,705 - INFO - Обработка строки 93/100
+2025-12-18 03:38:51,705 - INFO - Обработка: Mark, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,705 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Mark&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,707 - ERROR - Ошибка обработки строки Mark: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,707 - INFO - Обработка строки 94/100
+2025-12-18 03:38:51,707 - INFO - Обработка: Lev, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,707 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Lev&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,709 - ERROR - Ошибка обработки строки Lev: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,709 - INFO - Обработка строки 95/100
+2025-12-18 03:38:51,709 - INFO - Обработка: Platon, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,709 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Platon&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,712 - ERROR - Ошибка обработки строки Platon: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,712 - INFO - Обработка строки 96/100
+2025-12-18 03:38:51,712 - INFO - Обработка: David, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,712 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=David&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,714 - ERROR - Ошибка обработки строки David: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,714 - INFO - Обработка строки 97/100
+2025-12-18 03:38:51,714 - INFO - Обработка: Makar, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,714 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Makar&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,717 - ERROR - Ошибка обработки строки Makar: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,717 - INFO - Обработка строки 98/100
+2025-12-18 03:38:51,717 - INFO - Обработка: Stepan, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,717 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Stepan&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,719 - ERROR - Ошибка обработки строки Stepan: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,719 - INFO - Обработка строки 99/100
+2025-12-18 03:38:51,719 - INFO - Обработка: Tikhon, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,719 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Tikhon&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,722 - ERROR - Ошибка обработки строки Tikhon: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,722 - INFO - Обработка строки 100/100
+2025-12-18 03:38:51,722 - INFO - Обработка: Ilya, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,722 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ilya&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,724 - ERROR - Ошибка обработки строки Ilya: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,724 - INFO - Обработка строки 101/100
+2025-12-18 03:38:51,724 - INFO - Обработка: Nikita, xen, Rehoboth&Beach, Delaware
+2025-12-18 03:38:51,724 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Nikita&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:38:51,726 - ERROR - Ошибка обработки строки Nikita: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x564c8a1209aa <unknown>
+#1 0x564c89b55108 <unknown>
+#2 0x564c89b982b4 <unknown>
+#3 0x564c89bcbf86 <unknown>
+#4 0x564c89bc686f <unknown>
+#5 0x564c89bc5bf8 <unknown>
+#6 0x564c89b1cfa5 <unknown>
+#7 0x564c8a0e9609 <unknown>
+#8 0x564c8a0ec54d <unknown>
+#9 0x564c8a0d2331 <unknown>
+#10 0x564c8a0ed11b <unknown>
+#11 0x564c8a0b8ff0 <unknown>
+#12 0x564c89b1a646 <unknown>
+#13 0x7fb2e20fb1ca <unknown>
+#14 0x7fb2e20fb28b __libc_start_main
+#15 0x564c89adbe2a _start
+
+2025-12-18 03:38:51,730 - INFO - Драйвер закрыт
+Запуск парсера на все строки из input.txt...
