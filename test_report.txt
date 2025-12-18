@@ -1,0 +1,71 @@
+============================================================
+ОТЧЕТ О ТЕСТИРОВАНИИ ПАРСЕРА
+============================================================
+
+Всего тестов: 100
+Успешных: 7
+Проваленных: 93
+Процент успеха: 7.00%
+
+============================================================
+АНАЛИЗ ОШИБОК
+============================================================
+
+
+--- Timeout (1 раз) ---
+Тест #7: Тест превысил лимит времени (5 минут)
+
+--- 2025-12-18 03 (136 раз) ---
+Тест #9: 2025-12-18 03:44:08,728 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Тест #9: 2025-12-18 03:44:08,728 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+Тест #10: 2025-12-18 03:44:11,637 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Тест #10: 2025-12-18 03:44:11,637 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+Тест #11: 2025-12-18 03:44:14,524 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Тест #11: 2025-12-18 03:44:14,524 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+Тест #12: 2025-12-18 03:44:17,514 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Тест #12: 2025-12-18 03:44:17,514 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+Тест #13: 2025-12-18 03:44:20,475 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Тест #13: 2025-12-18 03:44:20,475 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+... и еще 126 подобных ошибок
+
+--- selenium.common.exceptions.SessionNotCreatedException (184 раз) ---
+Тест #9: selenium.common.exceptions.SessionNotCreatedException: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Тест #9: selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Тест #10: selenium.common.exceptions.SessionNotCreatedException: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Тест #10: selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Тест #11: selenium.common.exceptions.SessionNotCreatedException: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Тест #11: selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Тест #12: selenium.common.exceptions.SessionNotCreatedException: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Тест #12: selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Тест #13: selenium.common.exceptions.SessionNotCreatedException: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Тест #13: selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+... и еще 174 подобных ошибок
+
+--- Exception (92 раз) ---
+Тест #9: Exception: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+Тест #10: Exception: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+Тест #11: Exception: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+Тест #12: Exception: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+Тест #13: Exception: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+Тест #14: Exception: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+Тест #15: Exception: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+Тест #16: Exception: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+Тест #17: Exception: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+Тест #18: Exception: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+... и еще 82 подобных ошибок
+
+--- Unknown (90 раз) ---
+Тест #10:     raise Exception("Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.")
+Тест #11:     raise Exception("Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.")
+Тест #12:     raise Exception("Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.")
+Тест #13:     raise Exception("Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.")
+Тест #14:     raise Exception("Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.")
+Тест #15:     raise Exception("Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.")
+Тест #16:     raise Exception("Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.")
+Тест #17:     raise Exception("Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.")
+Тест #18:     raise Exception("Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.")
+Тест #19:     raise Exception("Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.")
+... и еще 80 подобных ошибок
+
+---     except Exception as chrome_error (1 раз) ---
+Тест #76:     except Exception as chrome_error:

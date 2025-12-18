@@ -102,6 +102,10 @@ class InstantCheckmateParser:
                 chrome_options.add_argument("--disable-background-timer-throttling")
                 chrome_options.add_argument("--disable-backgrounding-occluded-windows")
                 chrome_options.add_argument("--disable-renderer-backgrounding")
+                chrome_options.add_argument("--single-process")
+                chrome_options.add_argument("--disable-setuid-sandbox")
+                chrome_options.add_argument("--disable-web-security")
+                chrome_options.add_argument("--disable-features=VizDisplayCompositor")
                 
                 # Для работы без реального дисплея используем виртуальный
                 # Но браузер будет работать в обычном режиме (не headless)
