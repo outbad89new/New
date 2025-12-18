@@ -8131,3 +8131,2343 @@ Stacktrace:
 #17 0x7f7d40e04c6c <unknown>
 
 2025-12-18 03:44:23,380 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:25,548 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:25,548 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:25,556 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:25,591 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:25,684 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:25,756 - INFO - Driver downloading response is 200
+2025-12-18 03:44:25,834 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:25,946 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:25,987 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:26,019 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:26,020 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:26,041 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:26,041 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:26,088 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:26,128 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:26,164 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:26,234 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55766116e9aa <unknown>
+#1 0x557660ba32db <unknown>
+#2 0x557660bdd20a <unknown>
+#3 0x557660bd8d63 <unknown>
+#4 0x557660c2878c <unknown>
+#5 0x557660c27eac <unknown>
+#6 0x557660be7112 <unknown>
+#7 0x557660be7dc1 <unknown>
+#8 0x557661137609 <unknown>
+#9 0x55766113a54d <unknown>
+#10 0x557661120331 <unknown>
+#11 0x55766113b11b <unknown>
+#12 0x557661106ff0 <unknown>
+#13 0x55766115bd98 <unknown>
+#14 0x55766115bf69 <unknown>
+#15 0x55766116dd03 <unknown>
+#16 0x7f12a7427aa4 <unknown>
+#17 0x7f12a74b4c6c <unknown>
+
+2025-12-18 03:44:26,235 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:28,413 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:28,413 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:28,421 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:28,457 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:28,495 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:28,572 - INFO - Driver downloading response is 200
+2025-12-18 03:44:28,638 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:28,785 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:28,826 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:28,858 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:28,858 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:28,878 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:28,878 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:28,921 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:28,959 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:28,999 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:29,121 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x562471c9f9aa <unknown>
+#1 0x5624716d42db <unknown>
+#2 0x56247170e20a <unknown>
+#3 0x562471709d63 <unknown>
+#4 0x56247175978c <unknown>
+#5 0x562471758eac <unknown>
+#6 0x562471718112 <unknown>
+#7 0x562471718dc1 <unknown>
+#8 0x562471c68609 <unknown>
+#9 0x562471c6b54d <unknown>
+#10 0x562471c51331 <unknown>
+#11 0x562471c6c11b <unknown>
+#12 0x562471c37ff0 <unknown>
+#13 0x562471c8cd98 <unknown>
+#14 0x562471c8cf69 <unknown>
+#15 0x562471c9ed03 <unknown>
+#16 0x7fef5553eaa4 <unknown>
+#17 0x7fef555cbc6c <unknown>
+
+2025-12-18 03:44:29,121 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:31,286 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:31,286 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:31,294 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:31,396 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:31,497 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:31,563 - INFO - Driver downloading response is 200
+2025-12-18 03:44:31,630 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:31,746 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:31,786 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:31,817 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:31,818 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:31,839 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:31,839 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:31,880 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:31,918 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:31,956 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:32,078 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55caa43d79aa <unknown>
+#1 0x55caa3e0c2db <unknown>
+#2 0x55caa3e4620a <unknown>
+#3 0x55caa3e41d63 <unknown>
+#4 0x55caa3e9178c <unknown>
+#5 0x55caa3e90eac <unknown>
+#6 0x55caa3e50112 <unknown>
+#7 0x55caa3e50dc1 <unknown>
+#8 0x55caa43a0609 <unknown>
+#9 0x55caa43a354d <unknown>
+#10 0x55caa4389331 <unknown>
+#11 0x55caa43a411b <unknown>
+#12 0x55caa436fff0 <unknown>
+#13 0x55caa43c4d98 <unknown>
+#14 0x55caa43c4f69 <unknown>
+#15 0x55caa43d6d03 <unknown>
+#16 0x7f03ed413aa4 <unknown>
+#17 0x7f03ed4a0c6c <unknown>
+
+2025-12-18 03:44:32,078 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:34,245 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:34,245 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:34,253 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:34,290 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:34,369 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:34,446 - INFO - Driver downloading response is 200
+2025-12-18 03:44:34,510 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:34,661 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:34,700 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:34,731 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:34,731 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:34,753 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:34,753 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:34,798 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:34,837 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:34,876 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:34,946 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x561ff40a09aa <unknown>
+#1 0x561ff3ad52db <unknown>
+#2 0x561ff3b0f20a <unknown>
+#3 0x561ff3b0ad63 <unknown>
+#4 0x561ff3b5a78c <unknown>
+#5 0x561ff3b59eac <unknown>
+#6 0x561ff3b19112 <unknown>
+#7 0x561ff3b19dc1 <unknown>
+#8 0x561ff4069609 <unknown>
+#9 0x561ff406c54d <unknown>
+#10 0x561ff4052331 <unknown>
+#11 0x561ff406d11b <unknown>
+#12 0x561ff4038ff0 <unknown>
+#13 0x561ff408dd98 <unknown>
+#14 0x561ff408df69 <unknown>
+#15 0x561ff409fd03 <unknown>
+#16 0x7f88b3359aa4 <unknown>
+#17 0x7f88b33e6c6c <unknown>
+
+2025-12-18 03:44:34,946 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:37,114 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:37,114 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:37,121 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:37,157 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:37,254 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:37,333 - INFO - Driver downloading response is 200
+2025-12-18 03:44:37,406 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:37,553 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:37,711 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:37,743 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:37,743 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:37,764 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:37,765 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:37,809 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:37,848 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:37,894 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:37,963 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55e542d0f9aa <unknown>
+#1 0x55e5427442db <unknown>
+#2 0x55e54277e20a <unknown>
+#3 0x55e542779d63 <unknown>
+#4 0x55e5427c978c <unknown>
+#5 0x55e5427c8eac <unknown>
+#6 0x55e542788112 <unknown>
+#7 0x55e542788dc1 <unknown>
+#8 0x55e542cd8609 <unknown>
+#9 0x55e542cdb54d <unknown>
+#10 0x55e542cc1331 <unknown>
+#11 0x55e542cdc11b <unknown>
+#12 0x55e542ca7ff0 <unknown>
+#13 0x55e542cfcd98 <unknown>
+#14 0x55e542cfcf69 <unknown>
+#15 0x55e542d0ed03 <unknown>
+#16 0x7f0bd233faa4 <unknown>
+#17 0x7f0bd23ccc6c <unknown>
+
+2025-12-18 03:44:37,963 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:40,129 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:40,129 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:40,136 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:40,225 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:40,315 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:40,394 - INFO - Driver downloading response is 200
+2025-12-18 03:44:40,458 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:40,623 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:40,662 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:40,694 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:40,694 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:40,713 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:40,713 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:40,758 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:40,795 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:40,832 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:40,954 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5570c77699aa <unknown>
+#1 0x5570c719e2db <unknown>
+#2 0x5570c71d820a <unknown>
+#3 0x5570c71d3d63 <unknown>
+#4 0x5570c722378c <unknown>
+#5 0x5570c7222eac <unknown>
+#6 0x5570c71e2112 <unknown>
+#7 0x5570c71e2dc1 <unknown>
+#8 0x5570c7732609 <unknown>
+#9 0x5570c773554d <unknown>
+#10 0x5570c771b331 <unknown>
+#11 0x5570c773611b <unknown>
+#12 0x5570c7701ff0 <unknown>
+#13 0x5570c7756d98 <unknown>
+#14 0x5570c7756f69 <unknown>
+#15 0x5570c7768d03 <unknown>
+#16 0x7f8bef026aa4 <unknown>
+#17 0x7f8bef0b3c6c <unknown>
+
+2025-12-18 03:44:40,954 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:43,117 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:43,117 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:43,125 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:43,172 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:43,262 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:43,335 - INFO - Driver downloading response is 200
+2025-12-18 03:44:43,400 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:43,586 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:43,686 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:43,718 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:43,718 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:43,739 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:43,739 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:43,783 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:43,821 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:43,862 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:43,931 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55e40bce59aa <unknown>
+#1 0x55e40b71a2db <unknown>
+#2 0x55e40b75420a <unknown>
+#3 0x55e40b74fd63 <unknown>
+#4 0x55e40b79f78c <unknown>
+#5 0x55e40b79eeac <unknown>
+#6 0x55e40b75e112 <unknown>
+#7 0x55e40b75edc1 <unknown>
+#8 0x55e40bcae609 <unknown>
+#9 0x55e40bcb154d <unknown>
+#10 0x55e40bc97331 <unknown>
+#11 0x55e40bcb211b <unknown>
+#12 0x55e40bc7dff0 <unknown>
+#13 0x55e40bcd2d98 <unknown>
+#14 0x55e40bcd2f69 <unknown>
+#15 0x55e40bce4d03 <unknown>
+#16 0x7f45dca8eaa4 <unknown>
+#17 0x7f45dcb1bc6c <unknown>
+
+2025-12-18 03:44:43,931 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:46,099 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:46,100 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:46,107 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:46,145 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:46,248 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:46,316 - INFO - Driver downloading response is 200
+2025-12-18 03:44:46,392 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:46,523 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:46,567 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:46,599 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:46,599 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:46,620 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:46,620 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:46,662 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:46,703 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:46,740 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:46,810 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x563d0f0e09aa <unknown>
+#1 0x563d0eb152db <unknown>
+#2 0x563d0eb4f20a <unknown>
+#3 0x563d0eb4ad63 <unknown>
+#4 0x563d0eb9a78c <unknown>
+#5 0x563d0eb99eac <unknown>
+#6 0x563d0eb59112 <unknown>
+#7 0x563d0eb59dc1 <unknown>
+#8 0x563d0f0a9609 <unknown>
+#9 0x563d0f0ac54d <unknown>
+#10 0x563d0f092331 <unknown>
+#11 0x563d0f0ad11b <unknown>
+#12 0x563d0f078ff0 <unknown>
+#13 0x563d0f0cdd98 <unknown>
+#14 0x563d0f0cdf69 <unknown>
+#15 0x563d0f0dfd03 <unknown>
+#16 0x7f207f2efaa4 <unknown>
+#17 0x7f207f37cc6c <unknown>
+
+2025-12-18 03:44:46,810 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:48,985 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:48,985 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:48,993 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:49,090 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:49,126 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:49,203 - INFO - Driver downloading response is 200
+2025-12-18 03:44:49,270 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:49,393 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:49,435 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:49,468 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:49,468 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:49,489 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:49,489 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:49,539 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:49,578 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:49,616 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:49,739 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5572916a39aa <unknown>
+#1 0x5572910d82db <unknown>
+#2 0x55729111220a <unknown>
+#3 0x55729110dd63 <unknown>
+#4 0x55729115d78c <unknown>
+#5 0x55729115ceac <unknown>
+#6 0x55729111c112 <unknown>
+#7 0x55729111cdc1 <unknown>
+#8 0x55729166c609 <unknown>
+#9 0x55729166f54d <unknown>
+#10 0x557291655331 <unknown>
+#11 0x55729167011b <unknown>
+#12 0x55729163bff0 <unknown>
+#13 0x557291690d98 <unknown>
+#14 0x557291690f69 <unknown>
+#15 0x5572916a2d03 <unknown>
+#16 0x7f01c40b2aa4 <unknown>
+#17 0x7f01c413fc6c <unknown>
+
+2025-12-18 03:44:49,739 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:51,923 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:51,923 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:51,930 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:51,967 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:52,067 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:52,140 - INFO - Driver downloading response is 200
+2025-12-18 03:44:52,214 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:52,374 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:52,480 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:52,514 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:52,514 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:52,538 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:52,538 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:52,587 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:52,626 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:52,665 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:52,735 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55e4df20f9aa <unknown>
+#1 0x55e4dec442db <unknown>
+#2 0x55e4dec7e20a <unknown>
+#3 0x55e4dec79d63 <unknown>
+#4 0x55e4decc978c <unknown>
+#5 0x55e4decc8eac <unknown>
+#6 0x55e4dec88112 <unknown>
+#7 0x55e4dec88dc1 <unknown>
+#8 0x55e4df1d8609 <unknown>
+#9 0x55e4df1db54d <unknown>
+#10 0x55e4df1c1331 <unknown>
+#11 0x55e4df1dc11b <unknown>
+#12 0x55e4df1a7ff0 <unknown>
+#13 0x55e4df1fcd98 <unknown>
+#14 0x55e4df1fcf69 <unknown>
+#15 0x55e4df20ed03 <unknown>
+#16 0x7f3f38ee0aa4 <unknown>
+#17 0x7f3f38f6dc6c <unknown>
+
+2025-12-18 03:44:52,735 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:54,923 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:54,923 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:54,932 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:54,970 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:55,005 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:55,083 - INFO - Driver downloading response is 200
+2025-12-18 03:44:55,136 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:55,295 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:55,335 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:55,366 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:55,366 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:55,389 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:55,390 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:55,440 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:55,479 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:55,518 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:55,639 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x559925c099aa <unknown>
+#1 0x55992563e2db <unknown>
+#2 0x55992567820a <unknown>
+#3 0x559925673d63 <unknown>
+#4 0x5599256c378c <unknown>
+#5 0x5599256c2eac <unknown>
+#6 0x559925682112 <unknown>
+#7 0x559925682dc1 <unknown>
+#8 0x559925bd2609 <unknown>
+#9 0x559925bd554d <unknown>
+#10 0x559925bbb331 <unknown>
+#11 0x559925bd611b <unknown>
+#12 0x559925ba1ff0 <unknown>
+#13 0x559925bf6d98 <unknown>
+#14 0x559925bf6f69 <unknown>
+#15 0x559925c08d03 <unknown>
+#16 0x7f1dae613aa4 <unknown>
+#17 0x7f1dae6a0c6c <unknown>
+
+2025-12-18 03:44:55,639 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:57,809 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:57,809 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:57,817 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:57,855 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:57,945 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:58,032 - INFO - Driver downloading response is 200
+2025-12-18 03:44:58,102 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:58,221 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:58,261 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:58,292 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:58,293 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:58,314 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:58,314 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:58,360 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:58,399 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:58,441 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:58,563 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x56463a5849aa <unknown>
+#1 0x564639fb92db <unknown>
+#2 0x564639ff320a <unknown>
+#3 0x564639feed63 <unknown>
+#4 0x56463a03e78c <unknown>
+#5 0x56463a03deac <unknown>
+#6 0x564639ffd112 <unknown>
+#7 0x564639ffddc1 <unknown>
+#8 0x56463a54d609 <unknown>
+#9 0x56463a55054d <unknown>
+#10 0x56463a536331 <unknown>
+#11 0x56463a55111b <unknown>
+#12 0x56463a51cff0 <unknown>
+#13 0x56463a571d98 <unknown>
+#14 0x56463a571f69 <unknown>
+#15 0x56463a583d03 <unknown>
+#16 0x7f6605befaa4 <unknown>
+#17 0x7f6605c7cc6c <unknown>
+
+2025-12-18 03:44:58,563 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:00,747 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:00,747 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:00,756 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:00,794 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:00,886 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:00,958 - INFO - Driver downloading response is 200
+2025-12-18 03:45:01,032 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:01,320 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:01,361 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:01,394 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:01,394 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:01,421 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:01,421 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:01,469 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:01,509 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:01,547 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:01,669 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5633edf0c9aa <unknown>
+#1 0x5633ed9412db <unknown>
+#2 0x5633ed97b20a <unknown>
+#3 0x5633ed976d63 <unknown>
+#4 0x5633ed9c678c <unknown>
+#5 0x5633ed9c5eac <unknown>
+#6 0x5633ed985112 <unknown>
+#7 0x5633ed985dc1 <unknown>
+#8 0x5633eded5609 <unknown>
+#9 0x5633eded854d <unknown>
+#10 0x5633edebe331 <unknown>
+#11 0x5633eded911b <unknown>
+#12 0x5633edea4ff0 <unknown>
+#13 0x5633edef9d98 <unknown>
+#14 0x5633edef9f69 <unknown>
+#15 0x5633edf0bd03 <unknown>
+#16 0x7f097bb66aa4 <unknown>
+#17 0x7f097bbf3c6c <unknown>
+
+2025-12-18 03:45:01,670 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:03,855 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:03,855 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:03,864 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:03,960 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:04,007 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:04,079 - INFO - Driver downloading response is 200
+2025-12-18 03:45:04,116 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:04,235 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:04,274 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:04,307 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:04,307 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:04,329 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:04,330 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:04,380 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:04,418 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:04,457 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:04,526 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x561bb505e9aa <unknown>
+#1 0x561bb4a932db <unknown>
+#2 0x561bb4acd20a <unknown>
+#3 0x561bb4ac8d63 <unknown>
+#4 0x561bb4b1878c <unknown>
+#5 0x561bb4b17eac <unknown>
+#6 0x561bb4ad7112 <unknown>
+#7 0x561bb4ad7dc1 <unknown>
+#8 0x561bb5027609 <unknown>
+#9 0x561bb502a54d <unknown>
+#10 0x561bb5010331 <unknown>
+#11 0x561bb502b11b <unknown>
+#12 0x561bb4ff6ff0 <unknown>
+#13 0x561bb504bd98 <unknown>
+#14 0x561bb504bf69 <unknown>
+#15 0x561bb505dd03 <unknown>
+#16 0x7fcbfe418aa4 <unknown>
+#17 0x7fcbfe4a5c6c <unknown>
+
+2025-12-18 03:45:04,527 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:06,709 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:06,709 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:06,717 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:06,818 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:06,910 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:06,994 - INFO - Driver downloading response is 200
+2025-12-18 03:45:07,073 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:07,199 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:07,240 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:07,272 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:07,272 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:07,299 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:07,299 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:07,343 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:07,385 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:07,423 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:07,493 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5649340119aa <unknown>
+#1 0x564933a462db <unknown>
+#2 0x564933a8020a <unknown>
+#3 0x564933a7bd63 <unknown>
+#4 0x564933acb78c <unknown>
+#5 0x564933acaeac <unknown>
+#6 0x564933a8a112 <unknown>
+#7 0x564933a8adc1 <unknown>
+#8 0x564933fda609 <unknown>
+#9 0x564933fdd54d <unknown>
+#10 0x564933fc3331 <unknown>
+#11 0x564933fde11b <unknown>
+#12 0x564933fa9ff0 <unknown>
+#13 0x564933ffed98 <unknown>
+#14 0x564933ffef69 <unknown>
+#15 0x564934010d03 <unknown>
+#16 0x7f6ca5721aa4 <unknown>
+#17 0x7f6ca57aec6c <unknown>
+
+2025-12-18 03:45:07,494 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:09,678 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:09,678 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:09,686 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:09,725 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:09,832 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:09,901 - INFO - Driver downloading response is 200
+2025-12-18 03:45:09,973 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:10,198 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:10,247 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:10,279 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:10,279 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:10,301 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:10,301 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:10,344 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:10,383 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:10,420 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:10,491 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55c427a999aa <unknown>
+#1 0x55c4274ce2db <unknown>
+#2 0x55c42750820a <unknown>
+#3 0x55c427503d63 <unknown>
+#4 0x55c42755378c <unknown>
+#5 0x55c427552eac <unknown>
+#6 0x55c427512112 <unknown>
+#7 0x55c427512dc1 <unknown>
+#8 0x55c427a62609 <unknown>
+#9 0x55c427a6554d <unknown>
+#10 0x55c427a4b331 <unknown>
+#11 0x55c427a6611b <unknown>
+#12 0x55c427a31ff0 <unknown>
+#13 0x55c427a86d98 <unknown>
+#14 0x55c427a86f69 <unknown>
+#15 0x55c427a98d03 <unknown>
+#16 0x7f5aa7c85aa4 <unknown>
+#17 0x7f5aa7d12c6c <unknown>
+
+2025-12-18 03:45:10,491 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:12,669 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:12,670 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:12,677 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:12,774 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:12,819 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:12,890 - INFO - Driver downloading response is 200
+2025-12-18 03:45:12,960 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:13,112 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:13,161 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:13,191 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:13,191 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:13,212 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:13,212 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:13,251 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:13,290 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:13,329 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:13,399 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55e7f84269aa <unknown>
+#1 0x55e7f7e5b2db <unknown>
+#2 0x55e7f7e9520a <unknown>
+#3 0x55e7f7e90d63 <unknown>
+#4 0x55e7f7ee078c <unknown>
+#5 0x55e7f7edfeac <unknown>
+#6 0x55e7f7e9f112 <unknown>
+#7 0x55e7f7e9fdc1 <unknown>
+#8 0x55e7f83ef609 <unknown>
+#9 0x55e7f83f254d <unknown>
+#10 0x55e7f83d8331 <unknown>
+#11 0x55e7f83f311b <unknown>
+#12 0x55e7f83beff0 <unknown>
+#13 0x55e7f8413d98 <unknown>
+#14 0x55e7f8413f69 <unknown>
+#15 0x55e7f8425d03 <unknown>
+#16 0x7f9c6dda8aa4 <unknown>
+#17 0x7f9c6de35c6c <unknown>
+
+2025-12-18 03:45:13,399 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:15,565 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:15,565 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:15,573 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:15,611 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:15,700 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:15,771 - INFO - Driver downloading response is 200
+2025-12-18 03:45:15,839 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:15,989 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:16,029 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:16,061 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:16,061 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:16,081 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:16,081 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:16,124 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:16,162 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:16,199 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:16,269 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x556abf9e59aa <unknown>
+#1 0x556abf41a2db <unknown>
+#2 0x556abf45420a <unknown>
+#3 0x556abf44fd63 <unknown>
+#4 0x556abf49f78c <unknown>
+#5 0x556abf49eeac <unknown>
+#6 0x556abf45e112 <unknown>
+#7 0x556abf45edc1 <unknown>
+#8 0x556abf9ae609 <unknown>
+#9 0x556abf9b154d <unknown>
+#10 0x556abf997331 <unknown>
+#11 0x556abf9b211b <unknown>
+#12 0x556abf97dff0 <unknown>
+#13 0x556abf9d2d98 <unknown>
+#14 0x556abf9d2f69 <unknown>
+#15 0x556abf9e4d03 <unknown>
+#16 0x7f0001ccdaa4 <unknown>
+#17 0x7f0001d5ac6c <unknown>
+
+2025-12-18 03:45:16,269 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:18,429 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:18,429 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:18,437 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:18,473 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:18,588 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:18,658 - INFO - Driver downloading response is 200
+2025-12-18 03:45:18,718 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:18,846 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:18,956 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:18,987 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:18,987 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:19,008 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:19,008 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:19,050 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:19,088 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:19,125 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:19,195 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x557c89bd39aa <unknown>
+#1 0x557c896082db <unknown>
+#2 0x557c8964220a <unknown>
+#3 0x557c8963dd63 <unknown>
+#4 0x557c8968d78c <unknown>
+#5 0x557c8968ceac <unknown>
+#6 0x557c8964c112 <unknown>
+#7 0x557c8964cdc1 <unknown>
+#8 0x557c89b9c609 <unknown>
+#9 0x557c89b9f54d <unknown>
+#10 0x557c89b85331 <unknown>
+#11 0x557c89ba011b <unknown>
+#12 0x557c89b6bff0 <unknown>
+#13 0x557c89bc0d98 <unknown>
+#14 0x557c89bc0f69 <unknown>
+#15 0x557c89bd2d03 <unknown>
+#16 0x7f7d05568aa4 <unknown>
+#17 0x7f7d055f5c6c <unknown>
+
+2025-12-18 03:45:19,195 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:21,360 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:21,360 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:21,367 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:21,479 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:21,563 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:21,641 - INFO - Driver downloading response is 200
+2025-12-18 03:45:21,709 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:21,907 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:22,016 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:22,047 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:22,047 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:22,068 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:22,068 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:22,110 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:22,155 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:22,192 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:22,315 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55946ff5a9aa <unknown>
+#1 0x55946f98f2db <unknown>
+#2 0x55946f9c920a <unknown>
+#3 0x55946f9c4d63 <unknown>
+#4 0x55946fa1478c <unknown>
+#5 0x55946fa13eac <unknown>
+#6 0x55946f9d3112 <unknown>
+#7 0x55946f9d3dc1 <unknown>
+#8 0x55946ff23609 <unknown>
+#9 0x55946ff2654d <unknown>
+#10 0x55946ff0c331 <unknown>
+#11 0x55946ff2711b <unknown>
+#12 0x55946fef2ff0 <unknown>
+#13 0x55946ff47d98 <unknown>
+#14 0x55946ff47f69 <unknown>
+#15 0x55946ff59d03 <unknown>
+#16 0x7fa004467aa4 <unknown>
+#17 0x7fa0044f4c6c <unknown>
+
+2025-12-18 03:45:22,315 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:24,494 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:24,494 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:24,502 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:24,539 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:24,637 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:24,708 - INFO - Driver downloading response is 200
+2025-12-18 03:45:24,775 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:24,971 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:25,085 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:25,110 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:25,110 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:25,137 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:25,137 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:25,188 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:25,239 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:25,279 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:25,350 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5624c42f19aa <unknown>
+#1 0x5624c3d262db <unknown>
+#2 0x5624c3d6020a <unknown>
+#3 0x5624c3d5bd63 <unknown>
+#4 0x5624c3dab78c <unknown>
+#5 0x5624c3daaeac <unknown>
+#6 0x5624c3d6a112 <unknown>
+#7 0x5624c3d6adc1 <unknown>
+#8 0x5624c42ba609 <unknown>
+#9 0x5624c42bd54d <unknown>
+#10 0x5624c42a3331 <unknown>
+#11 0x5624c42be11b <unknown>
+#12 0x5624c4289ff0 <unknown>
+#13 0x5624c42ded98 <unknown>
+#14 0x5624c42def69 <unknown>
+#15 0x5624c42f0d03 <unknown>
+#16 0x7fdc42a8aaa4 <unknown>
+#17 0x7fdc42b17c6c <unknown>
+
+2025-12-18 03:45:25,350 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:27,522 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:27,523 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:27,530 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:27,623 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:27,659 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:27,735 - INFO - Driver downloading response is 200
+2025-12-18 03:45:27,800 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:27,946 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:27,984 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:28,016 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:28,016 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:28,037 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:28,037 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:28,079 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:28,117 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:28,156 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:28,278 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5599d844e9aa <unknown>
+#1 0x5599d7e832db <unknown>
+#2 0x5599d7ebd20a <unknown>
+#3 0x5599d7eb8d63 <unknown>
+#4 0x5599d7f0878c <unknown>
+#5 0x5599d7f07eac <unknown>
+#6 0x5599d7ec7112 <unknown>
+#7 0x5599d7ec7dc1 <unknown>
+#8 0x5599d8417609 <unknown>
+#9 0x5599d841a54d <unknown>
+#10 0x5599d8400331 <unknown>
+#11 0x5599d841b11b <unknown>
+#12 0x5599d83e6ff0 <unknown>
+#13 0x5599d843bd98 <unknown>
+#14 0x5599d843bf69 <unknown>
+#15 0x5599d844dd03 <unknown>
+#16 0x7fa120f8daa4 <unknown>
+#17 0x7fa12101ac6c <unknown>
+
+2025-12-18 03:45:28,278 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:30,443 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:30,444 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:30,452 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:30,489 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:30,570 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:30,638 - INFO - Driver downloading response is 200
+2025-12-18 03:45:30,706 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:30,929 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:30,968 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:30,999 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:30,999 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:31,020 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:31,020 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:31,061 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:31,097 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:31,135 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:31,255 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55a0fb81b9aa <unknown>
+#1 0x55a0fb2502db <unknown>
+#2 0x55a0fb28a20a <unknown>
+#3 0x55a0fb285d63 <unknown>
+#4 0x55a0fb2d578c <unknown>
+#5 0x55a0fb2d4eac <unknown>
+#6 0x55a0fb294112 <unknown>
+#7 0x55a0fb294dc1 <unknown>
+#8 0x55a0fb7e4609 <unknown>
+#9 0x55a0fb7e754d <unknown>
+#10 0x55a0fb7cd331 <unknown>
+#11 0x55a0fb7e811b <unknown>
+#12 0x55a0fb7b3ff0 <unknown>
+#13 0x55a0fb808d98 <unknown>
+#14 0x55a0fb808f69 <unknown>
+#15 0x55a0fb81ad03 <unknown>
+#16 0x7fbf20dbcaa4 <unknown>
+#17 0x7fbf20e49c6c <unknown>
+
+2025-12-18 03:45:31,255 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:33,419 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:33,419 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:33,427 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:33,466 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:33,549 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:33,689 - INFO - Driver downloading response is 200
+2025-12-18 03:45:33,738 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:33,919 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:33,957 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:33,989 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:33,989 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:34,010 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:34,010 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:34,054 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:34,093 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:34,131 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:34,253 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x563516e1a9aa <unknown>
+#1 0x56351684f2db <unknown>
+#2 0x56351688920a <unknown>
+#3 0x563516884d63 <unknown>
+#4 0x5635168d478c <unknown>
+#5 0x5635168d3eac <unknown>
+#6 0x563516893112 <unknown>
+#7 0x563516893dc1 <unknown>
+#8 0x563516de3609 <unknown>
+#9 0x563516de654d <unknown>
+#10 0x563516dcc331 <unknown>
+#11 0x563516de711b <unknown>
+#12 0x563516db2ff0 <unknown>
+#13 0x563516e07d98 <unknown>
+#14 0x563516e07f69 <unknown>
+#15 0x563516e19d03 <unknown>
+#16 0x7f3e096a1aa4 <unknown>
+#17 0x7f3e0972ec6c <unknown>
+
+2025-12-18 03:45:34,253 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:36,434 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:36,434 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:36,442 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:36,479 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:36,516 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:36,661 - INFO - Driver downloading response is 200
+2025-12-18 03:45:36,734 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:36,898 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:36,938 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:36,971 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:36,971 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:36,993 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:36,993 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:37,047 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:37,089 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:37,127 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:37,198 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55ec1757c9aa <unknown>
+#1 0x55ec16fb12db <unknown>
+#2 0x55ec16feb20a <unknown>
+#3 0x55ec16fe6d63 <unknown>
+#4 0x55ec1703678c <unknown>
+#5 0x55ec17035eac <unknown>
+#6 0x55ec16ff5112 <unknown>
+#7 0x55ec16ff5dc1 <unknown>
+#8 0x55ec17545609 <unknown>
+#9 0x55ec1754854d <unknown>
+#10 0x55ec1752e331 <unknown>
+#11 0x55ec1754911b <unknown>
+#12 0x55ec17514ff0 <unknown>
+#13 0x55ec17569d98 <unknown>
+#14 0x55ec17569f69 <unknown>
+#15 0x55ec1757bd03 <unknown>
+#16 0x7fd8dd156aa4 <unknown>
+#17 0x7fd8dd1e3c6c <unknown>
+
+2025-12-18 03:45:37,198 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:39,385 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:39,385 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:39,393 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:39,432 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:39,526 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:39,595 - INFO - Driver downloading response is 200
+2025-12-18 03:45:39,668 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:39,794 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:39,902 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:39,935 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:39,935 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:39,961 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:39,962 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:40,009 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:40,047 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:40,084 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:40,155 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5634572d99aa <unknown>
+#1 0x563456d0e2db <unknown>
+#2 0x563456d4820a <unknown>
+#3 0x563456d43d63 <unknown>
+#4 0x563456d9378c <unknown>
+#5 0x563456d92eac <unknown>
+#6 0x563456d52112 <unknown>
+#7 0x563456d52dc1 <unknown>
+#8 0x5634572a2609 <unknown>
+#9 0x5634572a554d <unknown>
+#10 0x56345728b331 <unknown>
+#11 0x5634572a611b <unknown>
+#12 0x563457271ff0 <unknown>
+#13 0x5634572c6d98 <unknown>
+#14 0x5634572c6f69 <unknown>
+#15 0x5634572d8d03 <unknown>
+#16 0x7f7f88360aa4 <unknown>
+#17 0x7f7f883edc6c <unknown>
+
+2025-12-18 03:45:40,155 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:42,338 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:42,338 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:42,346 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:42,433 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:42,628 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:42,697 - INFO - Driver downloading response is 200
+2025-12-18 03:45:42,766 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:42,889 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:42,928 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:42,962 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:42,962 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:42,988 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:42,988 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:43,037 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:43,075 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:43,114 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:43,235 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55f612fec9aa <unknown>
+#1 0x55f612a212db <unknown>
+#2 0x55f612a5b20a <unknown>
+#3 0x55f612a56d63 <unknown>
+#4 0x55f612aa678c <unknown>
+#5 0x55f612aa5eac <unknown>
+#6 0x55f612a65112 <unknown>
+#7 0x55f612a65dc1 <unknown>
+#8 0x55f612fb5609 <unknown>
+#9 0x55f612fb854d <unknown>
+#10 0x55f612f9e331 <unknown>
+#11 0x55f612fb911b <unknown>
+#12 0x55f612f84ff0 <unknown>
+#13 0x55f612fd9d98 <unknown>
+#14 0x55f612fd9f69 <unknown>
+#15 0x55f612febd03 <unknown>
+#16 0x7f760053aaa4 <unknown>
+#17 0x7f76005c7c6c <unknown>
+
+2025-12-18 03:45:43,235 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:45,409 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:45,409 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:45,417 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:45,519 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:45,632 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:45,713 - INFO - Driver downloading response is 200
+2025-12-18 03:45:45,792 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:45,930 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:46,014 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:46,046 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:46,046 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:46,079 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:46,079 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:46,142 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:46,180 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:46,219 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:46,289 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x56259f7029aa <unknown>
+#1 0x56259f1372db <unknown>
+#2 0x56259f17120a <unknown>
+#3 0x56259f16cd63 <unknown>
+#4 0x56259f1bc78c <unknown>
+#5 0x56259f1bbeac <unknown>
+#6 0x56259f17b112 <unknown>
+#7 0x56259f17bdc1 <unknown>
+#8 0x56259f6cb609 <unknown>
+#9 0x56259f6ce54d <unknown>
+#10 0x56259f6b4331 <unknown>
+#11 0x56259f6cf11b <unknown>
+#12 0x56259f69aff0 <unknown>
+#13 0x56259f6efd98 <unknown>
+#14 0x56259f6eff69 <unknown>
+#15 0x56259f701d03 <unknown>
+#16 0x7ff522b32aa4 <unknown>
+#17 0x7ff522bbfc6c <unknown>
+
+2025-12-18 03:45:46,289 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:48,457 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:48,457 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:48,465 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:48,513 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:48,549 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:48,621 - INFO - Driver downloading response is 200
+2025-12-18 03:45:48,695 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:48,837 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:48,877 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:48,909 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:48,909 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:48,930 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:48,930 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:48,973 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:49,010 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:49,048 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:49,118 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55ee2e3c49aa <unknown>
+#1 0x55ee2ddf92db <unknown>
+#2 0x55ee2de3320a <unknown>
+#3 0x55ee2de2ed63 <unknown>
+#4 0x55ee2de7e78c <unknown>
+#5 0x55ee2de7deac <unknown>
+#6 0x55ee2de3d112 <unknown>
+#7 0x55ee2de3ddc1 <unknown>
+#8 0x55ee2e38d609 <unknown>
+#9 0x55ee2e39054d <unknown>
+#10 0x55ee2e376331 <unknown>
+#11 0x55ee2e39111b <unknown>
+#12 0x55ee2e35cff0 <unknown>
+#13 0x55ee2e3b1d98 <unknown>
+#14 0x55ee2e3b1f69 <unknown>
+#15 0x55ee2e3c3d03 <unknown>
+#16 0x7f083bf45aa4 <unknown>
+#17 0x7f083bfd2c6c <unknown>
+
+2025-12-18 03:45:49,118 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:51,284 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:51,285 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:51,292 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:51,329 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:51,411 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:51,489 - INFO - Driver downloading response is 200
+2025-12-18 03:45:51,557 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:51,677 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:51,718 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:51,750 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:51,750 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:51,771 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:51,771 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:51,815 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:51,852 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:51,891 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:52,011 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5651267749aa <unknown>
+#1 0x5651261a92db <unknown>
+#2 0x5651261e320a <unknown>
+#3 0x5651261ded63 <unknown>
+#4 0x56512622e78c <unknown>
+#5 0x56512622deac <unknown>
+#6 0x5651261ed112 <unknown>
+#7 0x5651261eddc1 <unknown>
+#8 0x56512673d609 <unknown>
+#9 0x56512674054d <unknown>
+#10 0x565126726331 <unknown>
+#11 0x56512674111b <unknown>
+#12 0x56512670cff0 <unknown>
+#13 0x565126761d98 <unknown>
+#14 0x565126761f69 <unknown>
+#15 0x565126773d03 <unknown>
+#16 0x7f4bb9598aa4 <unknown>
+#17 0x7f4bb9625c6c <unknown>
+
+2025-12-18 03:45:52,011 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:54,175 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:54,175 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:54,183 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:54,220 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:54,255 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:54,324 - INFO - Driver downloading response is 200
+2025-12-18 03:45:54,377 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:54,514 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:54,553 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:54,585 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:54,585 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:54,605 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:54,605 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:54,648 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:54,686 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:54,724 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:54,794 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5604010679aa <unknown>
+#1 0x560400a9c2db <unknown>
+#2 0x560400ad620a <unknown>
+#3 0x560400ad1d63 <unknown>
+#4 0x560400b2178c <unknown>
+#5 0x560400b20eac <unknown>
+#6 0x560400ae0112 <unknown>
+#7 0x560400ae0dc1 <unknown>
+#8 0x560401030609 <unknown>
+#9 0x56040103354d <unknown>
+#10 0x560401019331 <unknown>
+#11 0x56040103411b <unknown>
+#12 0x560400fffff0 <unknown>
+#13 0x560401054d98 <unknown>
+#14 0x560401054f69 <unknown>
+#15 0x560401066d03 <unknown>
+#16 0x7f56fdbdcaa4 <unknown>
+#17 0x7f56fdc69c6c <unknown>
+
+2025-12-18 03:45:54,794 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:56,975 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:56,975 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:56,982 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:57,103 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:45:57,196 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:45:57,264 - INFO - Driver downloading response is 200
+2025-12-18 03:45:57,331 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:57,540 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:45:57,581 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:45:57,613 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:45:57,613 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:45:57,633 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:45:57,633 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:57,676 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:57,713 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:45:57,752 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:45:57,822 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5581c746e9aa <unknown>
+#1 0x5581c6ea32db <unknown>
+#2 0x5581c6edd20a <unknown>
+#3 0x5581c6ed8d63 <unknown>
+#4 0x5581c6f2878c <unknown>
+#5 0x5581c6f27eac <unknown>
+#6 0x5581c6ee7112 <unknown>
+#7 0x5581c6ee7dc1 <unknown>
+#8 0x5581c7437609 <unknown>
+#9 0x5581c743a54d <unknown>
+#10 0x5581c7420331 <unknown>
+#11 0x5581c743b11b <unknown>
+#12 0x5581c7406ff0 <unknown>
+#13 0x5581c745bd98 <unknown>
+#14 0x5581c745bf69 <unknown>
+#15 0x5581c746dd03 <unknown>
+#16 0x7f723f7aeaa4 <unknown>
+#17 0x7f723f83bc6c <unknown>
+
+2025-12-18 03:45:57,822 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:45:59,989 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:45:59,989 - INFO - ====== WebDriver manager ======
+2025-12-18 03:45:59,995 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:00,096 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:00,200 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:00,270 - INFO - Driver downloading response is 200
+2025-12-18 03:46:00,342 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:00,525 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:00,576 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:00,607 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:00,607 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:00,627 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:00,627 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:00,668 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:00,706 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:00,744 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:00,814 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55c7d067a9aa <unknown>
+#1 0x55c7d00af2db <unknown>
+#2 0x55c7d00e920a <unknown>
+#3 0x55c7d00e4d63 <unknown>
+#4 0x55c7d013478c <unknown>
+#5 0x55c7d0133eac <unknown>
+#6 0x55c7d00f3112 <unknown>
+#7 0x55c7d00f3dc1 <unknown>
+#8 0x55c7d0643609 <unknown>
+#9 0x55c7d064654d <unknown>
+#10 0x55c7d062c331 <unknown>
+#11 0x55c7d064711b <unknown>
+#12 0x55c7d0612ff0 <unknown>
+#13 0x55c7d0667d98 <unknown>
+#14 0x55c7d0667f69 <unknown>
+#15 0x55c7d0679d03 <unknown>
+#16 0x7f8e2e734aa4 <unknown>
+#17 0x7f8e2e7c1c6c <unknown>
+
+2025-12-18 03:46:00,814 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:02,978 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:02,978 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:02,985 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:03,023 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:03,061 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:03,187 - INFO - Driver downloading response is 200
+2025-12-18 03:46:03,261 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:03,390 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:03,494 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:03,526 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:03,526 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:03,546 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:03,546 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:03,589 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:03,626 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:03,665 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:03,787 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55a0d109a9aa <unknown>
+#1 0x55a0d0acf2db <unknown>
+#2 0x55a0d0b0920a <unknown>
+#3 0x55a0d0b04d63 <unknown>
+#4 0x55a0d0b5478c <unknown>
+#5 0x55a0d0b53eac <unknown>
+#6 0x55a0d0b13112 <unknown>
+#7 0x55a0d0b13dc1 <unknown>
+#8 0x55a0d1063609 <unknown>
+#9 0x55a0d106654d <unknown>
+#10 0x55a0d104c331 <unknown>
+#11 0x55a0d106711b <unknown>
+#12 0x55a0d1032ff0 <unknown>
+#13 0x55a0d1087d98 <unknown>
+#14 0x55a0d1087f69 <unknown>
+#15 0x55a0d1099d03 <unknown>
+#16 0x7fc3b43c9aa4 <unknown>
+#17 0x7fc3b4456c6c <unknown>
+
+2025-12-18 03:46:03,787 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:05,959 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:05,959 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:05,966 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:06,003 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:06,122 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:06,260 - INFO - Driver downloading response is 200
+2025-12-18 03:46:06,330 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:06,483 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:06,604 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:06,635 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:06,635 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:06,657 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:06,657 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:06,700 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:06,737 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:06,776 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:06,846 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55f181a119aa <unknown>
+#1 0x55f1814462db <unknown>
+#2 0x55f18148020a <unknown>
+#3 0x55f18147bd63 <unknown>
+#4 0x55f1814cb78c <unknown>
+#5 0x55f1814caeac <unknown>
+#6 0x55f18148a112 <unknown>
+#7 0x55f18148adc1 <unknown>
+#8 0x55f1819da609 <unknown>
+#9 0x55f1819dd54d <unknown>
+#10 0x55f1819c3331 <unknown>
+#11 0x55f1819de11b <unknown>
+#12 0x55f1819a9ff0 <unknown>
+#13 0x55f1819fed98 <unknown>
+#14 0x55f1819fef69 <unknown>
+#15 0x55f181a10d03 <unknown>
+#16 0x7f91cf791aa4 <unknown>
+#17 0x7f91cf81ec6c <unknown>
+
+2025-12-18 03:46:06,846 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:09,009 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:09,009 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:09,017 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:09,053 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:09,143 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:09,212 - INFO - Driver downloading response is 200
+2025-12-18 03:46:09,282 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:09,474 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:09,514 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:09,546 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:09,546 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:09,565 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:09,565 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:09,608 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:09,647 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:09,684 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:09,754 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55c8bd8d49aa <unknown>
+#1 0x55c8bd3092db <unknown>
+#2 0x55c8bd34320a <unknown>
+#3 0x55c8bd33ed63 <unknown>
+#4 0x55c8bd38e78c <unknown>
+#5 0x55c8bd38deac <unknown>
+#6 0x55c8bd34d112 <unknown>
+#7 0x55c8bd34ddc1 <unknown>
+#8 0x55c8bd89d609 <unknown>
+#9 0x55c8bd8a054d <unknown>
+#10 0x55c8bd886331 <unknown>
+#11 0x55c8bd8a111b <unknown>
+#12 0x55c8bd86cff0 <unknown>
+#13 0x55c8bd8c1d98 <unknown>
+#14 0x55c8bd8c1f69 <unknown>
+#15 0x55c8bd8d3d03 <unknown>
+#16 0x7f2f45a72aa4 <unknown>
+#17 0x7f2f45affc6c <unknown>
+
+2025-12-18 03:46:09,754 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:11,919 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:11,919 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:11,927 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:11,963 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:12,008 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:12,075 - INFO - Driver downloading response is 200
+2025-12-18 03:46:12,145 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:12,296 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:12,334 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:12,366 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:12,366 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:12,386 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:12,386 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:12,428 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:12,465 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:12,510 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:12,579 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55e74a7299aa <unknown>
+#1 0x55e74a15e2db <unknown>
+#2 0x55e74a19820a <unknown>
+#3 0x55e74a193d63 <unknown>
+#4 0x55e74a1e378c <unknown>
+#5 0x55e74a1e2eac <unknown>
+#6 0x55e74a1a2112 <unknown>
+#7 0x55e74a1a2dc1 <unknown>
+#8 0x55e74a6f2609 <unknown>
+#9 0x55e74a6f554d <unknown>
+#10 0x55e74a6db331 <unknown>
+#11 0x55e74a6f611b <unknown>
+#12 0x55e74a6c1ff0 <unknown>
+#13 0x55e74a716d98 <unknown>
+#14 0x55e74a716f69 <unknown>
+#15 0x55e74a728d03 <unknown>
+#16 0x7fcfc0e42aa4 <unknown>
+#17 0x7fcfc0ecfc6c <unknown>
+
+2025-12-18 03:46:12,579 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:14,751 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:14,751 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:14,760 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:14,851 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:14,887 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:14,967 - INFO - Driver downloading response is 200
+2025-12-18 03:46:15,034 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:15,187 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:15,305 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:15,337 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:15,337 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:15,358 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:15,358 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:15,400 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:15,439 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:15,478 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:15,547 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5614558f79aa <unknown>
+#1 0x56145532c2db <unknown>
+#2 0x56145536620a <unknown>
+#3 0x561455361d63 <unknown>
+#4 0x5614553b178c <unknown>
+#5 0x5614553b0eac <unknown>
+#6 0x561455370112 <unknown>
+#7 0x561455370dc1 <unknown>
+#8 0x5614558c0609 <unknown>
+#9 0x5614558c354d <unknown>
+#10 0x5614558a9331 <unknown>
+#11 0x5614558c411b <unknown>
+#12 0x56145588fff0 <unknown>
+#13 0x5614558e4d98 <unknown>
+#14 0x5614558e4f69 <unknown>
+#15 0x5614558f6d03 <unknown>
+#16 0x7f8dedb53aa4 <unknown>
+#17 0x7f8dedbe0c6c <unknown>
+
+2025-12-18 03:46:15,547 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:17,712 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:17,712 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:17,720 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:17,850 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:17,949 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:18,018 - INFO - Driver downloading response is 200
+2025-12-18 03:46:18,090 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:18,220 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:18,259 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:18,290 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:18,290 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:18,310 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:18,310 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:18,353 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:18,391 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:18,427 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:18,500 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x56213e1699aa <unknown>
+#1 0x56213db9e2db <unknown>
+#2 0x56213dbd820a <unknown>
+#3 0x56213dbd3d63 <unknown>
+#4 0x56213dc2378c <unknown>
+#5 0x56213dc22eac <unknown>
+#6 0x56213dbe2112 <unknown>
+#7 0x56213dbe2dc1 <unknown>
+#8 0x56213e132609 <unknown>
+#9 0x56213e13554d <unknown>
+#10 0x56213e11b331 <unknown>
+#11 0x56213e13611b <unknown>
+#12 0x56213e101ff0 <unknown>
+#13 0x56213e156d98 <unknown>
+#14 0x56213e156f69 <unknown>
+#15 0x56213e168d03 <unknown>
+#16 0x7f2416bd1aa4 <unknown>
+#17 0x7f2416c5ec6c <unknown>
+
+2025-12-18 03:46:18,500 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:20,666 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:20,666 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:20,674 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:20,710 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:20,816 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:20,958 - INFO - Driver downloading response is 200
+2025-12-18 03:46:21,032 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:21,165 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:21,207 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:21,240 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:21,240 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:21,260 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:21,260 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:21,300 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:21,338 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:21,384 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:21,506 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x556ae51a89aa <unknown>
+#1 0x556ae4bdd2db <unknown>
+#2 0x556ae4c1720a <unknown>
+#3 0x556ae4c12d63 <unknown>
+#4 0x556ae4c6278c <unknown>
+#5 0x556ae4c61eac <unknown>
+#6 0x556ae4c21112 <unknown>
+#7 0x556ae4c21dc1 <unknown>
+#8 0x556ae5171609 <unknown>
+#9 0x556ae517454d <unknown>
+#10 0x556ae515a331 <unknown>
+#11 0x556ae517511b <unknown>
+#12 0x556ae5140ff0 <unknown>
+#13 0x556ae5195d98 <unknown>
+#14 0x556ae5195f69 <unknown>
+#15 0x556ae51a7d03 <unknown>
+#16 0x7fbb78edfaa4 <unknown>
+#17 0x7fbb78f6cc6c <unknown>
+
+2025-12-18 03:46:21,506 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:23,687 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:23,687 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:23,695 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:23,731 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:23,834 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:23,906 - INFO - Driver downloading response is 200
+2025-12-18 03:46:23,978 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:24,138 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:24,240 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:24,272 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:24,272 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:24,292 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:24,293 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:24,335 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:24,373 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:24,410 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:24,531 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x555f83e399aa <unknown>
+#1 0x555f8386e2db <unknown>
+#2 0x555f838a820a <unknown>
+#3 0x555f838a3d63 <unknown>
+#4 0x555f838f378c <unknown>
+#5 0x555f838f2eac <unknown>
+#6 0x555f838b2112 <unknown>
+#7 0x555f838b2dc1 <unknown>
+#8 0x555f83e02609 <unknown>
+#9 0x555f83e0554d <unknown>
+#10 0x555f83deb331 <unknown>
+#11 0x555f83e0611b <unknown>
+#12 0x555f83dd1ff0 <unknown>
+#13 0x555f83e26d98 <unknown>
+#14 0x555f83e26f69 <unknown>
+#15 0x555f83e38d03 <unknown>
+#16 0x7f64880f8aa4 <unknown>
+#17 0x7f6488185c6c <unknown>
+
+2025-12-18 03:46:24,531 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:26,701 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:26,702 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:26,709 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:26,752 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:26,857 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:26,928 - INFO - Driver downloading response is 200
+2025-12-18 03:46:27,005 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:27,176 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:27,217 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:27,248 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:27,248 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:27,269 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:27,270 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:27,313 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:27,350 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:27,387 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:27,457 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55a6e17db9aa <unknown>
+#1 0x55a6e12102db <unknown>
+#2 0x55a6e124a20a <unknown>
+#3 0x55a6e1245d63 <unknown>
+#4 0x55a6e129578c <unknown>
+#5 0x55a6e1294eac <unknown>
+#6 0x55a6e1254112 <unknown>
+#7 0x55a6e1254dc1 <unknown>
+#8 0x55a6e17a4609 <unknown>
+#9 0x55a6e17a754d <unknown>
+#10 0x55a6e178d331 <unknown>
+#11 0x55a6e17a811b <unknown>
+#12 0x55a6e1773ff0 <unknown>
+#13 0x55a6e17c8d98 <unknown>
+#14 0x55a6e17c8f69 <unknown>
+#15 0x55a6e17dad03 <unknown>
+#16 0x7feeab8feaa4 <unknown>
+#17 0x7feeab98bc6c <unknown>
+
+2025-12-18 03:46:27,457 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:29,623 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:29,623 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:29,631 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:29,668 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:29,702 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:29,769 - INFO - Driver downloading response is 200
+2025-12-18 03:46:29,821 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:29,941 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:30,049 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:30,082 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:30,082 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:30,103 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:30,103 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:30,145 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:30,182 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:30,223 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:30,345 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x555c920209aa <unknown>
+#1 0x555c91a552db <unknown>
+#2 0x555c91a8f20a <unknown>
+#3 0x555c91a8ad63 <unknown>
+#4 0x555c91ada78c <unknown>
+#5 0x555c91ad9eac <unknown>
+#6 0x555c91a99112 <unknown>
+#7 0x555c91a99dc1 <unknown>
+#8 0x555c91fe9609 <unknown>
+#9 0x555c91fec54d <unknown>
+#10 0x555c91fd2331 <unknown>
+#11 0x555c91fed11b <unknown>
+#12 0x555c91fb8ff0 <unknown>
+#13 0x555c9200dd98 <unknown>
+#14 0x555c9200df69 <unknown>
+#15 0x555c9201fd03 <unknown>
+#16 0x7f1e1e46caa4 <unknown>
+#17 0x7f1e1e4f9c6c <unknown>
+
+2025-12-18 03:46:30,345 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:32,508 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:32,509 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:32,517 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:32,554 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:32,666 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:32,743 - INFO - Driver downloading response is 200
+2025-12-18 03:46:32,813 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:32,970 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:33,010 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:33,042 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:33,042 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:33,063 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:33,063 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:33,107 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:33,145 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:33,191 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:33,314 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55a0b656c9aa <unknown>
+#1 0x55a0b5fa12db <unknown>
+#2 0x55a0b5fdb20a <unknown>
+#3 0x55a0b5fd6d63 <unknown>
+#4 0x55a0b602678c <unknown>
+#5 0x55a0b6025eac <unknown>
+#6 0x55a0b5fe5112 <unknown>
+#7 0x55a0b5fe5dc1 <unknown>
+#8 0x55a0b6535609 <unknown>
+#9 0x55a0b653854d <unknown>
+#10 0x55a0b651e331 <unknown>
+#11 0x55a0b653911b <unknown>
+#12 0x55a0b6504ff0 <unknown>
+#13 0x55a0b6559d98 <unknown>
+#14 0x55a0b6559f69 <unknown>
+#15 0x55a0b656bd03 <unknown>
+#16 0x7fd224bafaa4 <unknown>
+#17 0x7fd224c3cc6c <unknown>
+
+2025-12-18 03:46:33,314 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:35,497 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:35,497 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:35,505 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:35,542 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:35,580 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:35,660 - INFO - Driver downloading response is 200
+2025-12-18 03:46:35,732 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:35,882 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:35,989 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:36,021 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:36,021 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:36,042 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:36,042 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:36,084 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:36,131 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:36,171 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:36,291 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55af431e69aa <unknown>
+#1 0x55af42c1b2db <unknown>
+#2 0x55af42c5520a <unknown>
+#3 0x55af42c50d63 <unknown>
+#4 0x55af42ca078c <unknown>
+#5 0x55af42c9feac <unknown>
+#6 0x55af42c5f112 <unknown>
+#7 0x55af42c5fdc1 <unknown>
+#8 0x55af431af609 <unknown>
+#9 0x55af431b254d <unknown>
+#10 0x55af43198331 <unknown>
+#11 0x55af431b311b <unknown>
+#12 0x55af4317eff0 <unknown>
+#13 0x55af431d3d98 <unknown>
+#14 0x55af431d3f69 <unknown>
+#15 0x55af431e5d03 <unknown>
+#16 0x7f10e025aaa4 <unknown>
+#17 0x7f10e02e7c6c <unknown>
+
+2025-12-18 03:46:36,291 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:38,457 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:38,457 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:38,465 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:38,568 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:38,665 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:38,734 - INFO - Driver downloading response is 200
+2025-12-18 03:46:38,794 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:38,921 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:39,017 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:39,049 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:39,049 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:39,069 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:39,069 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:39,109 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:39,148 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:39,188 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:39,259 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5569048559aa <unknown>
+#1 0x55690428a2db <unknown>
+#2 0x5569042c420a <unknown>
+#3 0x5569042bfd63 <unknown>
+#4 0x55690430f78c <unknown>
+#5 0x55690430eeac <unknown>
+#6 0x5569042ce112 <unknown>
+#7 0x5569042cedc1 <unknown>
+#8 0x55690481e609 <unknown>
+#9 0x55690482154d <unknown>
+#10 0x556904807331 <unknown>
+#11 0x55690482211b <unknown>
+#12 0x5569047edff0 <unknown>
+#13 0x556904842d98 <unknown>
+#14 0x556904842f69 <unknown>
+#15 0x556904854d03 <unknown>
+#16 0x7f41be8dfaa4 <unknown>
+#17 0x7f41be96cc6c <unknown>
+
+2025-12-18 03:46:39,259 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:41,429 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:41,429 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:41,441 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:41,479 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:41,568 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:41,640 - INFO - Driver downloading response is 200
+2025-12-18 03:46:41,710 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:41,940 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:42,034 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:42,066 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:42,066 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:42,089 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:42,089 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:42,133 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:42,169 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:42,215 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:42,286 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55b0e58d89aa <unknown>
+#1 0x55b0e530d2db <unknown>
+#2 0x55b0e534720a <unknown>
+#3 0x55b0e5342d63 <unknown>
+#4 0x55b0e539278c <unknown>
+#5 0x55b0e5391eac <unknown>
+#6 0x55b0e5351112 <unknown>
+#7 0x55b0e5351dc1 <unknown>
+#8 0x55b0e58a1609 <unknown>
+#9 0x55b0e58a454d <unknown>
+#10 0x55b0e588a331 <unknown>
+#11 0x55b0e58a511b <unknown>
+#12 0x55b0e5870ff0 <unknown>
+#13 0x55b0e58c5d98 <unknown>
+#14 0x55b0e58c5f69 <unknown>
+#15 0x55b0e58d7d03 <unknown>
+#16 0x7fadfd359aa4 <unknown>
+#17 0x7fadfd3e6c6c <unknown>
+
+2025-12-18 03:46:42,286 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:44,452 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:44,452 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:44,461 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:44,497 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:44,534 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:44,621 - INFO - Driver downloading response is 200
+2025-12-18 03:46:44,689 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:44,889 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:44,982 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:45,014 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:45,014 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:45,034 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:45,035 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:45,076 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:45,115 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:45,155 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:45,225 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5606b0a8b9aa <unknown>
+#1 0x5606b04c02db <unknown>
+#2 0x5606b04fa20a <unknown>
+#3 0x5606b04f5d63 <unknown>
+#4 0x5606b054578c <unknown>
+#5 0x5606b0544eac <unknown>
+#6 0x5606b0504112 <unknown>
+#7 0x5606b0504dc1 <unknown>
+#8 0x5606b0a54609 <unknown>
+#9 0x5606b0a5754d <unknown>
+#10 0x5606b0a3d331 <unknown>
+#11 0x5606b0a5811b <unknown>
+#12 0x5606b0a23ff0 <unknown>
+#13 0x5606b0a78d98 <unknown>
+#14 0x5606b0a78f69 <unknown>
+#15 0x5606b0a8ad03 <unknown>
+#16 0x7f12e7a00aa4 <unknown>
+#17 0x7f12e7a8dc6c <unknown>
+
+2025-12-18 03:46:45,225 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:47,393 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:47,394 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:47,401 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:47,441 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:47,476 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:47,547 - INFO - Driver downloading response is 200
+2025-12-18 03:46:47,619 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:47,744 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:47,845 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:47,878 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:47,878 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:47,898 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:47,898 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:47,939 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:47,976 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:48,020 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:48,142 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55a4508c89aa <unknown>
+#1 0x55a4502fd2db <unknown>
+#2 0x55a45033720a <unknown>
+#3 0x55a450332d63 <unknown>
+#4 0x55a45038278c <unknown>
+#5 0x55a450381eac <unknown>
+#6 0x55a450341112 <unknown>
+#7 0x55a450341dc1 <unknown>
+#8 0x55a450891609 <unknown>
+#9 0x55a45089454d <unknown>
+#10 0x55a45087a331 <unknown>
+#11 0x55a45089511b <unknown>
+#12 0x55a450860ff0 <unknown>
+#13 0x55a4508b5d98 <unknown>
+#14 0x55a4508b5f69 <unknown>
+#15 0x55a4508c7d03 <unknown>
+#16 0x7fa2dfaedaa4 <unknown>
+#17 0x7fa2dfb7ac6c <unknown>
+
+2025-12-18 03:46:48,142 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:50,321 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:50,321 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:50,329 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:50,366 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:50,457 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:50,593 - INFO - Driver downloading response is 200
+2025-12-18 03:46:50,640 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:50,786 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:50,827 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:50,858 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:50,858 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:50,879 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:50,879 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:50,924 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:50,963 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:51,000 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:51,122 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55e8ee1449aa <unknown>
+#1 0x55e8edb792db <unknown>
+#2 0x55e8edbb320a <unknown>
+#3 0x55e8edbaed63 <unknown>
+#4 0x55e8edbfe78c <unknown>
+#5 0x55e8edbfdeac <unknown>
+#6 0x55e8edbbd112 <unknown>
+#7 0x55e8edbbddc1 <unknown>
+#8 0x55e8ee10d609 <unknown>
+#9 0x55e8ee11054d <unknown>
+#10 0x55e8ee0f6331 <unknown>
+#11 0x55e8ee11111b <unknown>
+#12 0x55e8ee0dcff0 <unknown>
+#13 0x55e8ee131d98 <unknown>
+#14 0x55e8ee131f69 <unknown>
+#15 0x55e8ee143d03 <unknown>
+#16 0x7ff8ec049aa4 <unknown>
+#17 0x7ff8ec0d6c6c <unknown>
+
+2025-12-18 03:46:51,122 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:53,293 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:53,293 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:53,301 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:53,339 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:53,382 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:53,453 - INFO - Driver downloading response is 200
+2025-12-18 03:46:53,526 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:53,745 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:53,785 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:53,816 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:53,816 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:53,839 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:53,839 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:53,883 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:53,921 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:53,960 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:54,029 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55ed9c5909aa <unknown>
+#1 0x55ed9bfc52db <unknown>
+#2 0x55ed9bfff20a <unknown>
+#3 0x55ed9bffad63 <unknown>
+#4 0x55ed9c04a78c <unknown>
+#5 0x55ed9c049eac <unknown>
+#6 0x55ed9c009112 <unknown>
+#7 0x55ed9c009dc1 <unknown>
+#8 0x55ed9c559609 <unknown>
+#9 0x55ed9c55c54d <unknown>
+#10 0x55ed9c542331 <unknown>
+#11 0x55ed9c55d11b <unknown>
+#12 0x55ed9c528ff0 <unknown>
+#13 0x55ed9c57dd98 <unknown>
+#14 0x55ed9c57df69 <unknown>
+#15 0x55ed9c58fd03 <unknown>
+#16 0x7f4f380aeaa4 <unknown>
+#17 0x7f4f3813bc6c <unknown>
+
+2025-12-18 03:46:54,030 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:56,195 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:56,195 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:56,203 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:56,239 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:56,351 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:56,420 - INFO - Driver downloading response is 200
+2025-12-18 03:46:56,492 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:56,650 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:56,690 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:56,723 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:56,723 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:56,743 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:56,744 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:56,788 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:56,835 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:56,872 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:56,994 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x56148f1a99aa <unknown>
+#1 0x56148ebde2db <unknown>
+#2 0x56148ec1820a <unknown>
+#3 0x56148ec13d63 <unknown>
+#4 0x56148ec6378c <unknown>
+#5 0x56148ec62eac <unknown>
+#6 0x56148ec22112 <unknown>
+#7 0x56148ec22dc1 <unknown>
+#8 0x56148f172609 <unknown>
+#9 0x56148f17554d <unknown>
+#10 0x56148f15b331 <unknown>
+#11 0x56148f17611b <unknown>
+#12 0x56148f141ff0 <unknown>
+#13 0x56148f196d98 <unknown>
+#14 0x56148f196f69 <unknown>
+#15 0x56148f1a8d03 <unknown>
+#16 0x7f66de02caa4 <unknown>
+#17 0x7f66de0b9c6c <unknown>
+
+2025-12-18 03:46:56,994 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:46:59,162 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:46:59,162 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:59,170 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:59,215 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:46:59,251 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:46:59,328 - INFO - Driver downloading response is 200
+2025-12-18 03:46:59,403 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:59,533 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:46:59,642 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:46:59,674 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:46:59,674 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:46:59,707 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:46:59,707 - INFO - ====== WebDriver manager ======
+2025-12-18 03:46:59,750 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:59,790 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:46:59,826 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:46:59,897 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55a98b4989aa <unknown>
+#1 0x55a98aecd2db <unknown>
+#2 0x55a98af0720a <unknown>
+#3 0x55a98af02d63 <unknown>
+#4 0x55a98af5278c <unknown>
+#5 0x55a98af51eac <unknown>
+#6 0x55a98af11112 <unknown>
+#7 0x55a98af11dc1 <unknown>
+#8 0x55a98b461609 <unknown>
+#9 0x55a98b46454d <unknown>
+#10 0x55a98b44a331 <unknown>
+#11 0x55a98b46511b <unknown>
+#12 0x55a98b430ff0 <unknown>
+#13 0x55a98b485d98 <unknown>
+#14 0x55a98b485f69 <unknown>
+#15 0x55a98b497d03 <unknown>
+#16 0x7f6ded33aaa4 <unknown>
+#17 0x7f6ded3c7c6c <unknown>
+
+2025-12-18 03:46:59,897 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:47:02,066 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:47:02,066 - INFO - ====== WebDriver manager ======
+2025-12-18 03:47:02,074 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:02,112 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:47:02,148 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:47:02,221 - INFO - Driver downloading response is 200
+2025-12-18 03:47:02,293 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:02,467 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:02,509 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:47:02,540 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:47:02,541 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:47:02,562 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:47:02,562 - INFO - ====== WebDriver manager ======
+2025-12-18 03:47:02,606 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:47:02,651 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:47:02,689 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:47:02,759 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55d9fe3f49aa <unknown>
+#1 0x55d9fde292db <unknown>
+#2 0x55d9fde6320a <unknown>
+#3 0x55d9fde5ed63 <unknown>
+#4 0x55d9fdeae78c <unknown>
+#5 0x55d9fdeadeac <unknown>
+#6 0x55d9fde6d112 <unknown>
+#7 0x55d9fde6ddc1 <unknown>
+#8 0x55d9fe3bd609 <unknown>
+#9 0x55d9fe3c054d <unknown>
+#10 0x55d9fe3a6331 <unknown>
+#11 0x55d9fe3c111b <unknown>
+#12 0x55d9fe38cff0 <unknown>
+#13 0x55d9fe3e1d98 <unknown>
+#14 0x55d9fe3e1f69 <unknown>
+#15 0x55d9fe3f3d03 <unknown>
+#16 0x7f0450f7aaa4 <unknown>
+#17 0x7f0451007c6c <unknown>
+
+2025-12-18 03:47:02,759 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:47:04,924 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:47:04,924 - INFO - ====== WebDriver manager ======
+2025-12-18 03:47:04,933 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:04,970 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:47:05,006 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:47:05,079 - INFO - Driver downloading response is 200
+2025-12-18 03:47:05,143 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:05,374 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:05,413 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:47:05,445 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:47:05,445 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:47:05,464 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:47:05,465 - INFO - ====== WebDriver manager ======
+2025-12-18 03:47:05,509 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:47:05,546 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:47:05,585 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:47:05,655 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x555aaf8249aa <unknown>
+#1 0x555aaf2592db <unknown>
+#2 0x555aaf29320a <unknown>
+#3 0x555aaf28ed63 <unknown>
+#4 0x555aaf2de78c <unknown>
+#5 0x555aaf2ddeac <unknown>
+#6 0x555aaf29d112 <unknown>
+#7 0x555aaf29ddc1 <unknown>
+#8 0x555aaf7ed609 <unknown>
+#9 0x555aaf7f054d <unknown>
+#10 0x555aaf7d6331 <unknown>
+#11 0x555aaf7f111b <unknown>
+#12 0x555aaf7bcff0 <unknown>
+#13 0x555aaf811d98 <unknown>
+#14 0x555aaf811f69 <unknown>
+#15 0x555aaf823d03 <unknown>
+#16 0x7f16c5bd1aa4 <unknown>
+#17 0x7f16c5c5ec6c <unknown>
+
+2025-12-18 03:47:05,655 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:47:07,820 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:47:07,820 - INFO - ====== WebDriver manager ======
+2025-12-18 03:47:07,829 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:07,865 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:47:07,949 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:47:08,018 - INFO - Driver downloading response is 200
+2025-12-18 03:47:08,078 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:08,229 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:08,346 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:47:08,377 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:47:08,378 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:47:08,398 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:47:08,398 - INFO - ====== WebDriver manager ======
+2025-12-18 03:47:08,441 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:47:08,478 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:47:08,525 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:47:08,646 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55664f27b9aa <unknown>
+#1 0x55664ecb02db <unknown>
+#2 0x55664ecea20a <unknown>
+#3 0x55664ece5d63 <unknown>
+#4 0x55664ed3578c <unknown>
+#5 0x55664ed34eac <unknown>
+#6 0x55664ecf4112 <unknown>
+#7 0x55664ecf4dc1 <unknown>
+#8 0x55664f244609 <unknown>
+#9 0x55664f24754d <unknown>
+#10 0x55664f22d331 <unknown>
+#11 0x55664f24811b <unknown>
+#12 0x55664f213ff0 <unknown>
+#13 0x55664f268d98 <unknown>
+#14 0x55664f268f69 <unknown>
+#15 0x55664f27ad03 <unknown>
+#16 0x7f2b66d58aa4 <unknown>
+#17 0x7f2b66de5c6c <unknown>
+
+2025-12-18 03:47:08,647 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:47:10,811 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:47:10,811 - INFO - ====== WebDriver manager ======
+2025-12-18 03:47:10,819 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:10,901 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:47:10,936 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:47:11,121 - INFO - Driver downloading response is 200
+2025-12-18 03:47:11,197 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:11,361 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:11,409 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:47:11,441 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:47:11,441 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:47:11,461 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:47:11,461 - INFO - ====== WebDriver manager ======
+2025-12-18 03:47:11,506 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:47:11,549 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:47:11,587 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:47:11,710 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55e6556a19aa <unknown>
+#1 0x55e6550d62db <unknown>
+#2 0x55e65511020a <unknown>
+#3 0x55e65510bd63 <unknown>
+#4 0x55e65515b78c <unknown>
+#5 0x55e65515aeac <unknown>
+#6 0x55e65511a112 <unknown>
+#7 0x55e65511adc1 <unknown>
+#8 0x55e65566a609 <unknown>
+#9 0x55e65566d54d <unknown>
+#10 0x55e655653331 <unknown>
+#11 0x55e65566e11b <unknown>
+#12 0x55e655639ff0 <unknown>
+#13 0x55e65568ed98 <unknown>
+#14 0x55e65568ef69 <unknown>
+#15 0x55e6556a0d03 <unknown>
+#16 0x7fdd18bd9aa4 <unknown>
+#17 0x7fdd18c66c6c <unknown>
+
+2025-12-18 03:47:11,710 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:47:13,895 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:47:13,895 - INFO - ====== WebDriver manager ======
+2025-12-18 03:47:13,903 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:13,987 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:47:14,072 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:47:14,144 - INFO - Driver downloading response is 200
+2025-12-18 03:47:14,199 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:14,317 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:14,357 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:47:14,389 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:47:14,389 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:47:14,412 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:47:14,412 - INFO - ====== WebDriver manager ======
+2025-12-18 03:47:14,458 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:47:14,496 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:47:14,536 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:47:14,658 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5581e9d7a9aa <unknown>
+#1 0x5581e97af2db <unknown>
+#2 0x5581e97e920a <unknown>
+#3 0x5581e97e4d63 <unknown>
+#4 0x5581e983478c <unknown>
+#5 0x5581e9833eac <unknown>
+#6 0x5581e97f3112 <unknown>
+#7 0x5581e97f3dc1 <unknown>
+#8 0x5581e9d43609 <unknown>
+#9 0x5581e9d4654d <unknown>
+#10 0x5581e9d2c331 <unknown>
+#11 0x5581e9d4711b <unknown>
+#12 0x5581e9d12ff0 <unknown>
+#13 0x5581e9d67d98 <unknown>
+#14 0x5581e9d67f69 <unknown>
+#15 0x5581e9d79d03 <unknown>
+#16 0x7fe0ad528aa4 <unknown>
+#17 0x7fe0ad5b5c6c <unknown>
+
+2025-12-18 03:47:14,658 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:47:16,827 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:47:16,827 - INFO - ====== WebDriver manager ======
+2025-12-18 03:47:16,834 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:16,871 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:47:16,976 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:47:17,121 - INFO - Driver downloading response is 200
+2025-12-18 03:47:17,191 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:17,328 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:17,372 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:47:17,405 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:47:17,405 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:47:17,428 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:47:17,428 - INFO - ====== WebDriver manager ======
+2025-12-18 03:47:17,471 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:47:17,510 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:47:17,557 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:47:17,627 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55610105c9aa <unknown>
+#1 0x556100a912db <unknown>
+#2 0x556100acb20a <unknown>
+#3 0x556100ac6d63 <unknown>
+#4 0x556100b1678c <unknown>
+#5 0x556100b15eac <unknown>
+#6 0x556100ad5112 <unknown>
+#7 0x556100ad5dc1 <unknown>
+#8 0x556101025609 <unknown>
+#9 0x55610102854d <unknown>
+#10 0x55610100e331 <unknown>
+#11 0x55610102911b <unknown>
+#12 0x556100ff4ff0 <unknown>
+#13 0x556101049d98 <unknown>
+#14 0x556101049f69 <unknown>
+#15 0x55610105bd03 <unknown>
+#16 0x7faa08f94aa4 <unknown>
+#17 0x7faa09021c6c <unknown>
+
+2025-12-18 03:47:17,627 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:47:19,796 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:47:19,796 - INFO - ====== WebDriver manager ======
+2025-12-18 03:47:19,803 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:19,841 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:47:19,947 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:47:20,019 - INFO - Driver downloading response is 200
+2025-12-18 03:47:20,053 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:20,299 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:47:20,338 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:47:20,370 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:47:20,370 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:47:20,391 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:47:20,391 - INFO - ====== WebDriver manager ======
+2025-12-18 03:47:20,436 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:47:20,476 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:47:20,514 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:47:20,584 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x557245de69aa <unknown>
+#1 0x55724581b2db <unknown>
+#2 0x55724585520a <unknown>
+#3 0x557245850d63 <unknown>
+#4 0x5572458a078c <unknown>
+#5 0x55724589feac <unknown>
+#6 0x55724585f112 <unknown>
+#7 0x55724585fdc1 <unknown>
+#8 0x557245daf609 <unknown>
+#9 0x557245db254d <unknown>
+#10 0x557245d98331 <unknown>
+#11 0x557245db311b <unknown>
+#12 0x557245d7eff0 <unknown>
+#13 0x557245dd3d98 <unknown>
+#14 0x557245dd3f69 <unknown>
+#15 0x557245de5d03 <unknown>
+#16 0x7f1d35756aa4 <unknown>
+#17 0x7f1d357e3c6c <unknown>
+
+2025-12-18 03:47:20,584 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
