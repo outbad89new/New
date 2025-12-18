@@ -21,16 +21,14 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import logging
 
-# Настройка логирования
+# Стелс режим - минимальное логирование
 logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('parser.log'),
-        logging.StreamHandler()
-    ]
+    level=logging.ERROR,  # Только критические ошибки
+    format='',
+    handlers=[]  # Без файлов и вывода
 )
 logger = logging.getLogger(__name__)
+logger.disabled = True  # Полностью отключаем логирование
 
 
 class InstantCheckmateParser:
@@ -46,9 +44,9 @@ class InstantCheckmateParser:
         try:
             with open(self.url_template_file, 'r', encoding='utf-8') as f:
                 self.url_template = f.read().strip()
-            logger.info(f"Шаблон URL загружен: {self.url_template[:50]}...")
+            # Стелс режим - без логов
         except Exception as e:
-            logger.error(f"Ошибка загрузки шаблона URL: {e}")
+            pass  # Стелс режим
             raise
             
     def setup_firefox_driver(self):
@@ -81,8 +79,7 @@ class InstantCheckmateParser:
             self.driver = webdriver.Firefox(service=service, options=firefox_options)
         except Exception as firefox_error:
             # Если Firefox не установлен, пробуем Chrome как запасной вариант
-            logger.warning(f"Firefox недоступен: {firefox_error}")
-            logger.info("Пробуем использовать Chrome как запасной вариант...")
+            # Firefox недоступен, пробуем Chrome
             try:
                 from selenium.webdriver.chrome.options import Options as ChromeOptions
                 from selenium.webdriver.chrome.service import Service as ChromeService
@@ -113,16 +110,15 @@ class InstantCheckmateParser:
                 # Пробуем установить ChromeDriver с указанием версии Chrome
                 try:
                     chrome_version = subprocess.check_output(['google-chrome', '--version'], stderr=subprocess.STDOUT).decode().strip()
-                    logger.info(f"Обнаружен Chrome: {chrome_version}")
+                    # Chrome обнаружен
                 except:
                     pass
                 
                 service = ChromeService(ChromeDriverManager().install())
                 self.driver = webdriver.Chrome(service=service, options=chrome_options)
-                logger.info("Chrome драйвер успешно инициализирован (запасной вариант)")
+                # Chrome инициализирован
             except Exception as chrome_error:
-                logger.error(f"Chrome также недоступен: {chrome_error}")
-                raise Exception("Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.")
+                raise Exception("Не удалось инициализировать браузер")
         
         # Общие настройки для обоих браузеров
         try:
@@ -132,7 +128,7 @@ class InstantCheckmateParser:
                 self.driver.maximize_window()
             except:
                 pass
-        logger.info("Драйвер браузера успешно инициализирован")
+        # Драйвер готов
             
     def build_url(self, first_name, age, city, state):
         """Строит URL из шаблона с подстановкой параметров"""
@@ -160,7 +156,6 @@ class InstantCheckmateParser:
         try:
             # Ждем загрузки страницы
             wait_time = random.uniform(3, 5)
-            logger.info(f"Ожидание загрузки страницы: {wait_time:.2f} сек")
             time.sleep(wait_time)
             
             # Ждем появления контента на странице
@@ -169,7 +164,7 @@ class InstantCheckmateParser:
                     lambda d: d.execute_script("return document.readyState") == "complete"
                 )
             except TimeoutException:
-                logger.warning("Страница не загрузилась полностью")
+                pass  # Стелс режим
             
             json_data = None
             
@@ -195,17 +190,17 @@ class InstantCheckmateParser:
                                     try:
                                         # В Firefox нужно использовать другой метод для получения тела ответа
                                         # Пробуем через execute_script перехватить fetch/xhr
-                                        logger.info(f"Найден JSON ответ: {url[:50]}...")
+                                        pass  # Стелс режим
                                         # К сожалению, в Firefox сложнее получить тело ответа через логи
                                         # Поэтому пропускаем этот метод и используем другие
                                     except Exception as e:
-                                        logger.debug(f"Не удалось получить тело ответа: {e}")
+                                        pass  # Стелс режим
                                         continue
                     except Exception as e:
-                        logger.debug(f"Ошибка обработки лога: {e}")
+                        pass  # Стелс режим
                         continue
             except Exception as e:
-                logger.debug(f"Метод перехвата сетевых запросов не сработал: {e}")
+                pass  # Стелс режим
             
             # Метод 2: Поиск данных в window объекте через JavaScript
             if not json_data:
@@ -251,9 +246,9 @@ class InstantCheckmateParser:
                         return data;
                     """)
                     if json_data:
-                        logger.info("Найдены данные через window объект")
+                        pass  # Стелс режим
                 except Exception as e:
-                    logger.debug(f"Метод поиска в window не сработал: {e}")
+                    pass  # Стелс режим
             
             # Метод 3: Поиск JSON в script тегах
             if not json_data:
@@ -283,7 +278,7 @@ class InstantCheckmateParser:
                                         try:
                                             json_data = json.loads(match)
                                             if isinstance(json_data, dict) and ('results' in json_data or 'data' in json_data):
-                                                logger.info("Найдены данные в script теге")
+                                                pass  # Стелс режим
                                                 break
                                         except:
                                             continue
@@ -291,13 +286,13 @@ class InstantCheckmateParser:
                                     if json_data:
                                         break
                         except Exception as e:
-                            logger.debug(f"Ошибка парсинга script: {e}")
+                            pass  # Стелс режим
                             continue
                             
                         if json_data:
                             break
                 except Exception as e:
-                    logger.debug(f"Метод поиска в script тегах не сработал: {e}")
+                    pass  # Стелс режим
             
             # Метод 4: Парсинг HTML элементов на странице
             if not json_data:
@@ -322,7 +317,7 @@ class InstantCheckmateParser:
                             cards = self.driver.find_elements(By.CSS_SELECTOR, selector)
                             if cards:
                                 result_cards = cards
-                                logger.info(f"Найдено {len(cards)} карточек с селектором: {selector}")
+                                # Карточки найдены
                                 break
                         except:
                             continue
@@ -386,27 +381,26 @@ class InstantCheckmateParser:
                                     if first_name and first_name not in skip_names and len(first_name) > 1:
                                         results.append(result_data)
                         except Exception as e:
-                            logger.debug(f"Ошибка извлечения данных из карточки: {e}")
+                            pass  # Стелс режим
                             continue
                     
                     if results:
                         json_data = {"results": results}
-                        logger.info(f"Найдено {len(results)} результатов через парсинг HTML")
                 except Exception as e:
-                    logger.debug(f"Метод парсинга HTML не сработал: {e}")
+                    pass  # Стелс режим
             
             # Сохраняем HTML страницы для отладки (только в тестовом режиме)
             if not json_data:
                 try:
                     page_source = self.driver.page_source[:5000]  # Первые 5000 символов
-                    logger.debug(f"Фрагмент HTML страницы: {page_source}")
+                    pass  # Стелс режим
                 except:
                     pass
             
             return json_data
             
         except Exception as e:
-            logger.error(f"Ошибка парсинга страницы: {e}", exc_info=True)
+            pass  # Стелс режим
             return None
             
     def extract_results_from_json(self, json_data, first_name, age, city, state):
@@ -452,7 +446,7 @@ class InstantCheckmateParser:
                     results.append(result)
                     
         except Exception as e:
-            logger.error(f"Ошибка извлечения результатов: {e}")
+            pass  # Стелс режим
             
         return results
         
@@ -477,9 +471,9 @@ class InstantCheckmateParser:
                 for result in results:
                     writer.writerow(result)
                     
-            logger.info(f"Сохранено {len(results)} результатов в {self.output_file}")
+            # Результаты сохранены
         except Exception as e:
-            logger.error(f"Ошибка сохранения результатов: {e}")
+            pass  # Стелс режим
             
     def process_row(self, row):
         """Обрабатывает одну строку из input.txt"""
@@ -488,12 +482,9 @@ class InstantCheckmateParser:
         city = row['City']
         state = row['State']
         
-        logger.info(f"Обработка: {first_name}, {age}, {city}, {state}")
-        
         try:
             # Строим URL
             url = self.build_url(first_name, age, city, state)
-            logger.info(f"URL: {url}")
             
             # Открываем страницу
             self.driver.get(url)
@@ -514,17 +505,12 @@ class InstantCheckmateParser:
                 if results:
                     # Сохраняем результаты
                     self.save_results(results)
-                    logger.info(f"Найдено {len(results)} результатов для {first_name}")
-                else:
-                    logger.warning(f"Не найдено результатов для {first_name}")
-            else:
-                logger.warning(f"Не удалось получить JSON данные для {first_name}")
                 
             # Случайная задержка между запросами
             time.sleep(random.uniform(3, 6))
             
         except Exception as e:
-            logger.error(f"Ошибка обработки строки {first_name}: {e}")
+            pass  # Стелс режим - без логов ошибок
             
     def run(self, test_mode=False, test_rows=None):
         """Запускает парсер"""
@@ -543,27 +529,22 @@ class InstantCheckmateParser:
             if test_mode and test_rows:
                 # Тестовый режим - обрабатываем только указанные строки
                 rows = [rows[i] for i in test_rows if i < len(rows)]
-                logger.info(f"ТЕСТОВЫЙ РЕЖИМ: обрабатываем строки {test_rows}")
+                # Тестовый режим
                 
             # Обрабатываем каждую строку
             for i, row in enumerate(rows, start=2):  # start=2 потому что первая строка - заголовок
-                logger.info(f"Обработка строки {i}/{len(rows)}")
                 self.process_row(row)
                 
         except Exception as e:
-            logger.error(f"Критическая ошибка: {e}")
             raise
         finally:
             if self.driver:
                 self.driver.quit()
-                logger.info("Драйвер закрыт")
 
 
 def main():
     parser = InstantCheckmateParser()
-    
-    # Полный запуск на все строки
-    print("Запуск парсера на все строки из input.txt...")
+    # Стелс режим - без вывода
     parser.run(test_mode=False)
 
 
