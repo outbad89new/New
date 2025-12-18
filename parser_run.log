@@ -1,0 +1,111 @@
+2025-12-18 03:44:08,574 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:08,574 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:08,581 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:08,617 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:08,710 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:08,782 - INFO - Driver downloading response is 200
+2025-12-18 03:44:08,849 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:09,020 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:09,060 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:09,091 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:09,091 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:09,113 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:09,113 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:09,156 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:09,203 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:09,240 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:09,362 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55ae045d39aa <unknown>
+#1 0x55ae040082db <unknown>
+#2 0x55ae0404220a <unknown>
+#3 0x55ae0403dd63 <unknown>
+#4 0x55ae0408d78c <unknown>
+#5 0x55ae0408ceac <unknown>
+#6 0x55ae0404c112 <unknown>
+#7 0x55ae0404cdc1 <unknown>
+#8 0x55ae0459c609 <unknown>
+#9 0x55ae0459f54d <unknown>
+#10 0x55ae04585331 <unknown>
+#11 0x55ae045a011b <unknown>
+#12 0x55ae0456bff0 <unknown>
+#13 0x55ae045c0d98 <unknown>
+#14 0x55ae045c0f69 <unknown>
+#15 0x55ae045d2d03 <unknown>
+#16 0x7fcdc0b23aa4 <unknown>
+#17 0x7fcdc0bb0c6c <unknown>
+
+2025-12-18 03:44:09,362 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+Запуск парсера на все строки из input.txt...
+Traceback (most recent call last):
+  File "/workspace/parser.py", line 81, in setup_firefox_driver
+    self.driver = webdriver.Firefox(service=service, options=firefox_options)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.12/site-packages/selenium/webdriver/firefox/webdriver.py", line 68, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/ubuntu/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 257, in __init__
+    self.start_session(capabilities)
+  File "/home/ubuntu/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 352, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/.local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/parser.py", line 121, in setup_firefox_driver
+    self.driver = webdriver.Chrome(service=service, options=chrome_options)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.12/site-packages/selenium/webdriver/chrome/webdriver.py", line 46, in __init__
+    super().__init__(
+  File "/home/ubuntu/.local/lib/python3.12/site-packages/selenium/webdriver/chromium/webdriver.py", line 67, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/ubuntu/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 257, in __init__
+    self.start_session(capabilities)
+  File "/home/ubuntu/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 352, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/.local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55ae045d39aa <unknown>
+#1 0x55ae040082db <unknown>
+#2 0x55ae0404220a <unknown>
+#3 0x55ae0403dd63 <unknown>
+#4 0x55ae0408d78c <unknown>
+#5 0x55ae0408ceac <unknown>
+#6 0x55ae0404c112 <unknown>
+#7 0x55ae0404cdc1 <unknown>
+#8 0x55ae0459c609 <unknown>
+#9 0x55ae0459f54d <unknown>
+#10 0x55ae04585331 <unknown>
+#11 0x55ae045a011b <unknown>
+#12 0x55ae0456bff0 <unknown>
+#13 0x55ae045c0d98 <unknown>
+#14 0x55ae045c0f69 <unknown>
+#15 0x55ae045d2d03 <unknown>
+#16 0x7fcdc0b23aa4 <unknown>
+#17 0x7fcdc0bb0c6c <unknown>
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/parser.py", line 571, in <module>
+    main()
+  File "/workspace/parser.py", line 567, in main
+    parser.run(test_mode=False)
+  File "/workspace/parser.py", line 536, in run
+    self.setup_firefox_driver()
+  File "/workspace/parser.py", line 125, in setup_firefox_driver
+    raise Exception("Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.")
+Exception: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.

@@ -5564,3 +5564,2570 @@ Stacktrace:
 2025-12-18 03:43:46,097 - INFO - Найдено 14 результатов через парсинг HTML
 2025-12-18 03:43:46,097 - INFO - Сохранено 14 результатов в output.txt
 2025-12-18 03:43:46,097 - INFO - Найдено 14 результатов для Konstantin
+2025-12-18 03:43:49,471 - INFO - Обработка строки 25/100
+2025-12-18 03:43:49,471 - INFO - Обработка: Evgeny, mill, Rehoboth&Beach, Delaware
+2025-12-18 03:43:49,471 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Evgeny&city=Rehoboth+Beach&state=DE&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:43:50,849 - INFO - Ожидание загрузки страницы: 3.96 сек
+2025-12-18 03:43:53,960 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:43:53,960 - INFO - ====== WebDriver manager ======
+2025-12-18 03:43:53,968 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:43:54,064 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:43:54,145 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:43:54,228 - INFO - Driver downloading response is 200
+2025-12-18 03:43:54,301 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:43:54,510 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:43:54,612 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:43:54,646 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:43:54,646 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:43:54,675 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:43:54,676 - INFO - ====== WebDriver manager ======
+2025-12-18 03:43:54,728 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:43:54,777 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:43:54,815 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:43:54,838 - INFO - Chrome драйвер успешно инициализирован (запасной вариант)
+2025-12-18 03:43:55,167 - INFO - Драйвер браузера успешно инициализирован
+2025-12-18 03:43:55,167 - INFO - Обработка строки 2/100
+2025-12-18 03:43:55,167 - INFO - Обработка: Egor, mill, Aspen, Colorado
+2025-12-18 03:43:55,167 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Egor&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:43:56,373 - INFO - Ожидание загрузки страницы: 4.04 сек
+2025-12-18 03:43:59,515 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:43:59,515 - INFO - ====== WebDriver manager ======
+2025-12-18 03:43:59,523 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:43:59,623 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:43:59,714 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:43:59,786 - INFO - Driver downloading response is 200
+2025-12-18 03:43:59,861 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:43:59,969 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:00,010 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:00,043 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:00,043 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:00,067 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:00,067 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:00,114 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:00,154 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:00,192 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:00,217 - ERROR - Chrome также недоступен: Message: session not created
+from disconnected: unable to connect to renderer; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x555c7e9b99aa <unknown>
+#1 0x555c7e3ee2db <unknown>
+#2 0x555c7e42e518 <unknown>
+#3 0x555c7e429afb <unknown>
+#4 0x555c7e423d63 <unknown>
+#5 0x555c7e47378c <unknown>
+#6 0x555c7e472eac <unknown>
+#7 0x555c7e432112 <unknown>
+#8 0x555c7e432dc1 <unknown>
+#9 0x555c7e982609 <unknown>
+#10 0x555c7e98554d <unknown>
+#11 0x555c7e96b331 <unknown>
+#12 0x555c7e98611b <unknown>
+#13 0x555c7e951ff0 <unknown>
+#14 0x555c7e9a6d98 <unknown>
+#15 0x555c7e9a6f69 <unknown>
+#16 0x555c7e9b8d03 <unknown>
+#17 0x7f11f3256aa4 <unknown>
+#18 0x7f11f32e3c6c <unknown>
+
+2025-12-18 03:44:00,217 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:00,641 - INFO - Найдено 7 карточек с селектором: [class*='result']
+2025-12-18 03:44:01,045 - INFO - Найдено 6 результатов через парсинг HTML
+2025-12-18 03:44:01,045 - INFO - Сохранено 6 результатов в output.txt
+2025-12-18 03:44:01,045 - INFO - Найдено 6 результатов для Egor
+2025-12-18 03:44:02,764 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:02,764 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:02,772 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:02,878 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:03,048 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:03,129 - INFO - Driver downloading response is 200
+2025-12-18 03:44:03,205 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:03,314 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:03,421 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:03,453 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:03,453 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:03,477 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:03,478 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:03,536 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:03,572 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:03,611 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:04,507 - INFO - Обработка строки 3/100
+2025-12-18 03:44:04,507 - INFO - Обработка: Ivan, mill, Aspen, Colorado
+2025-12-18 03:44:04,507 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ivan&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,511 - ERROR - Ошибка обработки строки Ivan: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=143.0.7499.109); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da045772db <unknown>
+#2 0x55da0455ddee <unknown>
+#3 0x55da04585bc7 <unknown>
+#4 0x55da045f670b <unknown>
+#5 0x55da04613b71 <unknown>
+#6 0x55da045bb112 <unknown>
+#7 0x55da045bbdc1 <unknown>
+#8 0x55da04b0b609 <unknown>
+#9 0x55da04b0e54d <unknown>
+#10 0x55da04af4331 <unknown>
+#11 0x55da04b0f11b <unknown>
+#12 0x55da04adaff0 <unknown>
+#13 0x55da04b2fd98 <unknown>
+#14 0x55da04b2ff69 <unknown>
+#15 0x55da04b41d03 <unknown>
+#16 0x7f49af69eaa4 <unknown>
+#17 0x7f49af72bc6c <unknown>
+
+2025-12-18 03:44:04,511 - INFO - Обработка строки 4/100
+2025-12-18 03:44:04,511 - INFO - Обработка: Dmitry, mill, Aspen, Colorado
+2025-12-18 03:44:04,511 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Dmitry&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,519 - ERROR - Ошибка обработки строки Dmitry: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,519 - INFO - Обработка строки 5/100
+2025-12-18 03:44:04,519 - INFO - Обработка: Alexander, mill, Aspen, Colorado
+2025-12-18 03:44:04,519 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Alexander&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,522 - ERROR - Ошибка обработки строки Alexander: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,522 - INFO - Обработка строки 6/100
+2025-12-18 03:44:04,522 - INFO - Обработка: Sergey, mill, Aspen, Colorado
+2025-12-18 03:44:04,522 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Sergey&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,524 - ERROR - Ошибка обработки строки Sergey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,524 - INFO - Обработка строки 7/100
+2025-12-18 03:44:04,524 - INFO - Обработка: Vladimir, mill, Aspen, Colorado
+2025-12-18 03:44:04,524 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vladimir&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,526 - ERROR - Ошибка обработки строки Vladimir: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,526 - INFO - Обработка строки 8/100
+2025-12-18 03:44:04,526 - INFO - Обработка: Nikolay, mill, Aspen, Colorado
+2025-12-18 03:44:04,526 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Nikolay&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,529 - ERROR - Ошибка обработки строки Nikolay: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,529 - INFO - Обработка строки 9/100
+2025-12-18 03:44:04,529 - INFO - Обработка: Andrey, mill, Aspen, Colorado
+2025-12-18 03:44:04,529 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Andrey&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,531 - ERROR - Ошибка обработки строки Andrey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,531 - INFO - Обработка строки 10/100
+2025-12-18 03:44:04,531 - INFO - Обработка: Mikhail, mill, Aspen, Colorado
+2025-12-18 03:44:04,531 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Mikhail&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,534 - ERROR - Ошибка обработки строки Mikhail: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,534 - INFO - Обработка строки 11/100
+2025-12-18 03:44:04,534 - INFO - Обработка: Pavel, mill, Aspen, Colorado
+2025-12-18 03:44:04,534 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Pavel&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,536 - ERROR - Ошибка обработки строки Pavel: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,536 - INFO - Обработка строки 12/100
+2025-12-18 03:44:04,536 - INFO - Обработка: Alexey, mill, Aspen, Colorado
+2025-12-18 03:44:04,536 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Alexey&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,538 - ERROR - Ошибка обработки строки Alexey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,538 - INFO - Обработка строки 13/100
+2025-12-18 03:44:04,538 - INFO - Обработка: Roman, mill, Aspen, Colorado
+2025-12-18 03:44:04,538 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Roman&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,541 - ERROR - Ошибка обработки строки Roman: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,541 - INFO - Обработка строки 14/100
+2025-12-18 03:44:04,541 - INFO - Обработка: Maxim, mill, Aspen, Colorado
+2025-12-18 03:44:04,541 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Maxim&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,543 - ERROR - Ошибка обработки строки Maxim: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,543 - INFO - Обработка строки 15/100
+2025-12-18 03:44:04,543 - INFO - Обработка: Artem, mill, Aspen, Colorado
+2025-12-18 03:44:04,543 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Artem&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,546 - ERROR - Ошибка обработки строки Artem: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,546 - INFO - Обработка строки 16/100
+2025-12-18 03:44:04,546 - INFO - Обработка: Denis, mill, Aspen, Colorado
+2025-12-18 03:44:04,546 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Denis&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,548 - ERROR - Ошибка обработки строки Denis: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,548 - INFO - Обработка строки 17/100
+2025-12-18 03:44:04,548 - INFO - Обработка: Anton, mill, Aspen, Colorado
+2025-12-18 03:44:04,548 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Anton&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,550 - ERROR - Ошибка обработки строки Anton: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,550 - INFO - Обработка строки 18/100
+2025-12-18 03:44:04,550 - INFO - Обработка: Viktor, mill, Aspen, Colorado
+2025-12-18 03:44:04,550 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Viktor&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,552 - ERROR - Ошибка обработки строки Viktor: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,553 - INFO - Обработка строки 19/100
+2025-12-18 03:44:04,553 - INFO - Обработка: Yuri, mill, Aspen, Colorado
+2025-12-18 03:44:04,553 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Yuri&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,555 - ERROR - Ошибка обработки строки Yuri: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,555 - INFO - Обработка строки 20/100
+2025-12-18 03:44:04,555 - INFO - Обработка: Oleg, mill, Aspen, Colorado
+2025-12-18 03:44:04,555 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Oleg&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,557 - ERROR - Ошибка обработки строки Oleg: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,557 - INFO - Обработка строки 21/100
+2025-12-18 03:44:04,557 - INFO - Обработка: Igor, mill, Aspen, Colorado
+2025-12-18 03:44:04,557 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Igor&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,559 - ERROR - Ошибка обработки строки Igor: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,559 - INFO - Обработка строки 22/100
+2025-12-18 03:44:04,559 - INFO - Обработка: Stanislav, mill, Aspen, Colorado
+2025-12-18 03:44:04,559 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Stanislav&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,561 - ERROR - Ошибка обработки строки Stanislav: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,561 - INFO - Обработка строки 23/100
+2025-12-18 03:44:04,561 - INFO - Обработка: Vadim, mill, Aspen, Colorado
+2025-12-18 03:44:04,561 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vadim&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,563 - ERROR - Ошибка обработки строки Vadim: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,563 - INFO - Обработка строки 24/100
+2025-12-18 03:44:04,563 - INFO - Обработка: Konstantin, mill, Aspen, Colorado
+2025-12-18 03:44:04,563 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Konstantin&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,566 - ERROR - Ошибка обработки строки Konstantin: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,566 - INFO - Обработка строки 25/100
+2025-12-18 03:44:04,566 - INFO - Обработка: Evgeny, mill, Aspen, Colorado
+2025-12-18 03:44:04,566 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Evgeny&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,568 - ERROR - Ошибка обработки строки Evgeny: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,568 - INFO - Обработка строки 26/100
+2025-12-18 03:44:04,568 - INFO - Обработка: Ruslan, mill, Aspen, Colorado
+2025-12-18 03:44:04,568 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ruslan&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,570 - ERROR - Ошибка обработки строки Ruslan: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,570 - INFO - Обработка строки 27/100
+2025-12-18 03:44:04,570 - INFO - Обработка: Boris, mill, Aspen, Colorado
+2025-12-18 03:44:04,570 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Boris&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,572 - ERROR - Ошибка обработки строки Boris: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,572 - INFO - Обработка строки 28/100
+2025-12-18 03:44:04,572 - INFO - Обработка: Gennady, mill, Aspen, Colorado
+2025-12-18 03:44:04,572 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Gennady&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,574 - ERROR - Ошибка обработки строки Gennady: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,574 - INFO - Обработка строки 29/100
+2025-12-18 03:44:04,574 - INFO - Обработка: Leonid, mill, Aspen, Colorado
+2025-12-18 03:44:04,574 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Leonid&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,577 - ERROR - Ошибка обработки строки Leonid: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,577 - INFO - Обработка строки 30/100
+2025-12-18 03:44:04,577 - INFO - Обработка: Vyacheslav, mill, Aspen, Colorado
+2025-12-18 03:44:04,577 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vyacheslav&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,579 - ERROR - Ошибка обработки строки Vyacheslav: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,579 - INFO - Обработка строки 31/100
+2025-12-18 03:44:04,579 - INFO - Обработка: Anatoly, mill, Aspen, Colorado
+2025-12-18 03:44:04,579 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Anatoly&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,581 - ERROR - Ошибка обработки строки Anatoly: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,582 - INFO - Обработка строки 32/100
+2025-12-18 03:44:04,582 - INFO - Обработка: Valery, mill, Aspen, Colorado
+2025-12-18 03:44:04,582 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Valery&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,584 - ERROR - Ошибка обработки строки Valery: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,584 - INFO - Обработка строки 33/100
+2025-12-18 03:44:04,584 - INFO - Обработка: Yaroslav, mill, Aspen, Colorado
+2025-12-18 03:44:04,584 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Yaroslav&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,586 - ERROR - Ошибка обработки строки Yaroslav: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,586 - INFO - Обработка строки 34/100
+2025-12-18 03:44:04,586 - INFO - Обработка: Timur, mill, Aspen, Colorado
+2025-12-18 03:44:04,586 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Timur&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,589 - ERROR - Ошибка обработки строки Timur: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,589 - INFO - Обработка строки 35/100
+2025-12-18 03:44:04,589 - INFO - Обработка: Kirill, mill, Aspen, Colorado
+2025-12-18 03:44:04,589 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Kirill&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,591 - ERROR - Ошибка обработки строки Kirill: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,591 - INFO - Обработка строки 36/100
+2025-12-18 03:44:04,591 - INFO - Обработка: Artyom, mill, Aspen, Colorado
+2025-12-18 03:44:04,591 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Artyom&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,594 - ERROR - Ошибка обработки строки Artyom: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,594 - INFO - Обработка строки 37/100
+2025-12-18 03:44:04,594 - INFO - Обработка: Daniil, mill, Aspen, Colorado
+2025-12-18 03:44:04,594 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Daniil&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,595 - ERROR - Ошибка обработки строки Daniil: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,595 - INFO - Обработка строки 38/100
+2025-12-18 03:44:04,596 - INFO - Обработка: Grigory, mill, Aspen, Colorado
+2025-12-18 03:44:04,596 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Grigory&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,598 - ERROR - Ошибка обработки строки Grigory: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,598 - INFO - Обработка строки 39/100
+2025-12-18 03:44:04,598 - INFO - Обработка: Fedor, mill, Aspen, Colorado
+2025-12-18 03:44:04,598 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Fedor&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,600 - ERROR - Ошибка обработки строки Fedor: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,600 - INFO - Обработка строки 40/100
+2025-12-18 03:44:04,600 - INFO - Обработка: Semyon, mill, Aspen, Colorado
+2025-12-18 03:44:04,600 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Semyon&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,602 - ERROR - Ошибка обработки строки Semyon: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,602 - INFO - Обработка строки 41/100
+2025-12-18 03:44:04,602 - INFO - Обработка: Vasily, mill, Aspen, Colorado
+2025-12-18 03:44:04,602 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vasily&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,604 - ERROR - Ошибка обработки строки Vasily: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,604 - INFO - Обработка строки 42/100
+2025-12-18 03:44:04,604 - INFO - Обработка: Matvey, mill, Aspen, Colorado
+2025-12-18 03:44:04,604 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Matvey&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,606 - ERROR - Ошибка обработки строки Matvey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,606 - INFO - Обработка строки 43/100
+2025-12-18 03:44:04,606 - INFO - Обработка: Mark, mill, Aspen, Colorado
+2025-12-18 03:44:04,606 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Mark&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,609 - ERROR - Ошибка обработки строки Mark: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,609 - INFO - Обработка строки 44/100
+2025-12-18 03:44:04,609 - INFO - Обработка: Lev, mill, Aspen, Colorado
+2025-12-18 03:44:04,609 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Lev&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,611 - ERROR - Ошибка обработки строки Lev: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,611 - INFO - Обработка строки 45/100
+2025-12-18 03:44:04,611 - INFO - Обработка: Platon, mill, Aspen, Colorado
+2025-12-18 03:44:04,611 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Platon&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,613 - ERROR - Ошибка обработки строки Platon: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,613 - INFO - Обработка строки 46/100
+2025-12-18 03:44:04,614 - INFO - Обработка: David, mill, Aspen, Colorado
+2025-12-18 03:44:04,614 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=David&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,616 - ERROR - Ошибка обработки строки David: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,616 - INFO - Обработка строки 47/100
+2025-12-18 03:44:04,616 - INFO - Обработка: Makar, mill, Aspen, Colorado
+2025-12-18 03:44:04,616 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Makar&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,618 - ERROR - Ошибка обработки строки Makar: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,618 - INFO - Обработка строки 48/100
+2025-12-18 03:44:04,618 - INFO - Обработка: Stepan, mill, Aspen, Colorado
+2025-12-18 03:44:04,618 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Stepan&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,620 - ERROR - Ошибка обработки строки Stepan: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,620 - INFO - Обработка строки 49/100
+2025-12-18 03:44:04,620 - INFO - Обработка: Tikhon, mill, Aspen, Colorado
+2025-12-18 03:44:04,620 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Tikhon&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,622 - ERROR - Ошибка обработки строки Tikhon: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,622 - INFO - Обработка строки 50/100
+2025-12-18 03:44:04,622 - INFO - Обработка: Ilya, mill, Aspen, Colorado
+2025-12-18 03:44:04,622 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ilya&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,625 - ERROR - Ошибка обработки строки Ilya: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,625 - INFO - Обработка строки 51/100
+2025-12-18 03:44:04,625 - INFO - Обработка: Arseny, mill, Aspen, Colorado
+2025-12-18 03:44:04,625 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Arseny&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=mill&noWait=true
+2025-12-18 03:44:04,627 - ERROR - Ошибка обработки строки Arseny: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,627 - INFO - Обработка строки 52/100
+2025-12-18 03:44:04,627 - INFO - Обработка: Egor, xen, Aspen, Colorado
+2025-12-18 03:44:04,627 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Egor&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,630 - ERROR - Ошибка обработки строки Egor: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,630 - INFO - Обработка строки 53/100
+2025-12-18 03:44:04,630 - INFO - Обработка: Ivan, xen, Aspen, Colorado
+2025-12-18 03:44:04,630 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ivan&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,632 - ERROR - Ошибка обработки строки Ivan: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,632 - INFO - Обработка строки 54/100
+2025-12-18 03:44:04,632 - INFO - Обработка: Dmitry, xen, Aspen, Colorado
+2025-12-18 03:44:04,632 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Dmitry&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,634 - ERROR - Ошибка обработки строки Dmitry: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,634 - INFO - Обработка строки 55/100
+2025-12-18 03:44:04,634 - INFO - Обработка: Alexander, xen, Aspen, Colorado
+2025-12-18 03:44:04,634 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Alexander&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,636 - ERROR - Ошибка обработки строки Alexander: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,636 - INFO - Обработка строки 56/100
+2025-12-18 03:44:04,636 - INFO - Обработка: Sergey, xen, Aspen, Colorado
+2025-12-18 03:44:04,636 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Sergey&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,638 - ERROR - Ошибка обработки строки Sergey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,638 - INFO - Обработка строки 57/100
+2025-12-18 03:44:04,638 - INFO - Обработка: Vladimir, xen, Aspen, Colorado
+2025-12-18 03:44:04,638 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vladimir&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,640 - ERROR - Ошибка обработки строки Vladimir: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,641 - INFO - Обработка строки 58/100
+2025-12-18 03:44:04,641 - INFO - Обработка: Nikolay, xen, Aspen, Colorado
+2025-12-18 03:44:04,641 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Nikolay&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,642 - ERROR - Ошибка обработки строки Nikolay: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,643 - INFO - Обработка строки 59/100
+2025-12-18 03:44:04,643 - INFO - Обработка: Andrey, xen, Aspen, Colorado
+2025-12-18 03:44:04,643 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Andrey&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,645 - ERROR - Ошибка обработки строки Andrey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,645 - INFO - Обработка строки 60/100
+2025-12-18 03:44:04,645 - INFO - Обработка: Mikhail, xen, Aspen, Colorado
+2025-12-18 03:44:04,645 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Mikhail&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,647 - ERROR - Ошибка обработки строки Mikhail: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,647 - INFO - Обработка строки 61/100
+2025-12-18 03:44:04,647 - INFO - Обработка: Pavel, xen, Aspen, Colorado
+2025-12-18 03:44:04,647 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Pavel&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,649 - ERROR - Ошибка обработки строки Pavel: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,649 - INFO - Обработка строки 62/100
+2025-12-18 03:44:04,649 - INFO - Обработка: Alexey, xen, Aspen, Colorado
+2025-12-18 03:44:04,649 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Alexey&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,652 - ERROR - Ошибка обработки строки Alexey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,652 - INFO - Обработка строки 63/100
+2025-12-18 03:44:04,652 - INFO - Обработка: Roman, xen, Aspen, Colorado
+2025-12-18 03:44:04,652 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Roman&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,654 - ERROR - Ошибка обработки строки Roman: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,654 - INFO - Обработка строки 64/100
+2025-12-18 03:44:04,654 - INFO - Обработка: Maxim, xen, Aspen, Colorado
+2025-12-18 03:44:04,654 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Maxim&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,656 - ERROR - Ошибка обработки строки Maxim: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,656 - INFO - Обработка строки 65/100
+2025-12-18 03:44:04,656 - INFO - Обработка: Artem, xen, Aspen, Colorado
+2025-12-18 03:44:04,656 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Artem&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,658 - ERROR - Ошибка обработки строки Artem: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,658 - INFO - Обработка строки 66/100
+2025-12-18 03:44:04,658 - INFO - Обработка: Denis, xen, Aspen, Colorado
+2025-12-18 03:44:04,658 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Denis&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,660 - ERROR - Ошибка обработки строки Denis: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,661 - INFO - Обработка строки 67/100
+2025-12-18 03:44:04,661 - INFO - Обработка: Anton, xen, Aspen, Colorado
+2025-12-18 03:44:04,661 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Anton&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,663 - ERROR - Ошибка обработки строки Anton: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,663 - INFO - Обработка строки 68/100
+2025-12-18 03:44:04,663 - INFO - Обработка: Viktor, xen, Aspen, Colorado
+2025-12-18 03:44:04,663 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Viktor&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,665 - ERROR - Ошибка обработки строки Viktor: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,665 - INFO - Обработка строки 69/100
+2025-12-18 03:44:04,665 - INFO - Обработка: Yuri, xen, Aspen, Colorado
+2025-12-18 03:44:04,665 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Yuri&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,667 - ERROR - Ошибка обработки строки Yuri: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,667 - INFO - Обработка строки 70/100
+2025-12-18 03:44:04,667 - INFO - Обработка: Oleg, xen, Aspen, Colorado
+2025-12-18 03:44:04,667 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Oleg&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,670 - ERROR - Ошибка обработки строки Oleg: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,670 - INFO - Обработка строки 71/100
+2025-12-18 03:44:04,670 - INFO - Обработка: Igor, xen, Aspen, Colorado
+2025-12-18 03:44:04,670 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Igor&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,672 - ERROR - Ошибка обработки строки Igor: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,672 - INFO - Обработка строки 72/100
+2025-12-18 03:44:04,672 - INFO - Обработка: Stanislav, xen, Aspen, Colorado
+2025-12-18 03:44:04,672 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Stanislav&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,674 - ERROR - Ошибка обработки строки Stanislav: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,674 - INFO - Обработка строки 73/100
+2025-12-18 03:44:04,674 - INFO - Обработка: Vadim, xen, Aspen, Colorado
+2025-12-18 03:44:04,674 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vadim&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,676 - ERROR - Ошибка обработки строки Vadim: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,676 - INFO - Обработка строки 74/100
+2025-12-18 03:44:04,676 - INFO - Обработка: Konstantin, xen, Aspen, Colorado
+2025-12-18 03:44:04,676 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Konstantin&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,679 - ERROR - Ошибка обработки строки Konstantin: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,679 - INFO - Обработка строки 75/100
+2025-12-18 03:44:04,679 - INFO - Обработка: Evgeny, xen, Aspen, Colorado
+2025-12-18 03:44:04,679 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Evgeny&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,681 - ERROR - Ошибка обработки строки Evgeny: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,681 - INFO - Обработка строки 76/100
+2025-12-18 03:44:04,681 - INFO - Обработка: Ruslan, xen, Aspen, Colorado
+2025-12-18 03:44:04,681 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ruslan&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,683 - ERROR - Ошибка обработки строки Ruslan: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,683 - INFO - Обработка строки 77/100
+2025-12-18 03:44:04,683 - INFO - Обработка: Boris, xen, Aspen, Colorado
+2025-12-18 03:44:04,683 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Boris&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,685 - ERROR - Ошибка обработки строки Boris: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,686 - INFO - Обработка строки 78/100
+2025-12-18 03:44:04,686 - INFO - Обработка: Gennady, xen, Aspen, Colorado
+2025-12-18 03:44:04,686 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Gennady&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,688 - ERROR - Ошибка обработки строки Gennady: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,688 - INFO - Обработка строки 79/100
+2025-12-18 03:44:04,688 - INFO - Обработка: Leonid, xen, Aspen, Colorado
+2025-12-18 03:44:04,688 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Leonid&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,690 - ERROR - Ошибка обработки строки Leonid: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,690 - INFO - Обработка строки 80/100
+2025-12-18 03:44:04,690 - INFO - Обработка: Vyacheslav, xen, Aspen, Colorado
+2025-12-18 03:44:04,690 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vyacheslav&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,692 - ERROR - Ошибка обработки строки Vyacheslav: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,692 - INFO - Обработка строки 81/100
+2025-12-18 03:44:04,692 - INFO - Обработка: Anatoly, xen, Aspen, Colorado
+2025-12-18 03:44:04,692 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Anatoly&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,694 - ERROR - Ошибка обработки строки Anatoly: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,694 - INFO - Обработка строки 82/100
+2025-12-18 03:44:04,694 - INFO - Обработка: Valery, xen, Aspen, Colorado
+2025-12-18 03:44:04,694 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Valery&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,696 - ERROR - Ошибка обработки строки Valery: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,697 - INFO - Обработка строки 83/100
+2025-12-18 03:44:04,697 - INFO - Обработка: Yaroslav, xen, Aspen, Colorado
+2025-12-18 03:44:04,697 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Yaroslav&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,699 - ERROR - Ошибка обработки строки Yaroslav: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,699 - INFO - Обработка строки 84/100
+2025-12-18 03:44:04,699 - INFO - Обработка: Timur, xen, Aspen, Colorado
+2025-12-18 03:44:04,699 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Timur&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,701 - ERROR - Ошибка обработки строки Timur: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,701 - INFO - Обработка строки 85/100
+2025-12-18 03:44:04,701 - INFO - Обработка: Kirill, xen, Aspen, Colorado
+2025-12-18 03:44:04,701 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Kirill&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,704 - ERROR - Ошибка обработки строки Kirill: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,704 - INFO - Обработка строки 86/100
+2025-12-18 03:44:04,704 - INFO - Обработка: Artyom, xen, Aspen, Colorado
+2025-12-18 03:44:04,704 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Artyom&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,705 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55fc071149aa <unknown>
+#1 0x55fc06b492db <unknown>
+#2 0x55fc06b8320a <unknown>
+#3 0x55fc06b7ed63 <unknown>
+#4 0x55fc06bce78c <unknown>
+#5 0x55fc06bcdeac <unknown>
+#6 0x55fc06b8d112 <unknown>
+#7 0x55fc06b8ddc1 <unknown>
+#8 0x55fc070dd609 <unknown>
+#9 0x55fc070e054d <unknown>
+#10 0x55fc070c6331 <unknown>
+#11 0x55fc070e111b <unknown>
+#12 0x55fc070acff0 <unknown>
+#13 0x55fc07101d98 <unknown>
+#14 0x55fc07101f69 <unknown>
+#15 0x55fc07113d03 <unknown>
+#16 0x7f922d7dfaa4 <unknown>
+#17 0x7f922d86cc6c <unknown>
+
+2025-12-18 03:44:04,705 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:04,706 - ERROR - Ошибка обработки строки Artyom: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,706 - INFO - Обработка строки 87/100
+2025-12-18 03:44:04,706 - INFO - Обработка: Daniil, xen, Aspen, Colorado
+2025-12-18 03:44:04,706 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Daniil&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,708 - ERROR - Ошибка обработки строки Daniil: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,708 - INFO - Обработка строки 88/100
+2025-12-18 03:44:04,708 - INFO - Обработка: Grigory, xen, Aspen, Colorado
+2025-12-18 03:44:04,708 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Grigory&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,710 - ERROR - Ошибка обработки строки Grigory: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,710 - INFO - Обработка строки 89/100
+2025-12-18 03:44:04,710 - INFO - Обработка: Fedor, xen, Aspen, Colorado
+2025-12-18 03:44:04,710 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Fedor&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,713 - ERROR - Ошибка обработки строки Fedor: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,713 - INFO - Обработка строки 90/100
+2025-12-18 03:44:04,713 - INFO - Обработка: Semyon, xen, Aspen, Colorado
+2025-12-18 03:44:04,713 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Semyon&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,715 - ERROR - Ошибка обработки строки Semyon: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,715 - INFO - Обработка строки 91/100
+2025-12-18 03:44:04,715 - INFO - Обработка: Vasily, xen, Aspen, Colorado
+2025-12-18 03:44:04,715 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Vasily&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,717 - ERROR - Ошибка обработки строки Vasily: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,717 - INFO - Обработка строки 92/100
+2025-12-18 03:44:04,717 - INFO - Обработка: Matvey, xen, Aspen, Colorado
+2025-12-18 03:44:04,717 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Matvey&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,719 - ERROR - Ошибка обработки строки Matvey: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,719 - INFO - Обработка строки 93/100
+2025-12-18 03:44:04,719 - INFO - Обработка: Mark, xen, Aspen, Colorado
+2025-12-18 03:44:04,719 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Mark&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,721 - ERROR - Ошибка обработки строки Mark: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,721 - INFO - Обработка строки 94/100
+2025-12-18 03:44:04,721 - INFO - Обработка: Lev, xen, Aspen, Colorado
+2025-12-18 03:44:04,721 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Lev&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,722 - ERROR - Ошибка обработки строки Lev: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,722 - INFO - Обработка строки 95/100
+2025-12-18 03:44:04,722 - INFO - Обработка: Platon, xen, Aspen, Colorado
+2025-12-18 03:44:04,723 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Platon&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,724 - ERROR - Ошибка обработки строки Platon: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,725 - INFO - Обработка строки 96/100
+2025-12-18 03:44:04,725 - INFO - Обработка: David, xen, Aspen, Colorado
+2025-12-18 03:44:04,725 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=David&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,726 - ERROR - Ошибка обработки строки David: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,726 - INFO - Обработка строки 97/100
+2025-12-18 03:44:04,726 - INFO - Обработка: Makar, xen, Aspen, Colorado
+2025-12-18 03:44:04,726 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Makar&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,728 - ERROR - Ошибка обработки строки Makar: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,728 - INFO - Обработка строки 98/100
+2025-12-18 03:44:04,728 - INFO - Обработка: Stepan, xen, Aspen, Colorado
+2025-12-18 03:44:04,728 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Stepan&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,730 - ERROR - Ошибка обработки строки Stepan: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,730 - INFO - Обработка строки 99/100
+2025-12-18 03:44:04,730 - INFO - Обработка: Tikhon, xen, Aspen, Colorado
+2025-12-18 03:44:04,730 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Tikhon&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,732 - ERROR - Ошибка обработки строки Tikhon: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,732 - INFO - Обработка строки 100/100
+2025-12-18 03:44:04,733 - INFO - Обработка: Ilya, xen, Aspen, Colorado
+2025-12-18 03:44:04,733 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Ilya&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,734 - ERROR - Ошибка обработки строки Ilya: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,734 - INFO - Обработка строки 101/100
+2025-12-18 03:44:04,734 - INFO - Обработка: Nikita, xen, Aspen, Colorado
+2025-12-18 03:44:04,734 - INFO - URL: https://www.instantcheckmate.com/results/?firstName=Nikita&city=Aspen&state=CO&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange=xen&noWait=true
+2025-12-18 03:44:04,736 - ERROR - Ошибка обработки строки Nikita: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55da04b429aa <unknown>
+#1 0x55da04577108 <unknown>
+#2 0x55da045ba2b4 <unknown>
+#3 0x55da045edf86 <unknown>
+#4 0x55da045e886f <unknown>
+#5 0x55da045e7bf8 <unknown>
+#6 0x55da0453efa5 <unknown>
+#7 0x55da04b0b609 <unknown>
+#8 0x55da04b0e54d <unknown>
+#9 0x55da04af4331 <unknown>
+#10 0x55da04b0f11b <unknown>
+#11 0x55da04adaff0 <unknown>
+#12 0x55da0453c646 <unknown>
+#13 0x7f49af62c1ca <unknown>
+#14 0x7f49af62c28b __libc_start_main
+#15 0x55da044fde2a _start
+
+2025-12-18 03:44:04,739 - INFO - Драйвер закрыт
+2025-12-18 03:44:06,905 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:06,905 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:06,914 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:06,953 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:07,048 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:07,139 - INFO - Driver downloading response is 200
+2025-12-18 03:44:07,210 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:07,319 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:07,441 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:07,473 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:07,473 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:07,497 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:07,497 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:07,546 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:07,584 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:07,633 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:08,574 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:08,574 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:08,581 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:08,617 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:08,710 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:08,728 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x563f047519aa <unknown>
+#1 0x563f041862db <unknown>
+#2 0x563f041c020a <unknown>
+#3 0x563f041bbd63 <unknown>
+#4 0x563f0420b78c <unknown>
+#5 0x563f0420aeac <unknown>
+#6 0x563f041ca112 <unknown>
+#7 0x563f041cadc1 <unknown>
+#8 0x563f0471a609 <unknown>
+#9 0x563f0471d54d <unknown>
+#10 0x563f04703331 <unknown>
+#11 0x563f0471e11b <unknown>
+#12 0x563f046e9ff0 <unknown>
+#13 0x563f0473ed98 <unknown>
+#14 0x563f0473ef69 <unknown>
+#15 0x563f04750d03 <unknown>
+#16 0x7fd7bf9beaa4 <unknown>
+#17 0x7fd7bfa4bc6c <unknown>
+
+2025-12-18 03:44:08,728 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:08,782 - INFO - Driver downloading response is 200
+2025-12-18 03:44:08,849 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:09,020 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:09,060 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:09,091 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:09,091 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:09,113 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:09,113 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:09,156 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:09,203 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:09,240 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:09,362 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55ae045d39aa <unknown>
+#1 0x55ae040082db <unknown>
+#2 0x55ae0404220a <unknown>
+#3 0x55ae0403dd63 <unknown>
+#4 0x55ae0408d78c <unknown>
+#5 0x55ae0408ceac <unknown>
+#6 0x55ae0404c112 <unknown>
+#7 0x55ae0404cdc1 <unknown>
+#8 0x55ae0459c609 <unknown>
+#9 0x55ae0459f54d <unknown>
+#10 0x55ae04585331 <unknown>
+#11 0x55ae045a011b <unknown>
+#12 0x55ae0456bff0 <unknown>
+#13 0x55ae045c0d98 <unknown>
+#14 0x55ae045c0f69 <unknown>
+#15 0x55ae045d2d03 <unknown>
+#16 0x7fcdc0b23aa4 <unknown>
+#17 0x7fcdc0bb0c6c <unknown>
+
+2025-12-18 03:44:09,362 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:10,900 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:10,900 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:10,907 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:11,011 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:11,097 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:11,169 - INFO - Driver downloading response is 200
+2025-12-18 03:44:11,243 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:11,358 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:11,398 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:11,430 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:11,430 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:11,450 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:11,450 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:11,494 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:11,530 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:11,567 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:11,637 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55c41add49aa <unknown>
+#1 0x55c41a8092db <unknown>
+#2 0x55c41a84320a <unknown>
+#3 0x55c41a83ed63 <unknown>
+#4 0x55c41a88e78c <unknown>
+#5 0x55c41a88deac <unknown>
+#6 0x55c41a84d112 <unknown>
+#7 0x55c41a84ddc1 <unknown>
+#8 0x55c41ad9d609 <unknown>
+#9 0x55c41ada054d <unknown>
+#10 0x55c41ad86331 <unknown>
+#11 0x55c41ada111b <unknown>
+#12 0x55c41ad6cff0 <unknown>
+#13 0x55c41adc1d98 <unknown>
+#14 0x55c41adc1f69 <unknown>
+#15 0x55c41add3d03 <unknown>
+#16 0x7f201050baa4 <unknown>
+#17 0x7f2010598c6c <unknown>
+
+2025-12-18 03:44:11,637 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:13,803 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:13,803 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:13,812 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:13,849 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:13,953 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:14,030 - INFO - Driver downloading response is 200
+2025-12-18 03:44:14,094 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:14,229 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:14,277 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:14,309 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:14,309 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:14,329 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:14,329 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:14,375 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:14,415 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:14,454 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:14,524 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x563df4fd09aa <unknown>
+#1 0x563df4a052db <unknown>
+#2 0x563df4a3f20a <unknown>
+#3 0x563df4a3ad63 <unknown>
+#4 0x563df4a8a78c <unknown>
+#5 0x563df4a89eac <unknown>
+#6 0x563df4a49112 <unknown>
+#7 0x563df4a49dc1 <unknown>
+#8 0x563df4f99609 <unknown>
+#9 0x563df4f9c54d <unknown>
+#10 0x563df4f82331 <unknown>
+#11 0x563df4f9d11b <unknown>
+#12 0x563df4f68ff0 <unknown>
+#13 0x563df4fbdd98 <unknown>
+#14 0x563df4fbdf69 <unknown>
+#15 0x563df4fcfd03 <unknown>
+#16 0x7f2092f81aa4 <unknown>
+#17 0x7f209300ec6c <unknown>
+
+2025-12-18 03:44:14,524 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:16,697 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:16,697 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:16,705 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:16,742 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:16,837 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:16,916 - INFO - Driver downloading response is 200
+2025-12-18 03:44:16,992 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:17,110 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:17,214 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:17,246 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:17,246 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:17,266 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:17,266 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:17,307 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:17,344 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:17,392 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:17,514 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55de2d04f9aa <unknown>
+#1 0x55de2ca842db <unknown>
+#2 0x55de2cabe20a <unknown>
+#3 0x55de2cab9d63 <unknown>
+#4 0x55de2cb0978c <unknown>
+#5 0x55de2cb08eac <unknown>
+#6 0x55de2cac8112 <unknown>
+#7 0x55de2cac8dc1 <unknown>
+#8 0x55de2d018609 <unknown>
+#9 0x55de2d01b54d <unknown>
+#10 0x55de2d001331 <unknown>
+#11 0x55de2d01c11b <unknown>
+#12 0x55de2cfe7ff0 <unknown>
+#13 0x55de2d03cd98 <unknown>
+#14 0x55de2d03cf69 <unknown>
+#15 0x55de2d04ed03 <unknown>
+#16 0x7f60fd8ebaa4 <unknown>
+#17 0x7f60fd978c6c <unknown>
+
+2025-12-18 03:44:17,514 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:19,682 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:19,682 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:19,690 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:19,729 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:19,814 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:19,884 - INFO - Driver downloading response is 200
+2025-12-18 03:44:19,955 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:20,141 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:20,233 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:20,265 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:20,265 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:20,286 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:20,286 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:20,329 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:20,366 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:20,404 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:20,475 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55f642d049aa <unknown>
+#1 0x55f6427392db <unknown>
+#2 0x55f64277320a <unknown>
+#3 0x55f64276ed63 <unknown>
+#4 0x55f6427be78c <unknown>
+#5 0x55f6427bdeac <unknown>
+#6 0x55f64277d112 <unknown>
+#7 0x55f64277ddc1 <unknown>
+#8 0x55f642ccd609 <unknown>
+#9 0x55f642cd054d <unknown>
+#10 0x55f642cb6331 <unknown>
+#11 0x55f642cd111b <unknown>
+#12 0x55f642c9cff0 <unknown>
+#13 0x55f642cf1d98 <unknown>
+#14 0x55f642cf1f69 <unknown>
+#15 0x55f642d03d03 <unknown>
+#16 0x7f5ce4a18aa4 <unknown>
+#17 0x7f5ce4aa5c6c <unknown>
+
+2025-12-18 03:44:20,475 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.
+2025-12-18 03:44:22,652 - INFO - Шаблон URL загружен: https://www.instantcheckmate.com/results/?firstNam...
+2025-12-18 03:44:22,652 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:22,660 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:22,699 - INFO - Getting latest mozilla release info for v0.36.0
+2025-12-18 03:44:22,806 - INFO - About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-12-18 03:44:22,877 - INFO - Driver downloading response is 200
+2025-12-18 03:44:22,948 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:23,085 - INFO - Get LATEST geckodriver version for None firefox
+2025-12-18 03:44:23,124 - INFO - Driver has been saved in cache [/home/ubuntu/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-12-18 03:44:23,157 - WARNING - Firefox недоступен: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+
+2025-12-18 03:44:23,157 - INFO - Пробуем использовать Chrome как запасной вариант...
+2025-12-18 03:44:23,178 - INFO - Обнаружен Chrome: Google Chrome 143.0.7499.109
+2025-12-18 03:44:23,178 - INFO - ====== WebDriver manager ======
+2025-12-18 03:44:23,224 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:23,263 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-18 03:44:23,310 - INFO - Driver [/home/ubuntu/.wdm/drivers/chromedriver/linux64/143.0.7499.146/chromedriver-linux64/chromedriver] found in cache
+2025-12-18 03:44:23,379 - ERROR - Chrome также недоступен: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55e5264309aa <unknown>
+#1 0x55e525e652db <unknown>
+#2 0x55e525e9f20a <unknown>
+#3 0x55e525e9ad63 <unknown>
+#4 0x55e525eea78c <unknown>
+#5 0x55e525ee9eac <unknown>
+#6 0x55e525ea9112 <unknown>
+#7 0x55e525ea9dc1 <unknown>
+#8 0x55e5263f9609 <unknown>
+#9 0x55e5263fc54d <unknown>
+#10 0x55e5263e2331 <unknown>
+#11 0x55e5263fd11b <unknown>
+#12 0x55e5263c8ff0 <unknown>
+#13 0x55e52641dd98 <unknown>
+#14 0x55e52641df69 <unknown>
+#15 0x55e52642fd03 <unknown>
+#16 0x7f7d40d77aa4 <unknown>
+#17 0x7f7d40e04c6c <unknown>
+
+2025-12-18 03:44:23,380 - ERROR - Критическая ошибка: Не удалось инициализировать ни Firefox, ни Chrome. Установите один из браузеров.

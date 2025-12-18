@@ -99,9 +99,12 @@ class InstantCheckmateParser:
                 chrome_options.add_argument("--no-sandbox")
                 chrome_options.add_argument("--disable-dev-shm-usage")
                 chrome_options.add_argument("--disable-gpu")
-                chrome_options.add_argument("--remote-debugging-port=9222")
+                chrome_options.add_argument("--disable-software-rasterizer")
+                chrome_options.add_argument("--disable-extensions")
                 chrome_options.add_argument("--window-size=1920,1080")
-                chrome_options.add_argument("--start-maximized")
+                chrome_options.add_argument("--disable-background-timer-throttling")
+                chrome_options.add_argument("--disable-backgrounding-occluded-windows")
+                chrome_options.add_argument("--disable-renderer-backgrounding")
                 
                 # Для работы без реального дисплея используем виртуальный
                 # Но браузер будет работать в обычном режиме (не headless)
@@ -133,8 +136,12 @@ class InstantCheckmateParser:
             
     def build_url(self, first_name, age, city, state):
         """Строит URL из шаблона с подстановкой параметров"""
-        # Преобразуем state: Delaware -> DE
-        state_code = "DE" if state.lower() == "delaware" else state.upper()[:2]
+        # Преобразуем state: Delaware -> DE, Colorado -> CO
+        state_mapping = {
+            "delaware": "DE",
+            "colorado": "CO"
+        }
+        state_code = state_mapping.get(state.lower(), state.upper()[:2])
         
         # Преобразуем city: Rehoboth&Beach -> Rehoboth+Beach (пробел заменяем на +)
         city_encoded = city.replace("&", " ").replace(" ", "+")
@@ -348,17 +355,36 @@ class InstantCheckmateParser:
                                         continue
                                 
                                 # Если не нашли через селекторы, пробуем извлечь из текста
+                                # Фильтруем мусорные элементы интерфейса
                                 if not result_data.get('firstName'):
                                     lines = card_text.split('\n')
+                                    skip_keywords = ['OPEN', 'REPORT', 'Best', 'Relatives', 'found!', 'VIEW', 'CLICK']
                                     for line in lines:
-                                        if line and len(line.split()) >= 2:
-                                            parts = line.split()
-                                            result_data['firstName'] = parts[0]
-                                            result_data['lastName'] = parts[-1] if len(parts) > 1 else ""
-                                            break
+                                        line_clean = line.strip()
+                                        # Пропускаем строки с ключевыми словами интерфейса
+                                        if any(keyword in line_clean.upper() for keyword in skip_keywords):
+                                            continue
+                                        if line_clean and len(line_clean.split()) >= 2:
+                                            parts = line_clean.split()
+                                            # Проверяем, что это похоже на имя (не аббревиатура штата и т.д.)
+                                            if len(parts[0]) > 1 and parts[0].isalpha() and len(parts[0]) < 20:
+                                                result_data['firstName'] = parts[0]
+                                                result_data['lastName'] = parts[-1] if len(parts) > 1 and parts[-1].isalpha() else ""
+                                                break
                                 
+                                # Фильтруем результаты - убираем мусор
                                 if result_data.get('firstName'):
-                                    results.append(result_data)
+                                    first_name = result_data.get('firstName', '').strip()
+                                    # Пропускаем элементы интерфейса
+                                    skip_names = ['OPEN', 'REPORT', 'Best', 'Relatives', 'VIEW', 'CLICK', 'found!', 
+                                                 'Rehoboth', 'Brooklyn', 'Seattle', 'Fairfax', 'Aventura', 'North',
+                                                 'Feasterville', 'Derwood', 'Wilmington', 'Algonquin', 'Ijamsville',
+                                                 'Desert', 'Cary', 'Washington', 'Zephyrhills', 'Charlotte', 'Ocean',
+                                                 'Manalapan', 'Melbourne', 'Hartly', 'Newark', 'Miami', 'Newton',
+                                                 'Tucson', 'Boca', 'Wakefield', 'Shakopee', 'Plantation', 'Long',
+                                                 'Lewes', 'Glendale', 'Milford', 'Phoenix', 'Linden', 'Sterling']
+                                    if first_name and first_name not in skip_names and len(first_name) > 1:
+                                        results.append(result_data)
                         except Exception as e:
                             logger.debug(f"Ошибка извлечения данных из карточки: {e}")
                             continue
