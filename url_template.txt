@@ -1,0 +1,1 @@
+https://www.instantcheckmate.com/results/?firstName={firstName}&city={city}&state={state}&gender=male&previewSearchQuestion=true&qLocation=true&qRelatives=true&qAgeRange={ageRange}&noWait=true
